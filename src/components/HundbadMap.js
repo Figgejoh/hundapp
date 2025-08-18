@@ -7,28 +7,28 @@ import "leaflet/dist/leaflet.css";
 import Legend from "./Legend";
 
 function HundbadMap({ setView }) {
-  const [filter, setFilter] = useState("");
   const [userPosition, setUserPosition] = useState(null);
+  const [filter, setFilter] = useState("");
 
+  // Hämta användarens position
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) =>
         setUserPosition([position.coords.latitude, position.coords.longitude]),
-      () => setUserPosition([59.3293, 18.0686]) // fallback: Stockholm
+      () => setUserPosition([59.3293, 18.0686]) // fallback Stockholm
     );
   }, []);
 
-  // Ikoner
   const greenIcon = new Icon({
     iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
     iconSize: [30, 30],
   });
-  const redIcon = new Icon({
-    iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-    iconSize: [30, 30],
-  });
   const blueIcon = new Icon({
     iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+    iconSize: [30, 30],
+  });
+  const redIcon = new Icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
     iconSize: [30, 30],
   });
 
@@ -41,6 +41,8 @@ function HundbadMap({ setView }) {
 
   const centerPosition =
     filtreradePlatser.length > 0 ? filtreradePlatser[0].position : userPosition;
+
+  if (!userPosition) return <p>Laddar kartan...</p>;
 
   return (
     <div style={{ display: "flex", height: "100vh" }}>
@@ -59,13 +61,12 @@ function HundbadMap({ setView }) {
         <Legend />
         <button
           style={{
-            width: "20%",
+            width: "300px",
             padding: "20px",
             fontSize: "18px",
             cursor: "pointer",
             position: "absolute",
             bottom: "20px",
-            left: "50px",
           }}
           onClick={() => setView("start")}
         >

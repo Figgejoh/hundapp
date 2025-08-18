@@ -6,14 +6,15 @@ import rastgardar from "../data/rastgardar.json";
 import "leaflet/dist/leaflet.css";
 
 function RastgardMap({ setView }) {
-  const [filter, setFilter] = useState("");
   const [userPosition, setUserPosition] = useState(null);
+  const [filter, setFilter] = useState("");
 
+  // Hämta användarens position
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) =>
         setUserPosition([position.coords.latitude, position.coords.longitude]),
-      () => setUserPosition([59.3293, 18.0686])
+      () => setUserPosition([59.3293, 18.0686]) // fallback Stockholm
     );
   }, []);
 
@@ -32,6 +33,8 @@ function RastgardMap({ setView }) {
   const centerPosition =
     filtreradePlatser.length > 0 ? filtreradePlatser[0].position : userPosition;
 
+  if (!userPosition) return <p>Laddar kartan...</p>;
+
   return (
     <div style={{ display: "flex", height: "100vh" }}>
       <div
@@ -47,13 +50,12 @@ function RastgardMap({ setView }) {
         />
         <button
           style={{
-            width: "20%",
+            width: "300px",
             padding: "20px",
             fontSize: "18px",
             cursor: "pointer",
             position: "absolute",
             bottom: "20px",
-            left: "50px",
           }}
           onClick={() => setView("start")}
         >
@@ -65,7 +67,7 @@ function RastgardMap({ setView }) {
         {userPosition ? (
           <MapContainer
             center={userPosition}
-            zoom={12}
+            zoom={10}
             style={{ height: "100%", width: "100%" }}
           >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
