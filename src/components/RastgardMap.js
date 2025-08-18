@@ -80,32 +80,34 @@ function RastgardMap({ setView }) {
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <RecenterMap position={centerPosition} />
-          {filtreradePlatser.map((plats) => (
-            <Marker key={plats.id} position={plats.position} icon={greenIcon}>
-              <Popup>
-                <h3>{plats.namn}</h3>
-                <p>
-                  <b>Kommun:</b> {plats.kommun}
-                </p>
-                <p>
-                  <b>Län:</b> {plats.län}
-                </p>
-                <p>{plats.info}</p>
-                <button
-                  onClick={() => toggleFavorite(plats.id)}
-                  style={{
-                    fontSize: "24px",
-                    color: favorites.includes(plats.id) ? "red" : "gray",
-                    background: "transparent",
-                    border: "none",
-                    cursor: "pointer",
-                  }}
-                >
-                  {favorites.includes(plats.id) ? "❤️" : "🤍"}
-                </button>
-              </Popup>
-            </Marker>
-          ))}
+          {filter &&
+            filtreradePlatser.length > 0 &&
+            filtreradePlatser.map((plats) => (
+              <Marker key={plats.id} position={plats.position} icon={greenIcon}>
+                <Popup>
+                  <h3>{plats.namn}</h3>
+                  <p>
+                    <b>Kommun:</b> {plats.kommun}
+                  </p>
+                  <p>
+                    <b>Län:</b> {plats.län}
+                  </p>
+                  <p>{plats.info}</p>
+                  <button
+                    onClick={() => toggleFavorite(plats.id)}
+                    style={{
+                      fontSize: "24px",
+                      color: favorites.includes(plats.id) ? "red" : "gray",
+                      background: "transparent",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    {favorites.includes(plats.id) ? "❤️" : "🤍"}
+                  </button>
+                </Popup>
+              </Marker>
+            ))}
         </MapContainer>
       </div>
     </div>
