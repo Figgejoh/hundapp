@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "namn": "Hundgården Centralpark",
+    "kommun": "Stockholm",
+    "län": "Stockholms län",
+    "position": [59.335, 18.07],
+    "info": "En trevlig hundgård mitt i staden med agilityutrustning och sittplatser."
+  },
+  {
+    "id": 2,
+    "namn": "Hundgården Solsidan",
+    "kommun": "Täby",
+    "län": "Stockholms län",
+    "position": [59.443, 18.073],
+    "info": "Stor inhägnad hundgård med gräsytor och vattenstationer."
+  },
+  {
+    "id": 3,
+    "namn": "Västra Hamnens Hundrastgård",
+    "kommun": "Malmö",
+    "län": "Skåne län",
+    "position": [55.6173, 12.9721],
+    "info": "Stor rastgård vid havet med både gräsytor och sand."
+  },
+  {
+    "id": 4,
+    "namn": "Pildammsparkens Hundhage",
+    "kommun": "Malmö",
+    "län": "Skåne län",
+    "position": [55.5936, 13.0009],
+    "info": "Inhägnad hundhage med skuggiga platser."
+  },
+  {
+    "id": 5,
+    "namn": "Helsingborg Norra Hundrastgård",
+    "kommun": "Helsingborg",
+    "län": "Skåne län",
+    "position": [56.0606, 12.6952],
+    "info": "Centralt belägen hundgård nära norra hamnen."
+  },
+  {
+    "id": 6,
+    "namn": "Helsingborg Söder Hundrastgård",
+    "kommun": "Helsingborg",
+    "län": "Skåne län",
+    "position": [56.0313, 12.7205],
+    "info": "Stor rastgård för både små och stora hundar."
+  },
+  {
+    "id": 7,
+    "namn": "Lund Norra Fäladens Hundhage",
+    "kommun": "Lund",
+    "län": "Skåne län",
+    "position": [55.7255, 13.1859],
+    "info": "Gräsytor och träningshinder för aktiva hundar."
+  },
+  {
+    "id": 8,
+    "namn": "Stadsparken Hundgård",
+    "kommun": "Lund",
+    "län": "Skåne län",
+    "position": [55.7011, 13.1989],
+    "info": "Inhägnad rastgård mitt i Stadsparken."
+  },
+  {
+    "id": 9,
+    "namn": "Kristianstad Hundrastgård Näsby",
+    "kommun": "Kristianstad",
+    "län": "Skåne län",
+    "position": [56.0478, 14.1617],
+    "info": "Rastgård med skogskänsla i Näsbyområdet."
+  },
+  {
+    "id": 10,
+    "namn": "Ängelholm Centrum Hundhage",
+    "kommun": "Ängelholm",
+    "län": "Skåne län",
+    "position": [56.2458, 12.8622],
+    "info": "Perfekt plats för en paus under stadspromenaden."
+  },
+  {
+    "id": 11,
+    "namn": "Ystad Strandnära Hundrastgård",
+    "kommun": "Ystad",
+    "län": "Skåne län",
+    "position": [55.4255, 13.8337],
+    "info": "Stor hundhage nära havet."
+  },
+  {
+    "id": 12,
+    "namn": "Trelleborg Väster Hundrastgård",
+    "kommun": "Trelleborg",
+    "län": "Skåne län",
+    "position": [55.3724, 13.1469],
+    "info": "Mysig rastgård med både sol och skugga."
+  },
+  {
+    "id": 13,
+    "namn": "Halmstad Linehed Hundrastgård",
+    "kommun": "Halmstad",
+    "län": "Hallands län",
+    "position": [56.6704, 12.8672],
+    "info": "Populär rastgård i bostadsområdet Linehed."
+  },
+  {
+    "id": 14,
+    "namn": "Varberg Centrum Hundrastgård",
+    "kommun": "Varberg",
+    "län": "Hallands län",
+    "position": [57.1068, 12.2515],
+    "info": "Belägen nära centrum och järnvägsstationen."
+  },
+  {
+    "id": 15,
+    "namn": "Kungsbacka Hede Hundhage",
+    "kommun": "Kungsbacka",
+    "län": "Hallands län",
+    "position": [57.4938, 12.0775],
+    "info": "Stor hundrastgård nära Hede station."
+  },
+  {
+    "id": 16,
+    "namn": "Borås Djurparkens Hundrastgård",
+    "kommun": "Borås",
+    "län": "Västra Götalands län",
+    "position": [57.721, 12.9401],
+    "info": "Hundrastgård vid djurparksområdet."
+  },
+  {
+    "id": 17,
+    "namn": "Göteborg Slottsskogen Hundhage",
+    "kommun": "Göteborg",
+    "län": "Västra Götalands län",
+    "position": [57.6844, 11.9386],
+    "info": "Centralt belägen rastgård i Slottsskogen."
+  },
+  {
+    "id": 18,
+    "namn": "Göteborg Hisingen Hundrastgård",
+    "kommun": "Göteborg",
+    "län": "Västra Götalands län",
+    "position": [57.7316, 11.9225],
+    "info": "Stor inhägnad yta för hundar på Hisingen."
+  },
+  {
+    "id": 19,
+    "namn": "Alingsås Nolhagaparken Hundgård",
+    "kommun": "Alingsås",
+    "län": "Västra Götalands län",
+    "position": [57.9278, 12.5234],
+    "info": "Rastgård i anslutning till Nolhagaparken."
+  },
+  {
+    "id": 20,
+    "namn": "Falköping Hundrastgård",
+    "kommun": "Falköping",
+    "län": "Västra Götalands län",
+    "position": [58.1733, 13.5506],
+    "info": "Naturnära hundrastgård i Falköping."
+  }
+]
