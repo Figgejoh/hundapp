@@ -3,63 +3,91 @@ import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import { Icon } from "leaflet";
 import hundbadplatser from "./hundbadplatser.json";
+import rastgardar from "./rastgardar.json";
 import { useState, useEffect } from "react";
 
-// Komponent för att centrera kartan på en position
+// Komponent som centrera kartan
 function RecenterMap({ position }) {
   const map = useMap();
   useEffect(() => {
     if (position) {
-      map.setView(position, 9);
+      map.setView(position, 12);
     }
   }, [position, map]);
   return null;
 }
 
+// Välkomstskärm som kort
+function WelcomeScreen({ onSelect }) {
+  return (
+    <div className="welcome-screen">
+      <h1>Välkommen!</h1>
+      <p>Välj vad du vill göra:</p>
+      <div className="card-container">
+        <div className="card">
+          <h2>Hundbadplatser</h2>
+          <p>Hitta officiella och tillåtna badplatser för hundar.</p>
+          <button onClick={() => onSelect("hundbad")}>Visa Hundbad</button>
+        </div>
+        <div className="card">
+          <h2>Rastgårdar</h2>
+          <p>Hitta rastgårdar där din hund kan leka fritt.</p>
+          <button onClick={() => onSelect("rastgard")}>Visa Rastgårdar</button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function App() {
-  const greenIcon = new Icon({
-    iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
-    iconSize: [30, 30],
-  });
-
-  const redIcon = new Icon({
-    iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-    iconSize: [30, 30],
-  });
-
-  const blueIcon = new Icon({
-    iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-    iconSize: [30, 30],
-  });
-
+  const [view, setView] = useState("start"); // "start", "hundbad", "rastgard"
   const [filter, setFilter] = useState("");
   const [userPosition, setUserPosition] = useState(null);
 
-  // Hämta användarens position
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         setUserPosition([position.coords.latitude, position.coords.longitude]);
       },
       () => {
-        // fallback om position inte kan hämtas
         setUserPosition([59.3293, 18.0686]);
       }
     );
   }, []);
 
-  // Filtrera platser baserat på sökfält
-  const filtreradePlatser = hundbadplatser.filter(
+  // Ikoner
+  const greenIcon = new Icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
+    iconSize: [30, 30],
+  });
+  const redIcon = new Icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+    iconSize: [30, 30],
+  });
+  const blueIcon = new Icon({
+    iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+    iconSize: [30, 30],
+  });
+
+  const data =
+    view === "hundbad" ? hundbadplatser : view === "rastgard" ? rastgardar : [];
+
+  const filtreradePlatser = data.filter(
     (plats) =>
       plats.kommun.toLowerCase().includes(filter.toLowerCase()) ||
       plats.namn.toLowerCase().includes(filter.toLowerCase()) ||
       plats.län.toLowerCase().includes(filter.toLowerCase())
   );
 
-  // Center-position: antingen första matchande plats eller användarens position
   const centerPosition =
     filtreradePlatser.length > 0 ? filtreradePlatser[0].position : userPosition;
 
+  // VISAR VÄLKOMSTSKÄRM
+  if (view === "start") {
+    return <WelcomeScreen onSelect={setView} />;
+  }
+
+  // KARTA
   return (
     <div style={{ display: "flex", height: "100vh" }}>
       {/* Filterpanel */}
@@ -68,11 +96,10 @@ function App() {
           width: "300px",
           padding: "30px",
           backgroundColor: "#f0f0f0",
-          boxShadow: "2px 0px 5px rgba(0, 0, 0, 0.1)",
+          boxShadow: "2px 0px 5px rgba(0,0,0,0.1)",
         }}
       >
-        <h2>Bada med hunden</h2>
-        <h2>Filtrera</h2>
+        <h2>{view === "hundbad" ? "Bada med hunden" : "Rastgård"}</h2>
         <input
           type="text"
           placeholder="Sök kommun, län eller plats..."
@@ -80,60 +107,18 @@ function App() {
           onChange={(e) => setFilter(e.target.value)}
           style={{ width: "95%", padding: "8px", marginBottom: "20px" }}
         />
-        <div style={{ marginTop: "20px" }}>
-          <h3>Legend</h3>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginBottom: "5px",
-            }}
-          >
-            <img
-              src="https://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-              alt="blue"
-              width={20}
-            />
-            <span style={{ marginLeft: "8px" }}>Officiell hundbadplats</span>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginBottom: "5px",
-            }}
-          >
-            <img
-              src="https://maps.google.com/mapfiles/ms/icons/green-dot.png"
-              alt="green"
-              width={20}
-            />
-            <span style={{ marginLeft: "8px" }}>Tillåtet med hund</span>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginBottom: "5px",
-            }}
-          >
-            <img
-              src="https://maps.google.com/mapfiles/ms/icons/red-dot.png"
-              alt="red"
-              width={20}
-            />
-            <span style={{ marginLeft: "8px" }}>Inte tillåtet med hund</span>
-          </div>
-        </div>
+        <button onClick={() => setView("start")} style={{ marginTop: "20px" }}>
+          Tillbaka
+        </button>
       </div>
 
       {/* Karta */}
       <div style={{ flex: 1 }}>
         {userPosition ? (
           <MapContainer
-            center={centerPosition}
-            zoom={20}
-            style={{ height: "100vh", width: "100%" }}
+            center={userPosition}
+            zoom={12}
+            style={{ height: "100%", width: "100%" }}
           >
             <TileLayer
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -170,7 +155,7 @@ function App() {
             ))}
           </MapContainer>
         ) : (
-          <p>Laddar karta och hämtar position...</p>
+          <p>Laddar kartan...</p>
         )}
       </div>
     </div>

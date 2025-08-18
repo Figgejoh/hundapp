@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "namn": "Hundgården Centralpark",
+    "kommun": "Stockholm",
+    "län": "Stockholms län",
+    "position": [59.335, 18.07],
+    "officiell": false,
+    "tillåtet": true,
+    "info": "En trevlig hundgård mitt i staden med agilityutrustning och sittplatser.",
+    "vatten": "Ingen"
+  },
+  {
+    "id": 2,
+    "namn": "Hundgården Solsidan",
+    "kommun": "Täby",
+    "län": "Stockholms län",
+    "position": [59.443, 18.073],
+    "officiell": false,
+    "tillåtet": true,
+    "info": "Stor inhägnad hundgård med gräsytor och vattenstationer.",
+    "vatten": "Dricksvatten finns"
+  }
+]
