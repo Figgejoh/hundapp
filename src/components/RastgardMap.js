@@ -8,6 +8,7 @@ import "leaflet/dist/leaflet.css";
 function RastgardMap({ setView }) {
   const [userPosition, setUserPosition] = useState(null);
   const [filter, setFilter] = useState("");
+  const [favorites, setFavorites] = useState([]);
 
   // Hämta användarens position
   useEffect(() => {
@@ -17,6 +18,14 @@ function RastgardMap({ setView }) {
       () => setUserPosition([59.3293, 18.0686]) // fallback Stockholm
     );
   }, []);
+
+  const toggleFavorite = (id) => {
+    if (favorites.includes(id)) {
+      setFavorites(favorites.filter((fav) => fav !== id));
+    } else {
+      setFavorites([...favorites, id]);
+    }
+  };
 
   const greenIcon = new Icon({
     iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
@@ -64,32 +73,40 @@ function RastgardMap({ setView }) {
       </div>
 
       <div style={{ flex: 1 }}>
-        {userPosition ? (
-          <MapContainer
-            center={userPosition}
-            zoom={10}
-            style={{ height: "100%", width: "100%" }}
-          >
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <RecenterMap position={centerPosition} />
-            {filtreradePlatser.map((plats) => (
-              <Marker key={plats.id} position={plats.position} icon={greenIcon}>
-                <Popup>
-                  <h3>{plats.namn}</h3>
-                  <p>
-                    <b>Kommun:</b> {plats.kommun}
-                  </p>
-                  <p>
-                    <b>Län:</b> {plats.län}
-                  </p>
-                  <p>{plats.info}</p>
-                </Popup>
-              </Marker>
-            ))}
-          </MapContainer>
-        ) : (
-          <p>Laddar kartan...</p>
-        )}
+        <MapContainer
+          center={userPosition}
+          zoom={10}
+          style={{ height: "100%", width: "100%" }}
+        >
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <RecenterMap position={centerPosition} />
+          {filtreradePlatser.map((plats) => (
+            <Marker key={plats.id} position={plats.position} icon={greenIcon}>
+              <Popup>
+                <h3>{plats.namn}</h3>
+                <p>
+                  <b>Kommun:</b> {plats.kommun}
+                </p>
+                <p>
+                  <b>Län:</b> {plats.län}
+                </p>
+                <p>{plats.info}</p>
+                <button
+                  onClick={() => toggleFavorite(plats.id)}
+                  style={{
+                    fontSize: "24px",
+                    color: favorites.includes(plats.id) ? "red" : "gray",
+                    background: "transparent",
+                    border: "none",
+                    cursor: "pointer",
+                  }}
+                >
+                  {favorites.includes(plats.id) ? "❤️" : "🤍"}
+                </button>
+              </Popup>
+            </Marker>
+          ))}
+        </MapContainer>
       </div>
     </div>
   );

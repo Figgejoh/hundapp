@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
+
 import RecenterMap from "./RecenterMap";
 import hundbadplatser from "../data/hundbadplatser.json";
 import "leaflet/dist/leaflet.css";
@@ -9,6 +10,7 @@ import Legend from "./Legend";
 function HundbadMap({ setView }) {
   const [userPosition, setUserPosition] = useState(null);
   const [filter, setFilter] = useState("");
+  const [favorites, setFavorites] = useState([]);
 
   // Hämta användarens position
   useEffect(() => {
@@ -19,6 +21,15 @@ function HundbadMap({ setView }) {
     );
   }, []);
 
+  const toggleFavorite = (id) => {
+    if (favorites.includes(id)) {
+      setFavorites(favorites.filter((fav) => fav !== id));
+    } else {
+      setFavorites([...favorites, id]);
+    }
+  };
+
+  // Ikoner
   const greenIcon = new Icon({
     iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
     iconSize: [30, 30],
@@ -76,27 +87,27 @@ function HundbadMap({ setView }) {
 
       {/* Karta */}
       <div style={{ flex: 1 }}>
-        {userPosition ? (
-          <MapContainer
-            center={userPosition}
-            zoom={12}
-            style={{ height: "100%", width: "100%" }}
-          >
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <RecenterMap position={centerPosition} />
-            {filtreradePlatser.map((plats) => (
-              <Marker
-                key={plats.id}
-                position={plats.position}
-                icon={
-                  plats.officiell
-                    ? blueIcon
-                    : plats.tillåtet
-                    ? greenIcon
-                    : redIcon
-                }
-              >
-                <Popup>
+        <MapContainer
+          center={userPosition}
+          zoom={12}
+          style={{ height: "100%", width: "100%" }}
+        >
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+          <RecenterMap position={centerPosition} />
+          {filtreradePlatser.map((plats) => (
+            <Marker
+              key={plats.id}
+              position={plats.position}
+              icon={
+                plats.officiell
+                  ? blueIcon
+                  : plats.tillåtet
+                  ? greenIcon
+                  : redIcon
+              }
+            >
+              <Popup>
+                <div>
                   <h3>{plats.namn}</h3>
                   <p>
                     <b>Kommun:</b> {plats.kommun}
@@ -108,13 +119,23 @@ function HundbadMap({ setView }) {
                     <b>Vatten:</b> {plats.vatten}
                   </p>
                   <p>{plats.info}</p>
-                </Popup>
-              </Marker>
-            ))}
-          </MapContainer>
-        ) : (
-          <p>Laddar kartan...</p>
-        )}
+                  <button
+                    onClick={() => toggleFavorite(plats.id)}
+                    style={{
+                      fontSize: "24px",
+                      color: favorites.includes(plats.id) ? "red" : "gray",
+                      background: "transparent",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    {favorites.includes(plats.id) ? "❤️" : "🤍"}
+                  </button>
+                </div>
+              </Popup>
+            </Marker>
+          ))}
+        </MapContainer>
       </div>
     </div>
   );
