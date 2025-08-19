@@ -122,6 +122,7 @@ function HundbadMap({ setView }) {
                     </p>
                     <p>{plats.info}</p>
                     <button
+                      class="like"
                       onClick={() => toggleFavorite(plats.id)}
                       style={{
                         fontSize: "24px",

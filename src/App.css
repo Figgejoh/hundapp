@@ -6,7 +6,9 @@
   justify-content: center;
   height: 100vh;
   gap: 40px;
-  background: linear-gradient(135deg, #a0e4ff, #ffffff);
+  background: url("./assets/generated-image-b4aa1d95-1b7d-4f04-8c95-4c34770b4f1b.jpg");
+  background-size: cover;
+  background-position: center;
   font-family: Arial, sans-serif;
   text-align: center;
 }
@@ -17,11 +19,19 @@
   gap: 40px;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
 .card {
-  background-color: white;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(100px);
   width: 250px;
   height: 400px;
   display: flex;
@@ -52,4 +62,8 @@
 
 .card button:hover {
   background-color: #005fa3;
+}
+
+.like:active {
+  scale: 1.1;
 }

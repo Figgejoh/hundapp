@@ -4,7 +4,7 @@ function WelcomeScreen({ onSelect }) {
   return (
     <div className="welcome-screen">
       <h1>Välkommen!</h1>
-      <p>Välj vad du vill göra:</p>
+      <h3>Välj vad du vill göra:</h3>
       <div className="card-container">
         <div className="card">
           <h2>Hundbadplatser</h2>
