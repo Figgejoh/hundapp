@@ -1,35 +1,55 @@
 import { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
-
 import RecenterMap from "./RecenterMap";
 import hundbadplatser from "../data/hundbadplatser.json";
 import "leaflet/dist/leaflet.css";
 import Legend from "./Legend";
 
+const getId = (plats) =>
+  plats.id ? String(plats.id) : `${plats.namn}-${plats.kommun}`;
+
 function HundbadMap({ setView }) {
   const [userPosition, setUserPosition] = useState(null);
   const [filter, setFilter] = useState("");
-  const [favorites, setFavorites] = useState([]);
+  const [favorites, setFavorites] = useState(() => {
+    const saved = localStorage.getItem("favorites");
+    return saved ? JSON.parse(saved) : [];
+  });
 
-  // Hämta användarens position
+  useEffect(() => {
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+  }, [favorites]);
+
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position) =>
         setUserPosition([position.coords.latitude, position.coords.longitude]),
-      () => setUserPosition([59.3293, 18.0686]) // fallback Stockholm
+      () => setUserPosition([59.3293, 18.0686])
     );
   }, []);
 
-  const toggleFavorite = (id) => {
-    if (favorites.includes(id)) {
-      setFavorites(favorites.filter((fav) => fav !== id));
+  const toggleFavorite = (plats) => {
+    const favId = getId(plats);
+    console.log("Klickat:", favId, favorites);
+
+    if (favorites.some((fav) => fav.id === favId)) {
+      console.log("→ Tar bort");
+      setFavorites(favorites.filter((fav) => fav.id !== favId));
     } else {
-      setFavorites([...favorites, id]);
+      console.log("→ Lägger till");
+      setFavorites([
+        ...favorites,
+        {
+          id: favId,
+          namn: plats.namn,
+          kommun: plats.kommun,
+          län: plats.län,
+        },
+      ]);
     }
   };
 
-  // Ikoner
   const greenIcon = new Icon({
     iconUrl: "https://maps.google.com/mapfiles/ms/icons/green-dot.png",
     iconSize: [30, 30],
@@ -57,7 +77,7 @@ function HundbadMap({ setView }) {
 
   return (
     <div style={{ display: "flex", height: "100vh" }}>
-      {/* Filterpanel */}
+      {/* Sidebar */}
       <div
         style={{ width: "300px", padding: "30px", backgroundColor: "#f0f0f0" }}
       >
@@ -70,6 +90,20 @@ function HundbadMap({ setView }) {
           style={{ width: "95%", padding: "8px", marginBottom: "20px" }}
         />
         <Legend />
+
+        <h3>❤️ Favoriter</h3>
+        {favorites.length === 0 ? (
+          <p>Inga favoriter</p>
+        ) : (
+          <ul>
+            {favorites.map((fav) => (
+              <li key={fav.id}>
+                ❤️ {fav.namn} – {fav.kommun}, {fav.län}
+              </li>
+            ))}
+          </ul>
+        )}
+
         <button
           style={{
             width: "300px",
@@ -94,8 +128,9 @@ function HundbadMap({ setView }) {
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <RecenterMap position={centerPosition} />
-          {filter &&
-            filtreradePlatser.length > 0 &&
+
+          {/* Visa markörer först NÄR man sökt */}
+          {filter.trim() !== "" &&
             filtreradePlatser.map((plats) => (
               <Marker
                 key={plats.id}
@@ -109,32 +144,30 @@ function HundbadMap({ setView }) {
                 }
               >
                 <Popup>
-                  <div>
-                    <h3>{plats.namn}</h3>
-                    <p>
-                      <b>Kommun:</b> {plats.kommun}
-                    </p>
-                    <p>
-                      <b>Län:</b> {plats.län}
-                    </p>
-                    <p>
-                      <b>Vatten:</b> {plats.vatten}
-                    </p>
-                    <p>{plats.info}</p>
-                    <button
-                      class="like"
-                      onClick={() => toggleFavorite(plats.id)}
-                      style={{
-                        fontSize: "24px",
-                        color: favorites.includes(plats.id) ? "red" : "gray",
-                        background: "transparent",
-                        border: "none",
-                        cursor: "pointer",
-                      }}
-                    >
-                      {favorites.includes(plats.id) ? "❤️" : "🤍"}
-                    </button>
-                  </div>
+                  <h3>{plats.namn}</h3>
+                  <p>
+                    <b>Kommun:</b> {plats.kommun}
+                  </p>
+                  <p>
+                    <b>Län:</b> {plats.län}
+                  </p>
+                  <p>
+                    <b>Vatten:</b> {plats.vatten}
+                  </p>
+                  <p>{plats.info}</p>
+                  <button
+                    onClick={() => toggleFavorite(plats)}
+                    style={{
+                      fontSize: "24px",
+                      background: "transparent",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                    {favorites.some((fav) => fav.id === getId(plats))
+                      ? "❤️"
+                      : "🤍"}
+                  </button>
                 </Popup>
               </Marker>
             ))}

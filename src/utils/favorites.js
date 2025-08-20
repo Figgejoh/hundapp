@@ -22,3 +22,12 @@ export function removeFavorite(id) {
 export function isFavorite(id) {
   return getFavorites().includes(id);
 }
+
+export function loadFavorites() {
+  const stored = localStorage.getItem("favorites");
+  return stored ? JSON.parse(stored) : [];
+}
+
+export function saveFavorites(favs) {
+  localStorage.setItem("favorites", JSON.stringify(favs));
+}
