@@ -286,160 +286,7740 @@
     "kiosk": false,
     "notes": "Badplats i Össjöasjön norr om Ljungby."
   },
-
-  { "id": 200, "name": "Ribersborgsstranden hundbad", "city": "Malmö", "lat": 55.607, "lng": 12.916, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Populär stadsstrand med avdelning för hundar." },
-  { "id": 201, "name": "Ljunghusen hundstrand", "city": "Vellinge", "lat": 55.41, "lng": 12.921, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Lång sandstrand på Falsterbonäset." },
-  { "id": 202, "name": "Falsterbo hundstrand", "city": "Vellinge", "lat": 55.383, "lng": 12.818, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand på sydvästra Skånes spets." },
-  { "id": 203, "name": "Sandhammaren strand", "city": "Ystad", "lat": 55.383, "lng": 14.217, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturreservat med bred sandstrand i sydöstra Skåne." },
-  { "id": 204, "name": "Täppet hundbad", "city": "Helsingborg", "lat": 56.05, "lng": 12.7, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundbad norr om Helsingborg." },
-  { "id": 205, "name": "Arild hundstrand", "city": "Höganäs", "lat": 56.167, "lng": 12.55, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Pittoresk strand på Kullahalvön." },
-  { "id": 206, "name": "Domsten strand", "city": "Höganäs", "lat": 56.083, "lng": 12.617, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Lugn hundvänlig strand norr om Helsingborg." },
-  { "id": 207, "name": "Vejbystrand hundbad", "city": "Båstad", "lat": 56.4, "lng": 12.833, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Populär strandbad i norra Skåne." },
-  { "id": 208, "name": "Ängelholmsstranden hundbad", "city": "Ängelholm", "lat": 56.233, "lng": 12.883, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Bred sandstrand med hundavdelning." },
-  { "id": 209, "name": "Torekov hundstrand", "city": "Båstad", "lat": 56.417, "lng": 12.633, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand på Bjärehalvön." },
-  { "id": 210, "name": "Mölle strand", "city": "Höganäs", "lat": 56.283, "lng": 12.5, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Vacker strand vid Kullaberg." },
-  { "id": 211, "name": "Ystad sandskog strand", "city": "Ystad", "lat": 55.433, "lng": 13.817, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturskön strand med tallskog bakom." },
-  { "id": 212, "name": "Simrishamn hundstrand", "city": "Simrishamn", "lat": 55.55, "lng": 14.35, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand på Österlen." },
-  { "id": 213, "name": "Knäbäckshusen strand", "city": "Kristianstad", "lat": 55.917, "lng": 14.233, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturreservat vid Hanöbukten." },
-  { "id": 214, "name": "Åhus strand hundbad", "city": "Kristianstad", "lat": 55.917, "lng": 14.15, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Bred sandstrand vid Åhus." },
-  { "id": 215, "name": "Skanör hundstrand", "city": "Vellinge", "lat": 55.417, "lng": 12.833, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand på Falsterbonäset." },
-  { "id": 216, "name": "Landskrona hundbad", "city": "Landskrona", "lat": 55.867, "lng": 12.833, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strandpromenad med hundvänlig zon." },
-  { "id": 217, "name": "Trelleborg hundstrand", "city": "Trelleborg", "lat": 55.367, "lng": 13.15, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sydkustens hundstrand." },
-  { "id": 218, "name": "Kåseberga strand", "city": "Ystad", "lat": 55.383, "lng": 14.05, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Strand nära Ales stenar." },
-  { "id": 219, "name": "Löderups strandbad", "city": "Ystad", "lat": 55.4, "lng": 14.0, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Lugn hundvänlig strand i sydöstra Skåne." },
-
-  { "id": 220, "name": "Skrea strand hundbad", "city": "Falkenberg", "lat": 56.9, "lng": 12.483, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Bred sandstrand med hundavdelning i Falkenberg." },
-  { "id": 221, "name": "Varbergs hundstrand", "city": "Varberg", "lat": 57.117, "lng": 12.25, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand söder om Varbergs fästning." },
-  { "id": 222, "name": "Mellbystrand hundbad", "city": "Laholm", "lat": 56.5, "lng": 12.967, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Lång sandstrand i södra Halland." },
-  { "id": 223, "name": "Olofsbo hundstrand", "city": "Falkenberg", "lat": 56.967, "lng": 12.467, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand norr om Falkenberg." },
-  { "id": 224, "name": "Ringenäs strand", "city": "Halmstad", "lat": 56.617, "lng": 12.733, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturstrand söder om Halmstad." },
-  { "id": 225, "name": "Steninge strand", "city": "Halmstad", "lat": 56.7, "lng": 12.75, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand norr om Halmstad." },
-  { "id": 226, "name": "Kungsbacka hundstrand", "city": "Kungsbacka", "lat": 57.45, "lng": 11.967, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand söder om Göteborg." },
-
-  { "id": 230, "name": "Saltö hundbad", "city": "Strömstad", "lat": 58.917, "lng": 11.167, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Klippbad på Saltö i norra Bohuslän." },
-  { "id": 231, "name": "Fjällbacka strand", "city": "Västra Götaland", "lat": 58.6, "lng": 11.283, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Strandpromenad i pittoreska Fjällbacka." },
-  { "id": 232, "name": "Smögen hundbad", "city": "Sotenäs", "lat": 58.35, "lng": 11.217, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Hundvänlig strand vid Smögen." },
-  { "id": 233, "name": "Klädesholmen strand", "city": "Tjörn", "lat": 57.983, "lng": 11.567, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Naturskön strand på Tjörn." },
-  { "id": 234, "name": "Fiskebäckskil strand", "city": "Lysekil", "lat": 58.25, "lng": 11.417, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Idyllisk strand i Gullmarsfjorden." },
-  { "id": 235, "name": "Lysekils hundbad", "city": "Lysekil", "lat": 58.283, "lng": 11.433, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundbad i Lysekilsområdet." },
-  { "id": 236, "name": "Gullholmen strand", "city": "Orust", "lat": 58.1, "lng": 11.383, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Bilfri ö med hundvänlig strand." },
-  { "id": 237, "name": "Stenungsund hundstrand", "city": "Stenungsund", "lat": 58.067, "lng": 11.817, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand söder om Stenungsund." },
-  { "id": 238, "name": "Marstrand hundbad", "city": "Kungälv", "lat": 57.883, "lng": 11.583, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Hundvänlig strand vid badorten Marstrand." },
-  { "id": 239, "name": "Björkö strand", "city": "Göteborg", "lat": 57.717, "lng": 11.617, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturreservat med hundvänlig strand i Göteborgs skärgård." },
-  { "id": 240, "name": "Askimsviken hundbad", "city": "Göteborg", "lat": 57.617, "lng": 11.883, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundbad i södra Göteborg." },
-  { "id": 241, "name": "Hovås strand", "city": "Göteborg", "lat": 57.583, "lng": 11.9, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Populär strand söder om Göteborg." },
-  { "id": 242, "name": "Tanums hundstrand", "city": "Tanum", "lat": 58.717, "lng": 11.317, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand i norra Bohuslän." },
-  { "id": 243, "name": "Nordens Ark strand", "city": "Sotenäs", "lat": 58.35, "lng": 11.25, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strandnära natur i Bohuslän." },
-
-  { "id": 250, "name": "Dragsö hundbad", "city": "Karlskrona", "lat": 56.15, "lng": 15.583, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Populärt hundbad på Dragsön i Karlskrona." },
-  { "id": 251, "name": "Sölvesborg hundstrand", "city": "Sölvesborg", "lat": 56.05, "lng": 14.583, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Blekingekusten." },
-  { "id": 252, "name": "Ronneby Brunnspark strand", "city": "Ronneby", "lat": 56.2, "lng": 15.283, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand i Ronneby." },
-  { "id": 253, "name": "Karlshamn hundstrand", "city": "Karlshamn", "lat": 56.167, "lng": 14.85, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Karlshamnsfjärden." },
-  { "id": 254, "name": "Järnavik strand", "city": "Ronneby", "lat": 56.167, "lng": 15.383, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturskön kustremsa i Blekinge." },
-
-  { "id": 260, "name": "Oskarshamn hundstrand", "city": "Oskarshamn", "lat": 57.267, "lng": 16.45, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand i Oskarshamns skärgård." },
-  { "id": 261, "name": "Västervik hundbad", "city": "Västervik", "lat": 57.75, "lng": 16.633, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand i Vätterviksområdet." },
-  { "id": 262, "name": "Kalmar hundstrand", "city": "Kalmar", "lat": 56.667, "lng": 16.367, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand söder om Kalmar slott." },
-  { "id": 263, "name": "Mörbylånga strand", "city": "Mörbylånga", "lat": 56.533, "lng": 16.383, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strandremsa på södra Öland." },
-  { "id": 264, "name": "Borgholm strand", "city": "Borgholm", "lat": 56.883, "lng": 16.65, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Strand vid Ölands västra kust." },
-  { "id": 265, "name": "Eksjö sjöstrand", "city": "Eksjö", "lat": 57.667, "lng": 14.967, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänligt sjöbad i Småland." },
-  { "id": 266, "name": "Nässjö hundbad", "city": "Nässjö", "lat": 57.65, "lng": 14.7, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Nässjö." },
-  { "id": 267, "name": "Vetlanda hundstrand", "city": "Vetlanda", "lat": 57.433, "lng": 15.083, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand vid sjön Noen." },
-  { "id": 268, "name": "Tranås badplats", "city": "Tranås", "lat": 58.033, "lng": 14.983, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad vid Sommen." },
-
-  { "id": 270, "name": "Visby Snäckgärdet", "city": "Visby", "lat": 57.65, "lng": 18.283, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Populär strand norr om Visby med hundzon." },
-  { "id": 271, "name": "Ljugarn hundstrand", "city": "Gotland", "lat": 57.317, "lng": 18.717, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sandstrand på östra Gotland." },
-  { "id": 272, "name": "Tofta strand", "city": "Gotland", "lat": 57.483, "lng": 18.117, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Bred sandstrand på västra Gotland." },
-  { "id": 273, "name": "Sudersand hundstrand", "city": "Fårö", "lat": 57.933, "lng": 19.083, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturskön strand på Fårö." },
-
-  { "id": 280, "name": "Trosa Havsbad hundbad", "city": "Trosa", "lat": 58.9, "lng": 17.55, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand i Sörmland." },
-  { "id": 281, "name": "Nyköping hundstrand", "city": "Nyköping", "lat": 58.75, "lng": 17.0, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Nyköpingsfjärden." },
-  { "id": 282, "name": "Oxelösund strand", "city": "Oxelösund", "lat": 58.667, "lng": 17.1, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig kustremsa i Sörmland." },
-  { "id": 283, "name": "Eskilstuna hundbad", "city": "Eskilstuna", "lat": 59.367, "lng": 16.5, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Eskilstuna." },
-  { "id": 284, "name": "Strängnäs hundstrand", "city": "Strängnäs", "lat": 59.383, "lng": 17.033, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Mälaren i Strängnäs." },
-  { "id": 285, "name": "Mariefred strand", "city": "Strängnäs", "lat": 59.25, "lng": 17.217, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Pittoresk Mälarstrand vid Mariefred." },
-  { "id": 286, "name": "Södertälje hundbad", "city": "Södertälje", "lat": 59.2, "lng": 17.617, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand söder om Stockholm." },
-  { "id": 287, "name": "Tyresta strand", "city": "Haninge", "lat": 59.15, "lng": 18.167, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Naturreservat med badplats söder om Stockholm." },
-  { "id": 288, "name": "Lidingö hundbad", "city": "Lidingö", "lat": 59.367, "lng": 18.2, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Hundvänlig badplats på Lidingö." },
-  { "id": 289, "name": "Värmdö hundstrand", "city": "Värmdö", "lat": 59.3, "lng": 18.567, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand i Stockholms skärgård." },
-  { "id": 290, "name": "Nynäshamn hundstrand", "city": "Nynäshamn", "lat": 58.9, "lng": 17.95, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand söder om Stockholm." },
-  { "id": 291, "name": "Norrtälje hundstrand", "city": "Norrtälje", "lat": 59.767, "lng": 18.7, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand i norra Roslagen." },
-  { "id": 292, "name": "Sigtuna strand", "city": "Sigtuna", "lat": 59.617, "lng": 17.717, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Mälarbad i gamla Sigtuna." },
-
-  { "id": 300, "name": "Uppsala Flottsund", "city": "Uppsala", "lat": 59.783, "lng": 17.617, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Populärt badställe söder om Uppsala." },
-  { "id": 301, "name": "Enköping Bredsand", "city": "Enköping", "lat": 59.633, "lng": 17.05, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Mälaren utanför Enköping." },
-  { "id": 302, "name": "Tierp hundstrand", "city": "Tierp", "lat": 60.35, "lng": 17.517, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig sjöstrand i Uppsala län." },
-  { "id": 303, "name": "Öregrund strand", "city": "Tierp", "lat": 60.333, "lng": 18.45, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Vacker strand vid norra Upplandskusten." },
-  { "id": 304, "name": "Gräsö hundstrand", "city": "Tierp", "lat": 60.45, "lng": 18.45, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Naturskön ö med hundvänlig strand." },
-
-  { "id": 310, "name": "Västerås Djäkneberget", "city": "Västerås", "lat": 59.617, "lng": 16.5, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig Mälarstrand i Västerås." },
-  { "id": 311, "name": "Köping hundstrand", "city": "Köping", "lat": 59.517, "lng": 15.983, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Mälaren i Köping." },
-  { "id": 312, "name": "Sala sjöbad", "city": "Sala", "lat": 59.917, "lng": 16.6, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänligt sjöbad i Sala." },
-
-  { "id": 320, "name": "Skutberget hundbad", "city": "Karlstad", "lat": 59.367, "lng": 13.467, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Populärt hundbad vid Vänern i Karlstad." },
-  { "id": 321, "name": "Kristinehamn strand", "city": "Kristinehamn", "lat": 59.317, "lng": 14.1, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Vänern i Kristinehamn." },
-  { "id": 322, "name": "Arvika hundstrand", "city": "Arvika", "lat": 59.65, "lng": 12.583, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Glafsfjorden i Arvika." },
-  { "id": 323, "name": "Sunne hundstrand", "city": "Sunne", "lat": 59.833, "lng": 13.15, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Fryken i Sunne." },
-  { "id": 324, "name": "Torsby sjöbad", "city": "Torsby", "lat": 60.133, "lng": 12.983, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad vid Klarälven i Torsby." },
-
-  { "id": 330, "name": "Örebro Gustavsvik", "city": "Örebro", "lat": 59.267, "lng": 15.2, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Hundvänlig badplats vid Hjälmaren." },
-  { "id": 331, "name": "Hallsberg hundstrand", "city": "Hallsberg", "lat": 59.067, "lng": 15.1, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Hallsberg." },
-  { "id": 332, "name": "Lekeberg strand", "city": "Lekeberg", "lat": 59.267, "lng": 15.017, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Lugnt sjöbad utanför Örebro." },
-
-  { "id": 340, "name": "Falun Framby udde", "city": "Falun", "lat": 60.617, "lng": 15.617, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Populär badplats vid Runn utanför Falun." },
-  { "id": 341, "name": "Leksand hundbad", "city": "Leksand", "lat": 60.733, "lng": 14.983, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand vid Siljan." },
-  { "id": 342, "name": "Mora hundstrand", "city": "Mora", "lat": 61.0, "lng": 14.533, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Siljan i Mora." },
-  { "id": 343, "name": "Rättvik strand", "city": "Rättvik", "lat": 60.883, "lng": 15.117, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Känd lång brygga och strand vid Siljan." },
-  { "id": 344, "name": "Borlänge hundstrand", "city": "Borlänge", "lat": 60.483, "lng": 15.433, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Borlänge." },
-  { "id": 345, "name": "Ludvika sjöbad", "city": "Ludvika", "lat": 60.15, "lng": 15.183, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand vid Väsman." },
-
-  { "id": 350, "name": "Gävle hundbad", "city": "Gävle", "lat": 60.717, "lng": 17.133, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand vid Gävlebukten." },
-  { "id": 351, "name": "Sandviken hundstrand", "city": "Sandviken", "lat": 60.617, "lng": 16.767, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Sandviken." },
-  { "id": 352, "name": "Söderhamn strand", "city": "Söderhamn", "lat": 61.3, "lng": 17.067, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Kustbad i Söderhamn." },
-  { "id": 353, "name": "Bollnäs sjöbad", "city": "Bollnäs", "lat": 61.35, "lng": 16.383, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig sjöstrand i Hälsingland." },
-  { "id": 354, "name": "Hudiksvall hundstrand", "city": "Hudiksvall", "lat": 61.733, "lng": 17.1, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid kusten norr om Söderhamn." },
-  { "id": 355, "name": "Ljusdal sjöbad", "city": "Ljusdal", "lat": 61.833, "lng": 16.083, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Inlandssjöbad i Hälsingland." },
-
-  { "id": 360, "name": "Sundsvall hundstrand", "city": "Sundsvall", "lat": 62.383, "lng": 17.317, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundstrand vid Sundsvallsbukten." },
-  { "id": 361, "name": "Härnösand strand", "city": "Härnösand", "lat": 62.633, "lng": 17.933, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Kustbad i Härnösand." },
-  { "id": 362, "name": "Kramfors hundstrand", "city": "Kramfors", "lat": 62.917, "lng": 17.8, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand längs Ångermanälven." },
-  { "id": 363, "name": "Örnsköldsvik hundstrand", "city": "Örnsköldsvik", "lat": 63.283, "lng": 18.717, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Kustbad i Örnsköldsvik." },
-
-  { "id": 370, "name": "Östersund Strandpromenaden", "city": "Östersund", "lat": 63.167, "lng": 14.633, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Strand vid Storsjön i centrala Östersund." },
-  { "id": 371, "name": "Krokom hundstrand", "city": "Krokom", "lat": 63.317, "lng": 14.467, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad vid Storsjön utanför Krokom." },
-  { "id": 372, "name": "Åre strand", "city": "Åre", "lat": 63.4, "lng": 13.083, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Strand vid Åresjön, populärt sommartid." },
-  { "id": 373, "name": "Strömsund hundstrand", "city": "Strömsund", "lat": 63.85, "lng": 15.55, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i norra Jämtland." },
-
-  { "id": 380, "name": "Umeå hundstrand", "city": "Umeå", "lat": 63.817, "lng": 20.283, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig kustremsa i Umeå." },
-  { "id": 381, "name": "Skellefteå hundstrand", "city": "Skellefteå", "lat": 64.75, "lng": 20.95, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Kustbad vid Skellefteälven." },
-  { "id": 382, "name": "Lycksele sjöbad", "city": "Lycksele", "lat": 64.6, "lng": 18.667, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Inlandssjöbad i Lappland." },
-  { "id": 383, "name": "Vilhelmina strand", "city": "Vilhelmina", "lat": 64.617, "lng": 16.667, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Vilhelmina." },
-  { "id": 384, "name": "Storuman hundstrand", "city": "Storuman", "lat": 65.1, "lng": 17.117, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Storuman i Lappland." },
-
-  { "id": 390, "name": "Luleå hundstrand", "city": "Luleå", "lat": 65.583, "lng": 22.15, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Luleå skärgård." },
-  { "id": 391, "name": "Boden sjöbad", "city": "Boden", "lat": 65.833, "lng": 21.683, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad vid Bodens kanal." },
-  { "id": 392, "name": "Piteå hundstrand", "city": "Piteå", "lat": 65.317, "lng": 21.483, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Norrlands riviera — bred sandstrand." },
-  { "id": 393, "name": "Haparanda sandstrand", "city": "Haparanda", "lat": 65.833, "lng": 24.133, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand nära finska gränsen." },
-  { "id": 394, "name": "Kiruna sjöbad", "city": "Kiruna", "lat": 67.85, "lng": 20.217, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad i Kiruna, norr om polcirkeln." },
-  { "id": 395, "name": "Gällivare strand", "city": "Gällivare", "lat": 67.133, "lng": 20.65, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand i Malmfälten." },
-  { "id": 396, "name": "Jokkmokk sjöbad", "city": "Jokkmokk", "lat": 66.6, "lng": 19.833, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Sjöbad i Jokkmokk, nära polcirkeln." },
-
-  { "id": 400, "name": "Värnamo hundstrand", "city": "Värnamo", "lat": 57.183, "lng": 14.05, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand vid Vidöstern." },
-  { "id": 401, "name": "Växjö Trummen", "city": "Växjö", "lat": 56.883, "lng": 14.8, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Populärt sjöbad mitt i Växjö." },
-  { "id": 402, "name": "Tingsryd hundstrand", "city": "Tingsryd", "lat": 56.533, "lng": 14.967, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad vid Tiken." },
-  { "id": 403, "name": "Emmaboda sjöbad", "city": "Emmaboda", "lat": 56.633, "lng": 15.533, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Insjöbad i Emmaboda." },
-
-  { "id": 410, "name": "Katrineholm hundbad", "city": "Katrineholm", "lat": 58.983, "lng": 16.2, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig strand vid Näsnaren." },
-  { "id": 411, "name": "Flen sjöbad", "city": "Flen", "lat": 59.067, "lng": 16.583, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Insjöbad i Flen." },
-  { "id": 412, "name": "Vingåker hundstrand", "city": "Vingåker", "lat": 59.05, "lng": 15.867, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Lugnt sjöbad i Sörmland." },
-
-  { "id": 420, "name": "Borås hundstrand", "city": "Borås", "lat": 57.717, "lng": 13.0, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad vid Öresjö i Borås." },
-  { "id": 421, "name": "Trollhättan hundbad", "city": "Trollhättan", "lat": 58.283, "lng": 12.283, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Göta älv i Trollhättan." },
-  { "id": 422, "name": "Vänersborg hundstrand", "city": "Vänersborg", "lat": 58.367, "lng": 12.317, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Vänern i Vänersborg." },
-  { "id": 423, "name": "Lidköping hundstrand", "city": "Lidköping", "lat": 58.5, "lng": 13.15, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Vänerns södra kust." },
-  { "id": 424, "name": "Mariestad hundstrand", "city": "Mariestad", "lat": 58.7, "lng": 13.833, "dogAllowed": true, "parking": true, "kiosk": true, "notes": "Vänerstrand i Mariestad." },
-  { "id": 425, "name": "Skövde Billingehus", "city": "Skövde", "lat": 58.383, "lng": 13.85, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Sjöbad utanför Skövde." },
-  { "id": 426, "name": "Falköping sjöbad", "city": "Falköping", "lat": 58.167, "lng": 13.55, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Hundvänlig sjöstrand i Falköping." },
-  { "id": 427, "name": "Tibro hundstrand", "city": "Tibro", "lat": 58.417, "lng": 14.167, "dogAllowed": true, "parking": false, "kiosk": false, "notes": "Sjöbad i Tibro." },
-  { "id": 428, "name": "Töreboda Vänern", "city": "Töreboda", "lat": 58.7, "lng": 14.1, "dogAllowed": true, "parking": true, "kiosk": false, "notes": "Strand vid Vänern norr om Töreboda." }
+  {
+    "id": 200,
+    "name": "Ribersborgsstranden hundbad",
+    "city": "Malmö",
+    "lat": 55.607,
+    "lng": 12.916,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Populär stadsstrand med avdelning för hundar."
+  },
+  {
+    "id": 201,
+    "name": "Ljunghusen hundstrand",
+    "city": "Vellinge",
+    "lat": 55.41,
+    "lng": 12.921,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Lång sandstrand på Falsterbonäset."
+  },
+  {
+    "id": 202,
+    "name": "Falsterbo hundstrand",
+    "city": "Vellinge",
+    "lat": 55.383,
+    "lng": 12.818,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand på sydvästra Skånes spets."
+  },
+  {
+    "id": 203,
+    "name": "Sandhammaren strand",
+    "city": "Ystad",
+    "lat": 55.383,
+    "lng": 14.217,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturreservat med bred sandstrand i sydöstra Skåne."
+  },
+  {
+    "id": 204,
+    "name": "Täppet hundbad",
+    "city": "Helsingborg",
+    "lat": 56.05,
+    "lng": 12.7,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundbad norr om Helsingborg."
+  },
+  {
+    "id": 205,
+    "name": "Arild hundstrand",
+    "city": "Höganäs",
+    "lat": 56.167,
+    "lng": 12.55,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Pittoresk strand på Kullahalvön."
+  },
+  {
+    "id": 206,
+    "name": "Domsten strand",
+    "city": "Höganäs",
+    "lat": 56.083,
+    "lng": 12.617,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Lugn hundvänlig strand norr om Helsingborg."
+  },
+  {
+    "id": 207,
+    "name": "Vejbystrand hundbad",
+    "city": "Båstad",
+    "lat": 56.4,
+    "lng": 12.833,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Populär strandbad i norra Skåne."
+  },
+  {
+    "id": 208,
+    "name": "Ängelholmsstranden hundbad",
+    "city": "Ängelholm",
+    "lat": 56.233,
+    "lng": 12.883,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Bred sandstrand med hundavdelning."
+  },
+  {
+    "id": 209,
+    "name": "Torekov hundstrand",
+    "city": "Båstad",
+    "lat": 56.417,
+    "lng": 12.633,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand på Bjärehalvön."
+  },
+  {
+    "id": 210,
+    "name": "Mölle strand",
+    "city": "Höganäs",
+    "lat": 56.283,
+    "lng": 12.5,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Vacker strand vid Kullaberg."
+  },
+  {
+    "id": 211,
+    "name": "Ystad sandskog strand",
+    "city": "Ystad",
+    "lat": 55.433,
+    "lng": 13.817,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturskön strand med tallskog bakom."
+  },
+  {
+    "id": 212,
+    "name": "Simrishamn hundstrand",
+    "city": "Simrishamn",
+    "lat": 55.55,
+    "lng": 14.35,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand på Österlen."
+  },
+  {
+    "id": 213,
+    "name": "Knäbäckshusen strand",
+    "city": "Kristianstad",
+    "lat": 55.917,
+    "lng": 14.233,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturreservat vid Hanöbukten."
+  },
+  {
+    "id": 214,
+    "name": "Åhus strand hundbad",
+    "city": "Kristianstad",
+    "lat": 55.917,
+    "lng": 14.15,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Bred sandstrand vid Åhus."
+  },
+  {
+    "id": 215,
+    "name": "Skanör hundstrand",
+    "city": "Vellinge",
+    "lat": 55.417,
+    "lng": 12.833,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand på Falsterbonäset."
+  },
+  {
+    "id": 216,
+    "name": "Landskrona hundbad",
+    "city": "Landskrona",
+    "lat": 55.867,
+    "lng": 12.833,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strandpromenad med hundvänlig zon."
+  },
+  {
+    "id": 217,
+    "name": "Trelleborg hundstrand",
+    "city": "Trelleborg",
+    "lat": 55.367,
+    "lng": 13.15,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sydkustens hundstrand."
+  },
+  {
+    "id": 218,
+    "name": "Kåseberga strand",
+    "city": "Ystad",
+    "lat": 55.383,
+    "lng": 14.05,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Strand nära Ales stenar."
+  },
+  {
+    "id": 219,
+    "name": "Löderups strandbad",
+    "city": "Ystad",
+    "lat": 55.4,
+    "lng": 14,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Lugn hundvänlig strand i sydöstra Skåne."
+  },
+  {
+    "id": 220,
+    "name": "Skrea strand hundbad",
+    "city": "Falkenberg",
+    "lat": 56.9,
+    "lng": 12.483,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Bred sandstrand med hundavdelning i Falkenberg."
+  },
+  {
+    "id": 221,
+    "name": "Varbergs hundstrand",
+    "city": "Varberg",
+    "lat": 57.117,
+    "lng": 12.25,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand söder om Varbergs fästning."
+  },
+  {
+    "id": 222,
+    "name": "Mellbystrand hundbad",
+    "city": "Laholm",
+    "lat": 56.5,
+    "lng": 12.967,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Lång sandstrand i södra Halland."
+  },
+  {
+    "id": 223,
+    "name": "Olofsbo hundstrand",
+    "city": "Falkenberg",
+    "lat": 56.967,
+    "lng": 12.467,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand norr om Falkenberg."
+  },
+  {
+    "id": 224,
+    "name": "Ringenäs strand",
+    "city": "Halmstad",
+    "lat": 56.617,
+    "lng": 12.733,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturstrand söder om Halmstad."
+  },
+  {
+    "id": 225,
+    "name": "Steninge strand",
+    "city": "Halmstad",
+    "lat": 56.7,
+    "lng": 12.75,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand norr om Halmstad."
+  },
+  {
+    "id": 226,
+    "name": "Kungsbacka hundstrand",
+    "city": "Kungsbacka",
+    "lat": 57.45,
+    "lng": 11.967,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand söder om Göteborg."
+  },
+  {
+    "id": 230,
+    "name": "Saltö hundbad",
+    "city": "Strömstad",
+    "lat": 58.917,
+    "lng": 11.167,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Klippbad på Saltö i norra Bohuslän."
+  },
+  {
+    "id": 231,
+    "name": "Fjällbacka strand",
+    "city": "Västra Götaland",
+    "lat": 58.6,
+    "lng": 11.283,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Strandpromenad i pittoreska Fjällbacka."
+  },
+  {
+    "id": 232,
+    "name": "Smögen hundbad",
+    "city": "Sotenäs",
+    "lat": 58.35,
+    "lng": 11.217,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Hundvänlig strand vid Smögen."
+  },
+  {
+    "id": 233,
+    "name": "Klädesholmen strand",
+    "city": "Tjörn",
+    "lat": 57.983,
+    "lng": 11.567,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Naturskön strand på Tjörn."
+  },
+  {
+    "id": 234,
+    "name": "Fiskebäckskil strand",
+    "city": "Lysekil",
+    "lat": 58.25,
+    "lng": 11.417,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Idyllisk strand i Gullmarsfjorden."
+  },
+  {
+    "id": 235,
+    "name": "Lysekils hundbad",
+    "city": "Lysekil",
+    "lat": 58.283,
+    "lng": 11.433,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundbad i Lysekilsområdet."
+  },
+  {
+    "id": 236,
+    "name": "Gullholmen strand",
+    "city": "Orust",
+    "lat": 58.1,
+    "lng": 11.383,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Bilfri ö med hundvänlig strand."
+  },
+  {
+    "id": 237,
+    "name": "Stenungsund hundstrand",
+    "city": "Stenungsund",
+    "lat": 58.067,
+    "lng": 11.817,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand söder om Stenungsund."
+  },
+  {
+    "id": 238,
+    "name": "Marstrand hundbad",
+    "city": "Kungälv",
+    "lat": 57.883,
+    "lng": 11.583,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Hundvänlig strand vid badorten Marstrand."
+  },
+  {
+    "id": 239,
+    "name": "Björkö strand",
+    "city": "Göteborg",
+    "lat": 57.717,
+    "lng": 11.617,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturreservat med hundvänlig strand i Göteborgs skärgård."
+  },
+  {
+    "id": 240,
+    "name": "Askimsviken hundbad",
+    "city": "Göteborg",
+    "lat": 57.617,
+    "lng": 11.883,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundbad i södra Göteborg."
+  },
+  {
+    "id": 241,
+    "name": "Hovås strand",
+    "city": "Göteborg",
+    "lat": 57.583,
+    "lng": 11.9,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Populär strand söder om Göteborg."
+  },
+  {
+    "id": 242,
+    "name": "Tanums hundstrand",
+    "city": "Tanum",
+    "lat": 58.717,
+    "lng": 11.317,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand i norra Bohuslän."
+  },
+  {
+    "id": 243,
+    "name": "Nordens Ark strand",
+    "city": "Sotenäs",
+    "lat": 58.35,
+    "lng": 11.25,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strandnära natur i Bohuslän."
+  },
+  {
+    "id": 250,
+    "name": "Dragsö hundbad",
+    "city": "Karlskrona",
+    "lat": 56.15,
+    "lng": 15.583,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Populärt hundbad på Dragsön i Karlskrona."
+  },
+  {
+    "id": 251,
+    "name": "Sölvesborg hundstrand",
+    "city": "Sölvesborg",
+    "lat": 56.05,
+    "lng": 14.583,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Blekingekusten."
+  },
+  {
+    "id": 252,
+    "name": "Ronneby Brunnspark strand",
+    "city": "Ronneby",
+    "lat": 56.2,
+    "lng": 15.283,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand i Ronneby."
+  },
+  {
+    "id": 253,
+    "name": "Karlshamn hundstrand",
+    "city": "Karlshamn",
+    "lat": 56.167,
+    "lng": 14.85,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Karlshamnsfjärden."
+  },
+  {
+    "id": 254,
+    "name": "Järnavik strand",
+    "city": "Ronneby",
+    "lat": 56.167,
+    "lng": 15.383,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturskön kustremsa i Blekinge."
+  },
+  {
+    "id": 260,
+    "name": "Oskarshamn hundstrand",
+    "city": "Oskarshamn",
+    "lat": 57.267,
+    "lng": 16.45,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand i Oskarshamns skärgård."
+  },
+  {
+    "id": 261,
+    "name": "Västervik hundbad",
+    "city": "Västervik",
+    "lat": 57.75,
+    "lng": 16.633,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand i Vätterviksområdet."
+  },
+  {
+    "id": 262,
+    "name": "Kalmar hundstrand",
+    "city": "Kalmar",
+    "lat": 56.667,
+    "lng": 16.367,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand söder om Kalmar slott."
+  },
+  {
+    "id": 263,
+    "name": "Mörbylånga strand",
+    "city": "Mörbylånga",
+    "lat": 56.533,
+    "lng": 16.383,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strandremsa på södra Öland."
+  },
+  {
+    "id": 264,
+    "name": "Borgholm strand",
+    "city": "Borgholm",
+    "lat": 56.883,
+    "lng": 16.65,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Strand vid Ölands västra kust."
+  },
+  {
+    "id": 265,
+    "name": "Eksjö sjöstrand",
+    "city": "Eksjö",
+    "lat": 57.667,
+    "lng": 14.967,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänligt sjöbad i Småland."
+  },
+  {
+    "id": 266,
+    "name": "Nässjö hundbad",
+    "city": "Nässjö",
+    "lat": 57.65,
+    "lng": 14.7,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Nässjö."
+  },
+  {
+    "id": 267,
+    "name": "Vetlanda hundstrand",
+    "city": "Vetlanda",
+    "lat": 57.433,
+    "lng": 15.083,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand vid sjön Noen."
+  },
+  {
+    "id": 268,
+    "name": "Tranås badplats",
+    "city": "Tranås",
+    "lat": 58.033,
+    "lng": 14.983,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad vid Sommen."
+  },
+  {
+    "id": 270,
+    "name": "Visby Snäckgärdet",
+    "city": "Visby",
+    "lat": 57.65,
+    "lng": 18.283,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Populär strand norr om Visby med hundzon."
+  },
+  {
+    "id": 271,
+    "name": "Ljugarn hundstrand",
+    "city": "Gotland",
+    "lat": 57.317,
+    "lng": 18.717,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sandstrand på östra Gotland."
+  },
+  {
+    "id": 272,
+    "name": "Tofta strand",
+    "city": "Gotland",
+    "lat": 57.483,
+    "lng": 18.117,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Bred sandstrand på västra Gotland."
+  },
+  {
+    "id": 273,
+    "name": "Sudersand hundstrand",
+    "city": "Fårö",
+    "lat": 57.933,
+    "lng": 19.083,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturskön strand på Fårö."
+  },
+  {
+    "id": 280,
+    "name": "Trosa Havsbad hundbad",
+    "city": "Trosa",
+    "lat": 58.9,
+    "lng": 17.55,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand i Sörmland."
+  },
+  {
+    "id": 281,
+    "name": "Nyköping hundstrand",
+    "city": "Nyköping",
+    "lat": 58.75,
+    "lng": 17,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Nyköpingsfjärden."
+  },
+  {
+    "id": 282,
+    "name": "Oxelösund strand",
+    "city": "Oxelösund",
+    "lat": 58.667,
+    "lng": 17.1,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig kustremsa i Sörmland."
+  },
+  {
+    "id": 283,
+    "name": "Eskilstuna hundbad",
+    "city": "Eskilstuna",
+    "lat": 59.367,
+    "lng": 16.5,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Eskilstuna."
+  },
+  {
+    "id": 284,
+    "name": "Strängnäs hundstrand",
+    "city": "Strängnäs",
+    "lat": 59.383,
+    "lng": 17.033,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Mälaren i Strängnäs."
+  },
+  {
+    "id": 285,
+    "name": "Mariefred strand",
+    "city": "Strängnäs",
+    "lat": 59.25,
+    "lng": 17.217,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Pittoresk Mälarstrand vid Mariefred."
+  },
+  {
+    "id": 286,
+    "name": "Södertälje hundbad",
+    "city": "Södertälje",
+    "lat": 59.2,
+    "lng": 17.617,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand söder om Stockholm."
+  },
+  {
+    "id": 287,
+    "name": "Tyresta strand",
+    "city": "Haninge",
+    "lat": 59.15,
+    "lng": 18.167,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Naturreservat med badplats söder om Stockholm."
+  },
+  {
+    "id": 288,
+    "name": "Lidingö hundbad",
+    "city": "Lidingö",
+    "lat": 59.367,
+    "lng": 18.2,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Hundvänlig badplats på Lidingö."
+  },
+  {
+    "id": 289,
+    "name": "Värmdö hundstrand",
+    "city": "Värmdö",
+    "lat": 59.3,
+    "lng": 18.567,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand i Stockholms skärgård."
+  },
+  {
+    "id": 290,
+    "name": "Nynäshamn hundstrand",
+    "city": "Nynäshamn",
+    "lat": 58.9,
+    "lng": 17.95,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand söder om Stockholm."
+  },
+  {
+    "id": 291,
+    "name": "Norrtälje hundstrand",
+    "city": "Norrtälje",
+    "lat": 59.767,
+    "lng": 18.7,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand i norra Roslagen."
+  },
+  {
+    "id": 292,
+    "name": "Sigtuna strand",
+    "city": "Sigtuna",
+    "lat": 59.617,
+    "lng": 17.717,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Mälarbad i gamla Sigtuna."
+  },
+  {
+    "id": 300,
+    "name": "Uppsala Flottsund",
+    "city": "Uppsala",
+    "lat": 59.783,
+    "lng": 17.617,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Populärt badställe söder om Uppsala."
+  },
+  {
+    "id": 301,
+    "name": "Enköping Bredsand",
+    "city": "Enköping",
+    "lat": 59.633,
+    "lng": 17.05,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Mälaren utanför Enköping."
+  },
+  {
+    "id": 302,
+    "name": "Tierp hundstrand",
+    "city": "Tierp",
+    "lat": 60.35,
+    "lng": 17.517,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig sjöstrand i Uppsala län."
+  },
+  {
+    "id": 303,
+    "name": "Öregrund strand",
+    "city": "Tierp",
+    "lat": 60.333,
+    "lng": 18.45,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Vacker strand vid norra Upplandskusten."
+  },
+  {
+    "id": 304,
+    "name": "Gräsö hundstrand",
+    "city": "Tierp",
+    "lat": 60.45,
+    "lng": 18.45,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Naturskön ö med hundvänlig strand."
+  },
+  {
+    "id": 310,
+    "name": "Västerås Djäkneberget",
+    "city": "Västerås",
+    "lat": 59.617,
+    "lng": 16.5,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig Mälarstrand i Västerås."
+  },
+  {
+    "id": 311,
+    "name": "Köping hundstrand",
+    "city": "Köping",
+    "lat": 59.517,
+    "lng": 15.983,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Mälaren i Köping."
+  },
+  {
+    "id": 312,
+    "name": "Sala sjöbad",
+    "city": "Sala",
+    "lat": 59.917,
+    "lng": 16.6,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänligt sjöbad i Sala."
+  },
+  {
+    "id": 320,
+    "name": "Skutberget hundbad",
+    "city": "Karlstad",
+    "lat": 59.367,
+    "lng": 13.467,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Populärt hundbad vid Vänern i Karlstad."
+  },
+  {
+    "id": 321,
+    "name": "Kristinehamn strand",
+    "city": "Kristinehamn",
+    "lat": 59.317,
+    "lng": 14.1,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Vänern i Kristinehamn."
+  },
+  {
+    "id": 322,
+    "name": "Arvika hundstrand",
+    "city": "Arvika",
+    "lat": 59.65,
+    "lng": 12.583,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Glafsfjorden i Arvika."
+  },
+  {
+    "id": 323,
+    "name": "Sunne hundstrand",
+    "city": "Sunne",
+    "lat": 59.833,
+    "lng": 13.15,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Fryken i Sunne."
+  },
+  {
+    "id": 324,
+    "name": "Torsby sjöbad",
+    "city": "Torsby",
+    "lat": 60.133,
+    "lng": 12.983,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad vid Klarälven i Torsby."
+  },
+  {
+    "id": 330,
+    "name": "Örebro Gustavsvik",
+    "city": "Örebro",
+    "lat": 59.267,
+    "lng": 15.2,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Hundvänlig badplats vid Hjälmaren."
+  },
+  {
+    "id": 331,
+    "name": "Hallsberg hundstrand",
+    "city": "Hallsberg",
+    "lat": 59.067,
+    "lng": 15.1,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Hallsberg."
+  },
+  {
+    "id": 332,
+    "name": "Lekeberg strand",
+    "city": "Lekeberg",
+    "lat": 59.267,
+    "lng": 15.017,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Lugnt sjöbad utanför Örebro."
+  },
+  {
+    "id": 340,
+    "name": "Falun Framby udde",
+    "city": "Falun",
+    "lat": 60.617,
+    "lng": 15.617,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Populär badplats vid Runn utanför Falun."
+  },
+  {
+    "id": 341,
+    "name": "Leksand hundbad",
+    "city": "Leksand",
+    "lat": 60.733,
+    "lng": 14.983,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand vid Siljan."
+  },
+  {
+    "id": 342,
+    "name": "Mora hundstrand",
+    "city": "Mora",
+    "lat": 61,
+    "lng": 14.533,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Siljan i Mora."
+  },
+  {
+    "id": 343,
+    "name": "Rättvik strand",
+    "city": "Rättvik",
+    "lat": 60.883,
+    "lng": 15.117,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Känd lång brygga och strand vid Siljan."
+  },
+  {
+    "id": 344,
+    "name": "Borlänge hundstrand",
+    "city": "Borlänge",
+    "lat": 60.483,
+    "lng": 15.433,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Borlänge."
+  },
+  {
+    "id": 345,
+    "name": "Ludvika sjöbad",
+    "city": "Ludvika",
+    "lat": 60.15,
+    "lng": 15.183,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand vid Väsman."
+  },
+  {
+    "id": 350,
+    "name": "Gävle hundbad",
+    "city": "Gävle",
+    "lat": 60.717,
+    "lng": 17.133,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand vid Gävlebukten."
+  },
+  {
+    "id": 351,
+    "name": "Sandviken hundstrand",
+    "city": "Sandviken",
+    "lat": 60.617,
+    "lng": 16.767,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Sandviken."
+  },
+  {
+    "id": 352,
+    "name": "Söderhamn strand",
+    "city": "Söderhamn",
+    "lat": 61.3,
+    "lng": 17.067,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Kustbad i Söderhamn."
+  },
+  {
+    "id": 353,
+    "name": "Bollnäs sjöbad",
+    "city": "Bollnäs",
+    "lat": 61.35,
+    "lng": 16.383,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig sjöstrand i Hälsingland."
+  },
+  {
+    "id": 354,
+    "name": "Hudiksvall hundstrand",
+    "city": "Hudiksvall",
+    "lat": 61.733,
+    "lng": 17.1,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid kusten norr om Söderhamn."
+  },
+  {
+    "id": 355,
+    "name": "Ljusdal sjöbad",
+    "city": "Ljusdal",
+    "lat": 61.833,
+    "lng": 16.083,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Inlandssjöbad i Hälsingland."
+  },
+  {
+    "id": 360,
+    "name": "Sundsvall hundstrand",
+    "city": "Sundsvall",
+    "lat": 62.383,
+    "lng": 17.317,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundstrand vid Sundsvallsbukten."
+  },
+  {
+    "id": 361,
+    "name": "Härnösand strand",
+    "city": "Härnösand",
+    "lat": 62.633,
+    "lng": 17.933,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Kustbad i Härnösand."
+  },
+  {
+    "id": 362,
+    "name": "Kramfors hundstrand",
+    "city": "Kramfors",
+    "lat": 62.917,
+    "lng": 17.8,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand längs Ångermanälven."
+  },
+  {
+    "id": 363,
+    "name": "Örnsköldsvik hundstrand",
+    "city": "Örnsköldsvik",
+    "lat": 63.283,
+    "lng": 18.717,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Kustbad i Örnsköldsvik."
+  },
+  {
+    "id": 370,
+    "name": "Östersund Strandpromenaden",
+    "city": "Östersund",
+    "lat": 63.167,
+    "lng": 14.633,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Strand vid Storsjön i centrala Östersund."
+  },
+  {
+    "id": 371,
+    "name": "Krokom hundstrand",
+    "city": "Krokom",
+    "lat": 63.317,
+    "lng": 14.467,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad vid Storsjön utanför Krokom."
+  },
+  {
+    "id": 372,
+    "name": "Åre strand",
+    "city": "Åre",
+    "lat": 63.4,
+    "lng": 13.083,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Strand vid Åresjön, populärt sommartid."
+  },
+  {
+    "id": 373,
+    "name": "Strömsund hundstrand",
+    "city": "Strömsund",
+    "lat": 63.85,
+    "lng": 15.55,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i norra Jämtland."
+  },
+  {
+    "id": 380,
+    "name": "Umeå hundstrand",
+    "city": "Umeå",
+    "lat": 63.817,
+    "lng": 20.283,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig kustremsa i Umeå."
+  },
+  {
+    "id": 381,
+    "name": "Skellefteå hundstrand",
+    "city": "Skellefteå",
+    "lat": 64.75,
+    "lng": 20.95,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Kustbad vid Skellefteälven."
+  },
+  {
+    "id": 382,
+    "name": "Lycksele sjöbad",
+    "city": "Lycksele",
+    "lat": 64.6,
+    "lng": 18.667,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Inlandssjöbad i Lappland."
+  },
+  {
+    "id": 383,
+    "name": "Vilhelmina strand",
+    "city": "Vilhelmina",
+    "lat": 64.617,
+    "lng": 16.667,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Vilhelmina."
+  },
+  {
+    "id": 384,
+    "name": "Storuman hundstrand",
+    "city": "Storuman",
+    "lat": 65.1,
+    "lng": 17.117,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Storuman i Lappland."
+  },
+  {
+    "id": 390,
+    "name": "Luleå hundstrand",
+    "city": "Luleå",
+    "lat": 65.583,
+    "lng": 22.15,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Luleå skärgård."
+  },
+  {
+    "id": 391,
+    "name": "Boden sjöbad",
+    "city": "Boden",
+    "lat": 65.833,
+    "lng": 21.683,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad vid Bodens kanal."
+  },
+  {
+    "id": 392,
+    "name": "Piteå hundstrand",
+    "city": "Piteå",
+    "lat": 65.317,
+    "lng": 21.483,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Norrlands riviera — bred sandstrand."
+  },
+  {
+    "id": 393,
+    "name": "Haparanda sandstrand",
+    "city": "Haparanda",
+    "lat": 65.833,
+    "lng": 24.133,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand nära finska gränsen."
+  },
+  {
+    "id": 394,
+    "name": "Kiruna sjöbad",
+    "city": "Kiruna",
+    "lat": 67.85,
+    "lng": 20.217,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad i Kiruna, norr om polcirkeln."
+  },
+  {
+    "id": 395,
+    "name": "Gällivare strand",
+    "city": "Gällivare",
+    "lat": 67.133,
+    "lng": 20.65,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand i Malmfälten."
+  },
+  {
+    "id": 396,
+    "name": "Jokkmokk sjöbad",
+    "city": "Jokkmokk",
+    "lat": 66.6,
+    "lng": 19.833,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Sjöbad i Jokkmokk, nära polcirkeln."
+  },
+  {
+    "id": 400,
+    "name": "Värnamo hundstrand",
+    "city": "Värnamo",
+    "lat": 57.183,
+    "lng": 14.05,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand vid Vidöstern."
+  },
+  {
+    "id": 401,
+    "name": "Växjö Trummen",
+    "city": "Växjö",
+    "lat": 56.883,
+    "lng": 14.8,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Populärt sjöbad mitt i Växjö."
+  },
+  {
+    "id": 402,
+    "name": "Tingsryd hundstrand",
+    "city": "Tingsryd",
+    "lat": 56.533,
+    "lng": 14.967,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad vid Tiken."
+  },
+  {
+    "id": 403,
+    "name": "Emmaboda sjöbad",
+    "city": "Emmaboda",
+    "lat": 56.633,
+    "lng": 15.533,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Insjöbad i Emmaboda."
+  },
+  {
+    "id": 410,
+    "name": "Katrineholm hundbad",
+    "city": "Katrineholm",
+    "lat": 58.983,
+    "lng": 16.2,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig strand vid Näsnaren."
+  },
+  {
+    "id": 411,
+    "name": "Flen sjöbad",
+    "city": "Flen",
+    "lat": 59.067,
+    "lng": 16.583,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Insjöbad i Flen."
+  },
+  {
+    "id": 412,
+    "name": "Vingåker hundstrand",
+    "city": "Vingåker",
+    "lat": 59.05,
+    "lng": 15.867,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Lugnt sjöbad i Sörmland."
+  },
+  {
+    "id": 420,
+    "name": "Borås hundstrand",
+    "city": "Borås",
+    "lat": 57.717,
+    "lng": 13,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad vid Öresjö i Borås."
+  },
+  {
+    "id": 421,
+    "name": "Trollhättan hundbad",
+    "city": "Trollhättan",
+    "lat": 58.283,
+    "lng": 12.283,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Göta älv i Trollhättan."
+  },
+  {
+    "id": 422,
+    "name": "Vänersborg hundstrand",
+    "city": "Vänersborg",
+    "lat": 58.367,
+    "lng": 12.317,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Vänern i Vänersborg."
+  },
+  {
+    "id": 423,
+    "name": "Lidköping hundstrand",
+    "city": "Lidköping",
+    "lat": 58.5,
+    "lng": 13.15,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Vänerns södra kust."
+  },
+  {
+    "id": 424,
+    "name": "Mariestad hundstrand",
+    "city": "Mariestad",
+    "lat": 58.7,
+    "lng": 13.833,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": true,
+    "notes": "Vänerstrand i Mariestad."
+  },
+  {
+    "id": 425,
+    "name": "Skövde Billingehus",
+    "city": "Skövde",
+    "lat": 58.383,
+    "lng": 13.85,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Sjöbad utanför Skövde."
+  },
+  {
+    "id": 426,
+    "name": "Falköping sjöbad",
+    "city": "Falköping",
+    "lat": 58.167,
+    "lng": 13.55,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Hundvänlig sjöstrand i Falköping."
+  },
+  {
+    "id": 427,
+    "name": "Tibro hundstrand",
+    "city": "Tibro",
+    "lat": 58.417,
+    "lng": 14.167,
+    "dogAllowed": true,
+    "parking": false,
+    "kiosk": false,
+    "notes": "Sjöbad i Tibro."
+  },
+  {
+    "id": 428,
+    "name": "Töreboda Vänern",
+    "city": "Töreboda",
+    "lat": 58.7,
+    "lng": 14.1,
+    "dogAllowed": true,
+    "parking": true,
+    "kiosk": false,
+    "notes": "Strand vid Vänern norr om Töreboda."
+  },
+  {
+    "id": 429,
+    "name": "Västerby badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.24754,
+    "lng": 15.66048,
+    "dogAllowed": true,
+    "notes": "Västerby är ett litet och mer undanskymt bad med gräsytor i söderläge."
+  },
+  {
+    "id": 430,
+    "name": "Billdalsbadet",
+    "city": "",
+    "lat": 57.58091,
+    "lng": 11.93172,
+    "dogAllowed": true
+  },
+  {
+    "id": 431,
+    "name": "Haganäs badplats",
+    "city": "",
+    "lat": 57.6855,
+    "lng": 13.31056,
+    "dogAllowed": true
+  },
+  {
+    "id": 432,
+    "name": "Havsjön Badplats",
+    "city": "",
+    "lat": 56.28488,
+    "lng": 15.7247,
+    "dogAllowed": true
+  },
+  {
+    "id": 433,
+    "name": "Drängseredsbadet",
+    "city": "",
+    "lat": 57.81545,
+    "lng": 12.37074,
+    "dogAllowed": true
+  },
+  {
+    "id": 434,
+    "name": "Fredhällsbadet",
+    "city": "",
+    "lat": 59.33026,
+    "lng": 17.99619,
+    "dogAllowed": true
+  },
+  {
+    "id": 435,
+    "name": "Dalakolonin",
+    "city": "",
+    "lat": 59.38,
+    "lng": 18.19251,
+    "dogAllowed": true
+  },
+  {
+    "id": 436,
+    "name": "Badplats Tössebäcken",
+    "city": "",
+    "lat": 58.9635,
+    "lng": 12.66738,
+    "dogAllowed": true
+  },
+  {
+    "id": 437,
+    "name": "Kassjö badplats",
+    "city": "",
+    "lat": 63.92807,
+    "lng": 20.01008,
+    "dogAllowed": true
+  },
+  {
+    "id": 438,
+    "name": "Saltö Badplats",
+    "city": "",
+    "lat": 56.16625,
+    "lng": 15.5635,
+    "dogAllowed": true
+  },
+  {
+    "id": 439,
+    "name": "Flakasand",
+    "city": "",
+    "lat": 66.16764,
+    "lng": 22.84811,
+    "dogAllowed": true
+  },
+  {
+    "id": 440,
+    "name": "Ilanda badplats",
+    "city": "",
+    "lat": 59.432,
+    "lng": 13.41783,
+    "dogAllowed": true
+  },
+  {
+    "id": 441,
+    "name": "Sommens Badplats",
+    "city": "",
+    "lat": 58.13985,
+    "lng": 14.97586,
+    "dogAllowed": true
+  },
+  {
+    "id": 442,
+    "name": "Viggebysandbadet",
+    "city": "Linköpings kommun",
+    "lat": 58.20223,
+    "lng": 15.64122,
+    "dogAllowed": true,
+    "notes": "Viggeby är ett klippbad med stora gräsytor. Här finns även omklädningsbyggnad."
+  },
+  {
+    "id": 443,
+    "name": "Åte bad",
+    "city": "",
+    "lat": 63.26413,
+    "lng": 18.52944,
+    "dogAllowed": true
+  },
+  {
+    "id": 444,
+    "name": "Källtorpsbadet",
+    "city": "",
+    "lat": 59.29483,
+    "lng": 18.16051,
+    "dogAllowed": true
+  },
+  {
+    "id": 445,
+    "name": "Salsvikens strand",
+    "city": "",
+    "lat": 63.12839,
+    "lng": 18.52534,
+    "dogAllowed": true
+  },
+  {
+    "id": 446,
+    "name": "Gålö havsbad",
+    "city": "",
+    "lat": 59.09685,
+    "lng": 18.32247,
+    "dogAllowed": true
+  },
+  {
+    "id": 447,
+    "name": "Snapen",
+    "city": "",
+    "lat": 58.74058,
+    "lng": 13.86392,
+    "dogAllowed": true
+  },
+  {
+    "id": 448,
+    "name": "Lyngsjöns badplats",
+    "city": "",
+    "lat": 55.93125,
+    "lng": 14.06731,
+    "dogAllowed": true
+  },
+  {
+    "id": 449,
+    "name": "Risingsbo",
+    "city": "",
+    "lat": 60.1475,
+    "lng": 15.35579,
+    "dogAllowed": true
+  },
+  {
+    "id": 450,
+    "name": "Skuggans badplats",
+    "city": "",
+    "lat": 59.93499,
+    "lng": 16.56091,
+    "dogAllowed": true
+  },
+  {
+    "id": 451,
+    "name": "Söderbysjöns badplats",
+    "city": "",
+    "lat": 59.28263,
+    "lng": 18.14731,
+    "dogAllowed": true
+  },
+  {
+    "id": 452,
+    "name": "Färingens Badplats",
+    "city": "",
+    "lat": 58.98436,
+    "lng": 11.26393,
+    "dogAllowed": true
+  },
+  {
+    "id": 453,
+    "name": "Yttersjö badplats",
+    "city": "",
+    "lat": 63.77386,
+    "lng": 19.99528,
+    "dogAllowed": true
+  },
+  {
+    "id": 454,
+    "name": "Justernäset badplats",
+    "city": "",
+    "lat": 63.3483,
+    "lng": 18.50252,
+    "dogAllowed": true
+  },
+  {
+    "id": 455,
+    "name": "Hissjöbadet",
+    "city": "",
+    "lat": 62.58405,
+    "lng": 16.64809,
+    "dogAllowed": true
+  },
+  {
+    "id": 456,
+    "name": "Dröppstadbadet",
+    "city": "",
+    "lat": 57.79944,
+    "lng": 16.26939,
+    "dogAllowed": true
+  },
+  {
+    "id": 457,
+    "name": "Lygnareds badplats",
+    "city": "",
+    "lat": 57.86679,
+    "lng": 12.56028,
+    "dogAllowed": true
+  },
+  {
+    "id": 458,
+    "name": "Kornsjö strand",
+    "city": "",
+    "lat": 63.21363,
+    "lng": 18.42069,
+    "dogAllowed": true
+  },
+  {
+    "id": 459,
+    "name": "Gummarpsbadet",
+    "city": "",
+    "lat": 56.31682,
+    "lng": 14.24696,
+    "dogAllowed": true
+  },
+  {
+    "id": 460,
+    "name": "Näsaängsbadet",
+    "city": "",
+    "lat": 59.42572,
+    "lng": 18.10546,
+    "dogAllowed": true
+  },
+  {
+    "id": 461,
+    "name": "Tureforsbadet",
+    "city": "",
+    "lat": 57.4061,
+    "lng": 15.493,
+    "dogAllowed": true
+  },
+  {
+    "id": 462,
+    "name": "Grönviksbadet",
+    "city": "",
+    "lat": 59.39036,
+    "lng": 18.4142,
+    "dogAllowed": true
+  },
+  {
+    "id": 463,
+    "name": "Sandviken",
+    "city": "",
+    "lat": 59.77155,
+    "lng": 17.63868,
+    "dogAllowed": true
+  },
+  {
+    "id": 464,
+    "name": "Badplats Laxasand",
+    "city": "",
+    "lat": 56.42863,
+    "lng": 14.82528,
+    "dogAllowed": true
+  },
+  {
+    "id": 465,
+    "name": "Badplats Nabben",
+    "city": "",
+    "lat": 56.65526,
+    "lng": 15.14716,
+    "dogAllowed": true
+  },
+  {
+    "id": 466,
+    "name": "Viggesjöns bad",
+    "city": "",
+    "lat": 62.30367,
+    "lng": 16.68875,
+    "dogAllowed": true
+  },
+  {
+    "id": 467,
+    "name": "Hägernäsbadet",
+    "city": "",
+    "lat": 59.44216,
+    "lng": 18.13004,
+    "dogAllowed": true
+  },
+  {
+    "id": 468,
+    "name": "Rösjö hundstrand",
+    "city": "",
+    "lat": 59.43981,
+    "lng": 18.00078,
+    "dogAllowed": true
+  },
+  {
+    "id": 469,
+    "name": "Hultasjön badplats",
+    "city": "",
+    "lat": 57.93678,
+    "lng": 12.24303,
+    "dogAllowed": true
+  },
+  {
+    "id": 470,
+    "name": "Bergaviksbadet",
+    "city": "",
+    "lat": 56.69642,
+    "lng": 16.36958,
+    "dogAllowed": true
+  },
+  {
+    "id": 471,
+    "name": "Jutnabbebadet",
+    "city": "",
+    "lat": 56.68493,
+    "lng": 16.36904,
+    "dogAllowed": true
+  },
+  {
+    "id": 472,
+    "name": "Långviksbadet",
+    "city": "",
+    "lat": 56.65082,
+    "lng": 16.33674,
+    "dogAllowed": true
+  },
+  {
+    "id": 473,
+    "name": "Norrlidsbadet",
+    "city": "",
+    "lat": 56.7044,
+    "lng": 16.37352,
+    "dogAllowed": true
+  },
+  {
+    "id": 474,
+    "name": "Värsnäsbadet",
+    "city": "",
+    "lat": 56.72027,
+    "lng": 16.37122,
+    "dogAllowed": true
+  },
+  {
+    "id": 475,
+    "name": "Rödåsel badplats",
+    "city": "",
+    "lat": 64.07075,
+    "lng": 19.98334,
+    "dogAllowed": true
+  },
+  {
+    "id": 476,
+    "name": "Bywatch",
+    "city": "",
+    "lat": 63.30083,
+    "lng": 18.32902,
+    "dogAllowed": true
+  },
+  {
+    "id": 477,
+    "name": "Karön Badplats",
+    "city": "",
+    "lat": 56.16536,
+    "lng": 15.28842,
+    "dogAllowed": true
+  },
+  {
+    "id": 478,
+    "name": "Långsjön",
+    "city": "",
+    "lat": 60.42186,
+    "lng": 15.50614,
+    "dogAllowed": true
+  },
+  {
+    "id": 479,
+    "name": "Dammsjöbadet",
+    "city": "",
+    "lat": 60.37015,
+    "lng": 15.64467,
+    "dogAllowed": true
+  },
+  {
+    "id": 480,
+    "name": "Båtstabadet",
+    "city": "",
+    "lat": 60.50983,
+    "lng": 15.37644,
+    "dogAllowed": true
+  },
+  {
+    "id": 481,
+    "name": "Ängbybadet",
+    "city": "",
+    "lat": 59.33652,
+    "lng": 17.89532,
+    "dogAllowed": true
+  },
+  {
+    "id": 482,
+    "name": "Kittesjön",
+    "city": "",
+    "lat": 61.93208,
+    "lng": 16.98497,
+    "dogAllowed": true
+  },
+  {
+    "id": 483,
+    "name": "Utmärkt badvattenkvalitet",
+    "city": "",
+    "lat": 57.78471,
+    "lng": 12.61158,
+    "dogAllowed": true
+  },
+  {
+    "id": 484,
+    "name": "Västra Löga",
+    "city": "",
+    "lat": 59.6403,
+    "lng": 18.73756,
+    "dogAllowed": true
+  },
+  {
+    "id": 485,
+    "name": "Habo Ljungs camping",
+    "city": "",
+    "lat": 55.68942,
+    "lng": 13.0546,
+    "dogAllowed": true
+  },
+  {
+    "id": 486,
+    "name": "Hamnhusen",
+    "city": "",
+    "lat": 55.67257,
+    "lng": 13.05936,
+    "dogAllowed": true
+  },
+  {
+    "id": 487,
+    "name": "Lomma Beach",
+    "city": "",
+    "lat": 55.67883,
+    "lng": 13.05693,
+    "dogAllowed": true
+  },
+  {
+    "id": 488,
+    "name": "Långa bryggan",
+    "city": "",
+    "lat": 55.71134,
+    "lng": 13.02439,
+    "dogAllowed": true
+  },
+  {
+    "id": 489,
+    "name": "Hammarskog badplats",
+    "city": "",
+    "lat": 59.76359,
+    "lng": 17.57582,
+    "dogAllowed": true
+  },
+  {
+    "id": 490,
+    "name": "Lilla Galtsjön Badplats",
+    "city": "",
+    "lat": 56.3754,
+    "lng": 14.97598,
+    "dogAllowed": true
+  },
+  {
+    "id": 491,
+    "name": "Bergsgårdens badplats",
+    "city": "",
+    "lat": 60.65986,
+    "lng": 15.56501,
+    "dogAllowed": true
+  },
+  {
+    "id": 492,
+    "name": "Hundbad",
+    "city": "",
+    "lat": 60.33929,
+    "lng": 15.7362,
+    "dogAllowed": true
+  },
+  {
+    "id": 493,
+    "name": "Skönviksbadet",
+    "city": "",
+    "lat": 60.34272,
+    "lng": 15.71976,
+    "dogAllowed": true
+  },
+  {
+    "id": 494,
+    "name": "Largen badplats",
+    "city": "",
+    "lat": 59.59521,
+    "lng": 18.52918,
+    "dogAllowed": true
+  },
+  {
+    "id": 495,
+    "name": "Lädjabadet",
+    "city": "",
+    "lat": 57.10433,
+    "lng": 14.69122,
+    "dogAllowed": true
+  },
+  {
+    "id": 496,
+    "name": "Ylasjö",
+    "city": "",
+    "lat": 56.94049,
+    "lng": 13.38337,
+    "dogAllowed": true
+  },
+  {
+    "id": 497,
+    "name": "Kalmarsundsbadet",
+    "city": "",
+    "lat": 56.6547,
+    "lng": 16.35061,
+    "dogAllowed": true
+  },
+  {
+    "id": 498,
+    "name": "Skarpe Nord",
+    "city": "",
+    "lat": 57.10059,
+    "lng": 12.241,
+    "dogAllowed": true
+  },
+  {
+    "id": 499,
+    "name": "Goda Hopp",
+    "city": "",
+    "lat": 57.099,
+    "lng": 12.24088,
+    "dogAllowed": true
+  },
+  {
+    "id": 500,
+    "name": "Käringhålan",
+    "city": "",
+    "lat": 57.1022,
+    "lng": 12.24006,
+    "dogAllowed": true
+  },
+  {
+    "id": 501,
+    "name": "Liljedal",
+    "city": "",
+    "lat": 56.82445,
+    "lng": 14.2877,
+    "dogAllowed": true
+  },
+  {
+    "id": 502,
+    "name": "Granto",
+    "city": "",
+    "lat": 63.49747,
+    "lng": 18.92552,
+    "dogAllowed": true
+  },
+  {
+    "id": 503,
+    "name": "badplats",
+    "city": "",
+    "lat": 59.79618,
+    "lng": 13.26347,
+    "dogAllowed": true
+  },
+  {
+    "id": 504,
+    "name": "Havstjärnen",
+    "city": "",
+    "lat": 60.29888,
+    "lng": 14.96994,
+    "dogAllowed": true
+  },
+  {
+    "id": 505,
+    "name": "Flatnanbadet",
+    "city": "",
+    "lat": 60.33364,
+    "lng": 15.15884,
+    "dogAllowed": true
+  },
+  {
+    "id": 506,
+    "name": "Höganäsbadet",
+    "city": "",
+    "lat": 60.7605,
+    "lng": 15.91982,
+    "dogAllowed": true
+  },
+  {
+    "id": 507,
+    "name": "Knarrbysjöns badplats",
+    "city": "",
+    "lat": 59.00037,
+    "lng": 12.46118,
+    "dogAllowed": true
+  },
+  {
+    "id": 508,
+    "name": "Skäremosjö badplats",
+    "city": "",
+    "lat": 57.33781,
+    "lng": 13.18407,
+    "dogAllowed": true
+  },
+  {
+    "id": 509,
+    "name": "Hillevik",
+    "city": "",
+    "lat": 60.81003,
+    "lng": 17.2403,
+    "dogAllowed": true,
+    "notes": "Här finns ett havsbad med sand- och grässtrand, badbrygga och dass."
+  },
+  {
+    "id": 510,
+    "name": "Hjulsbrobadet",
+    "city": "Linköpings kommun",
+    "lat": 58.37428,
+    "lng": 15.71395,
+    "dogAllowed": true,
+    "notes": "Hjulsbrobadet är ett bryggbad i Stångån. Vattnet kan vara strömt och är därför inte lämpligt för de minsta. Här finns bland annat gräsytor och en sluttning med solsida."
+  },
+  {
+    "id": 511,
+    "name": "Klädesholmens badplats",
+    "city": "",
+    "lat": 57.94769,
+    "lng": 11.54776,
+    "dogAllowed": true
+  },
+  {
+    "id": 512,
+    "name": "Tandsjö camping",
+    "city": "",
+    "lat": 61.69624,
+    "lng": 14.74316,
+    "dogAllowed": true
+  },
+  {
+    "id": 513,
+    "name": "Mölle Badplats",
+    "city": "",
+    "lat": 59.26594,
+    "lng": 14.47751,
+    "dogAllowed": true
+  },
+  {
+    "id": 514,
+    "name": "Föreningen Hals bad- och båtbrygga",
+    "city": "",
+    "lat": 58.12997,
+    "lng": 11.82656,
+    "dogAllowed": true
+  },
+  {
+    "id": 515,
+    "name": "Svantåsens bryggförening",
+    "city": "",
+    "lat": 58.12946,
+    "lng": 11.82583,
+    "dogAllowed": true
+  },
+  {
+    "id": 516,
+    "name": "Sandtorpsbadet",
+    "city": "",
+    "lat": 59.32401,
+    "lng": 14.56702,
+    "dogAllowed": true
+  },
+  {
+    "id": 517,
+    "name": "Sandviksbadet",
+    "city": "",
+    "lat": 59.32109,
+    "lng": 14.57492,
+    "dogAllowed": true
+  },
+  {
+    "id": 518,
+    "name": "Årbosjöns badplats",
+    "city": "",
+    "lat": 60.71861,
+    "lng": 15.27823,
+    "dogAllowed": true
+  },
+  {
+    "id": 519,
+    "name": "Klockhammars kvarndamm",
+    "city": "Klockhammars tomtförening",
+    "lat": 59.38413,
+    "lng": 15.02741,
+    "dogAllowed": true
+  },
+  {
+    "id": 520,
+    "name": "Amundebobadet",
+    "city": "",
+    "lat": 58.12137,
+    "lng": 15.44504,
+    "dogAllowed": true
+  },
+  {
+    "id": 521,
+    "name": "Badplats Skruv",
+    "city": "",
+    "lat": 56.66961,
+    "lng": 15.37418,
+    "dogAllowed": true
+  },
+  {
+    "id": 522,
+    "name": "Sandsjön badplats",
+    "city": "",
+    "lat": 57.90647,
+    "lng": 12.80823,
+    "dogAllowed": true
+  },
+  {
+    "id": 523,
+    "name": "Lersjön",
+    "city": "",
+    "lat": 59.41584,
+    "lng": 14.59092,
+    "dogAllowed": true
+  },
+  {
+    "id": 524,
+    "name": "Flatabadet",
+    "city": "",
+    "lat": 57.89385,
+    "lng": 13.46542,
+    "dogAllowed": true
+  },
+  {
+    "id": 525,
+    "name": "Gunnarsö",
+    "city": "",
+    "lat": 57.25299,
+    "lng": 16.49183,
+    "dogAllowed": true
+  },
+  {
+    "id": 526,
+    "name": "Sandviken",
+    "city": "Filipstads kommun",
+    "lat": 59.77094,
+    "lng": 14.30341,
+    "dogAllowed": true
+  },
+  {
+    "id": 527,
+    "name": "Hala",
+    "city": "Feskevigas badförening",
+    "lat": 57.92555,
+    "lng": 11.61583,
+    "dogAllowed": true
+  },
+  {
+    "id": 528,
+    "name": "Hornasjön, badplats",
+    "city": "",
+    "lat": 57.70418,
+    "lng": 12.27661,
+    "dogAllowed": true
+  },
+  {
+    "id": 529,
+    "name": "Strået",
+    "city": "",
+    "lat": 64.92896,
+    "lng": 20.67324,
+    "dogAllowed": true
+  },
+  {
+    "id": 530,
+    "name": "Lidträsket",
+    "city": "",
+    "lat": 65.00061,
+    "lng": 20.71413,
+    "dogAllowed": true
+  },
+  {
+    "id": 531,
+    "name": "Scaniabadet",
+    "city": "",
+    "lat": 55.61743,
+    "lng": 12.97445,
+    "dogAllowed": true
+  },
+  {
+    "id": 532,
+    "name": "Svartåfors badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.45084,
+    "lng": 15.48574,
+    "dogAllowed": true,
+    "notes": "Badet nås efter en kort promenad på ca 10 minuter från parkeringsplatsen. Ett barnvänligt bad i en vik av Svartån. En fin sandstrand leder ut i det långgrunda vattnet som ej är strömt. Badet har rullstolsramp."
+  },
+  {
+    "id": 533,
+    "name": "Stora Holmsjön badplats",
+    "city": "",
+    "lat": 57.65981,
+    "lng": 15.59338,
+    "dogAllowed": true
+  },
+  {
+    "id": 534,
+    "name": "Testebobadet",
+    "city": "",
+    "lat": 60.70438,
+    "lng": 17.15623,
+    "dogAllowed": true
+  },
+  {
+    "id": 535,
+    "name": "Sågdammen",
+    "city": "",
+    "lat": 61.14824,
+    "lng": 14.20925,
+    "dogAllowed": true
+  },
+  {
+    "id": 536,
+    "name": "Hundbad",
+    "city": "",
+    "lat": 60.76636,
+    "lng": 14.87938,
+    "dogAllowed": true
+  },
+  {
+    "id": 537,
+    "name": "Gültzauuddens badplats",
+    "city": "",
+    "lat": 65.58757,
+    "lng": 22.12445,
+    "dogAllowed": true
+  },
+  {
+    "id": 538,
+    "name": "Öjasjön",
+    "city": "",
+    "lat": 56.82008,
+    "lng": 13.04653,
+    "dogAllowed": true
+  },
+  {
+    "id": 539,
+    "name": "Hagge",
+    "city": "",
+    "lat": 60.118,
+    "lng": 15.2619,
+    "dogAllowed": true
+  },
+  {
+    "id": 540,
+    "name": "Glycksjöns Badplatsen",
+    "city": "",
+    "lat": 58.83589,
+    "lng": 12.41188,
+    "dogAllowed": true
+  },
+  {
+    "id": 541,
+    "name": "Kullabadet",
+    "city": "",
+    "lat": 59.66962,
+    "lng": 17.47125,
+    "dogAllowed": true
+  },
+  {
+    "id": 542,
+    "name": "Issjöns badplats",
+    "city": "",
+    "lat": 57.47647,
+    "lng": 16.27528,
+    "dogAllowed": true
+  },
+  {
+    "id": 543,
+    "name": "Skäret",
+    "city": "",
+    "lat": 58.05981,
+    "lng": 11.64672,
+    "dogAllowed": true
+  },
+  {
+    "id": 544,
+    "name": "Hammarkinds häradsallmänning",
+    "city": "",
+    "lat": 58.44145,
+    "lng": 16.22512,
+    "dogAllowed": true
+  },
+  {
+    "id": 545,
+    "name": "Playa de Långbo",
+    "city": "",
+    "lat": 61.0938,
+    "lng": 16.69615,
+    "dogAllowed": true
+  },
+  {
+    "id": 546,
+    "name": "Smålands Hawaii Furen",
+    "city": "Värnamo kommun",
+    "lat": 57.01422,
+    "lng": 14.15893,
+    "dogAllowed": true
+  },
+  {
+    "id": 547,
+    "name": "Masugnsbadet",
+    "city": "",
+    "lat": 60.95074,
+    "lng": 16.42085,
+    "dogAllowed": true,
+    "notes": "Mooi strandje aan een klein meer"
+  },
+  {
+    "id": 548,
+    "name": "Lilltorpet",
+    "city": "",
+    "lat": 60.59471,
+    "lng": 15.57384,
+    "dogAllowed": true
+  },
+  {
+    "id": 549,
+    "name": "Kyrksjöbadet",
+    "city": "",
+    "lat": 57.89098,
+    "lng": 16.1643,
+    "dogAllowed": true
+  },
+  {
+    "id": 550,
+    "name": "Gustafsnäsviksbadet",
+    "city": "",
+    "lat": 60.45804,
+    "lng": 16.0545,
+    "dogAllowed": true
+  },
+  {
+    "id": 551,
+    "name": "Hagen",
+    "city": "",
+    "lat": 58.15385,
+    "lng": 11.41712,
+    "dogAllowed": true
+  },
+  {
+    "id": 552,
+    "name": "Ljungbadet",
+    "city": "Linköpings kommun",
+    "lat": 58.52799,
+    "lng": 15.45252,
+    "dogAllowed": true,
+    "notes": "Ljungbadet är ett barnvänligt bad med stora, öppna gräsytor."
+  },
+  {
+    "id": 553,
+    "name": "Villagatsbadet",
+    "city": "",
+    "lat": 59.39243,
+    "lng": 15.82433,
+    "dogAllowed": true
+  },
+  {
+    "id": 554,
+    "name": "Nässjön",
+    "city": "",
+    "lat": 60.55986,
+    "lng": 15.11881,
+    "dogAllowed": true
+  },
+  {
+    "id": 555,
+    "name": "Örnberget",
+    "city": "",
+    "lat": 59.30988,
+    "lng": 17.98247,
+    "dogAllowed": true
+  },
+  {
+    "id": 556,
+    "name": "Trekantens strandbad",
+    "city": "",
+    "lat": 59.31256,
+    "lng": 18.01078,
+    "dogAllowed": true
+  },
+  {
+    "id": 557,
+    "name": "Gröndals brygga",
+    "city": "",
+    "lat": 59.31856,
+    "lng": 18.00455,
+    "dogAllowed": true
+  },
+  {
+    "id": 558,
+    "name": "Badplats Simsjön",
+    "city": "",
+    "lat": 58.79867,
+    "lng": 14.22514,
+    "dogAllowed": true
+  },
+  {
+    "id": 559,
+    "name": "Paulins Brygga",
+    "city": "",
+    "lat": 56.4425,
+    "lng": 12.81834,
+    "dogAllowed": true
+  },
+  {
+    "id": 560,
+    "name": "Bokskogs Badplats",
+    "city": "",
+    "lat": 57.46346,
+    "lng": 12.32306,
+    "dogAllowed": true
+  },
+  {
+    "id": 561,
+    "name": "Björkudden badplats",
+    "city": "",
+    "lat": 59.62151,
+    "lng": 18.94471,
+    "dogAllowed": true,
+    "notes": "Public beach, sandy, shallow a long way out. Includes playground. Popular with families with children."
+  },
+  {
+    "id": 562,
+    "name": "Vemmentorpasjöns badplats",
+    "city": "",
+    "lat": 56.33556,
+    "lng": 13.32699,
+    "dogAllowed": true
+  },
+  {
+    "id": 563,
+    "name": "Saxenhof Badplats",
+    "city": "",
+    "lat": 58.26359,
+    "lng": 11.83882,
+    "dogAllowed": true
+  },
+  {
+    "id": 564,
+    "name": "Marholmens badplats",
+    "city": "",
+    "lat": 57.62316,
+    "lng": 11.91768,
+    "dogAllowed": true
+  },
+  {
+    "id": 565,
+    "name": "Gröna Udden",
+    "city": "",
+    "lat": 59.47458,
+    "lng": 17.75019,
+    "dogAllowed": true
+  },
+  {
+    "id": 566,
+    "name": "Ulvös badplats",
+    "city": "",
+    "lat": 56.59421,
+    "lng": 14.64647,
+    "dogAllowed": true
+  },
+  {
+    "id": 567,
+    "name": "Goviks badplats",
+    "city": "",
+    "lat": 58.36029,
+    "lng": 11.44807,
+    "dogAllowed": true
+  },
+  {
+    "id": 568,
+    "name": "Sälstens havsbad",
+    "city": "",
+    "lat": 62.64404,
+    "lng": 17.96229,
+    "dogAllowed": true
+  },
+  {
+    "id": 569,
+    "name": "Värsnäs nakenbad",
+    "city": "",
+    "lat": 56.72527,
+    "lng": 16.37599,
+    "dogAllowed": true
+  },
+  {
+    "id": 570,
+    "name": "Eköbadet",
+    "city": "",
+    "lat": 56.64852,
+    "lng": 16.28126,
+    "dogAllowed": true
+  },
+  {
+    "id": 571,
+    "name": "Stensöbadet",
+    "city": "",
+    "lat": 56.64824,
+    "lng": 16.33052,
+    "dogAllowed": true
+  },
+  {
+    "id": 572,
+    "name": "Rafshagen",
+    "city": "",
+    "lat": 56.75732,
+    "lng": 16.38053,
+    "dogAllowed": true
+  },
+  {
+    "id": 573,
+    "name": "Kattrumpan",
+    "city": "",
+    "lat": 56.66613,
+    "lng": 16.37251,
+    "dogAllowed": true
+  },
+  {
+    "id": 574,
+    "name": "Låkabadet",
+    "city": "",
+    "lat": 58.02902,
+    "lng": 11.76484,
+    "dogAllowed": true
+  },
+  {
+    "id": 575,
+    "name": "Hjärtaredsjön badplats",
+    "city": "",
+    "lat": 57.16836,
+    "lng": 12.68725,
+    "dogAllowed": true
+  },
+  {
+    "id": 576,
+    "name": "Rossö Badplats",
+    "city": "",
+    "lat": 58.10958,
+    "lng": 11.65451,
+    "dogAllowed": true
+  },
+  {
+    "id": 577,
+    "name": "Hästedalens badplats",
+    "city": "",
+    "lat": 58.44768,
+    "lng": 11.29481,
+    "dogAllowed": true
+  },
+  {
+    "id": 578,
+    "name": "Lilla Hålsjön",
+    "city": "Marks kommun",
+    "lat": 57.56259,
+    "lng": 12.57997,
+    "dogAllowed": true
+  },
+  {
+    "id": 579,
+    "name": "Badplats",
+    "city": "",
+    "lat": 56.54368,
+    "lng": 14.805,
+    "dogAllowed": true
+  },
+  {
+    "id": 580,
+    "name": "Sandstaden Badplats",
+    "city": "",
+    "lat": 56.74433,
+    "lng": 15.06384,
+    "dogAllowed": true
+  },
+  {
+    "id": 581,
+    "name": "Sandvikens Badplats",
+    "city": "",
+    "lat": 58.59566,
+    "lng": 11.88229,
+    "dogAllowed": true
+  },
+  {
+    "id": 582,
+    "name": "Tjolmens badplats",
+    "city": "",
+    "lat": 57.72606,
+    "lng": 11.65537,
+    "dogAllowed": true
+  },
+  {
+    "id": 583,
+    "name": "Tallholmens Badplats",
+    "city": "",
+    "lat": 56.18288,
+    "lng": 15.53922,
+    "dogAllowed": true
+  },
+  {
+    "id": 584,
+    "name": "Stockeviks badplats",
+    "city": "",
+    "lat": 57.95977,
+    "lng": 11.54719,
+    "dogAllowed": true
+  },
+  {
+    "id": 585,
+    "name": "Badvikens Badplats",
+    "city": "",
+    "lat": 59.01202,
+    "lng": 15.40684,
+    "dogAllowed": true
+  },
+  {
+    "id": 586,
+    "name": "Ulfshyttebadet",
+    "city": "",
+    "lat": 60.30795,
+    "lng": 15.38,
+    "dogAllowed": true
+  },
+  {
+    "id": 587,
+    "name": "Skymningens badplats",
+    "city": "",
+    "lat": 59.30316,
+    "lng": 14.05893,
+    "dogAllowed": true
+  },
+  {
+    "id": 588,
+    "name": "Skörjesjöns badplats",
+    "city": "",
+    "lat": 56.3411,
+    "lng": 15.13252,
+    "dogAllowed": true
+  },
+  {
+    "id": 589,
+    "name": "Orrs bad",
+    "city": "",
+    "lat": 60.34535,
+    "lng": 15.73405,
+    "dogAllowed": true
+  },
+  {
+    "id": 590,
+    "name": "Byviken",
+    "city": "",
+    "lat": 62.55049,
+    "lng": 17.8651,
+    "dogAllowed": true
+  },
+  {
+    "id": 591,
+    "name": "Grötsjöns badplats",
+    "city": "",
+    "lat": 62.5435,
+    "lng": 17.78562,
+    "dogAllowed": true
+  },
+  {
+    "id": 592,
+    "name": "Tulseboda badplats",
+    "city": "",
+    "lat": 56.35179,
+    "lng": 14.59467,
+    "dogAllowed": true
+  },
+  {
+    "id": 593,
+    "name": "Jutvikens badplats",
+    "city": "",
+    "lat": 59.27166,
+    "lng": 14.06919,
+    "dogAllowed": true
+  },
+  {
+    "id": 594,
+    "name": "Gustavsviks Badplats",
+    "city": "",
+    "lat": 57.66318,
+    "lng": 18.32017,
+    "dogAllowed": true
+  },
+  {
+    "id": 595,
+    "name": "Rösjöbadet",
+    "city": "",
+    "lat": 59.44113,
+    "lng": 18.00098,
+    "dogAllowed": true
+  },
+  {
+    "id": 596,
+    "name": "Badplats Slagesnässjön",
+    "city": "",
+    "lat": 56.3552,
+    "lng": 14.53847,
+    "dogAllowed": true
+  },
+  {
+    "id": 597,
+    "name": "Badplats Gravlången",
+    "city": "",
+    "lat": 58.15774,
+    "lng": 12.2203,
+    "dogAllowed": true
+  },
+  {
+    "id": 598,
+    "name": "Laxvik",
+    "city": "",
+    "lat": 58.91469,
+    "lng": 18.22618,
+    "dogAllowed": true
+  },
+  {
+    "id": 599,
+    "name": "Trehörnan Badplats",
+    "city": "",
+    "lat": 56.25865,
+    "lng": 15.02164,
+    "dogAllowed": true
+  },
+  {
+    "id": 600,
+    "name": "Badplats Lille Väktor",
+    "city": "",
+    "lat": 58.19177,
+    "lng": 12.06406,
+    "dogAllowed": true
+  },
+  {
+    "id": 601,
+    "name": "Romesjöns badplats",
+    "city": "",
+    "lat": 57.93607,
+    "lng": 11.99977,
+    "dogAllowed": true
+  },
+  {
+    "id": 602,
+    "name": "Badplats Klyftan",
+    "city": "",
+    "lat": 58.20939,
+    "lng": 11.42061,
+    "dogAllowed": true
+  },
+  {
+    "id": 603,
+    "name": "Gräfsnäs badplats",
+    "city": "",
+    "lat": 58.07761,
+    "lng": 12.49253,
+    "dogAllowed": true
+  },
+  {
+    "id": 604,
+    "name": "Gottnebadet",
+    "city": "",
+    "lat": 63.42696,
+    "lng": 18.42217,
+    "dogAllowed": true
+  },
+  {
+    "id": 605,
+    "name": "Flärkenbadet",
+    "city": "",
+    "lat": 63.50677,
+    "lng": 18.08327,
+    "dogAllowed": true
+  },
+  {
+    "id": 606,
+    "name": "Delsjöbadet",
+    "city": "",
+    "lat": 57.68893,
+    "lng": 12.03507,
+    "dogAllowed": true
+  },
+  {
+    "id": 607,
+    "name": "Skibikken nude beach",
+    "city": "",
+    "lat": 65.57866,
+    "lng": 17.49761,
+    "dogAllowed": true
+  },
+  {
+    "id": 608,
+    "name": "Högbergsdammen",
+    "city": "",
+    "lat": 60.50648,
+    "lng": 14.94362,
+    "dogAllowed": true
+  },
+  {
+    "id": 609,
+    "name": "Påarps havsbad",
+    "city": "",
+    "lat": 56.60258,
+    "lng": 12.91317,
+    "dogAllowed": true
+  },
+  {
+    "id": 610,
+    "name": "Toftaån",
+    "city": "",
+    "lat": 57.4498,
+    "lng": 14.64161,
+    "dogAllowed": true,
+    "notes": "På norra sidan av Totfaån finns en rastplats med bordsgrupper och grillplatser, en badplats med omplädningsrum och brygga samt parkering."
+  },
+  {
+    "id": 611,
+    "name": "Badplats Mårslyckesand",
+    "city": "",
+    "lat": 56.52797,
+    "lng": 14.96217,
+    "dogAllowed": true
+  },
+  {
+    "id": 612,
+    "name": "Laduholmens badplats",
+    "city": "",
+    "lat": 60.61261,
+    "lng": 16.88325,
+    "dogAllowed": true,
+    "notes": "Laduholmen är ett insjöbad i Storsjön med sandstrand. Här finns badbryggor, omklädningsrum och toaletter. Brygga till turbåten Emma med gästbåtplatser på ena sidan."
+  },
+  {
+    "id": 613,
+    "name": "Bergsbaden",
+    "city": "Linköpings kommun",
+    "lat": 58.48693,
+    "lng": 15.54099,
+    "dogAllowed": true,
+    "notes": "Ett familjevänligt och långgrunt bad med sandstrand och gräsytor. Badet ligger alldeles intill Göta kanal och Bergs slussar."
+  },
+  {
+    "id": 614,
+    "name": "Ornungabadet",
+    "city": "Vårgårda kommun",
+    "lat": 57.97055,
+    "lng": 12.92737,
+    "dogAllowed": true
+  },
+  {
+    "id": 615,
+    "name": "Diö badplats",
+    "city": "",
+    "lat": 56.64651,
+    "lng": 14.21997,
+    "dogAllowed": true
+  },
+  {
+    "id": 616,
+    "name": "Hulta badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.19185,
+    "lng": 15.59277,
+    "dogAllowed": true,
+    "notes": "Här finns en stor, sluttande gräsyta och en liten sandstrand. En föreningsdriven kiosk håller öppet utvalda dagar."
+  },
+  {
+    "id": 617,
+    "name": "Mellby badplats",
+    "city": "",
+    "lat": 57.55569,
+    "lng": 15.11387,
+    "dogAllowed": true
+  },
+  {
+    "id": 618,
+    "name": "Nyanäs badplats",
+    "city": "",
+    "lat": 57.68074,
+    "lng": 15.24443,
+    "dogAllowed": true
+  },
+  {
+    "id": 619,
+    "name": "Spilhammarsbadet",
+    "city": "",
+    "lat": 57.61948,
+    "lng": 15.60504,
+    "dogAllowed": true
+  },
+  {
+    "id": 620,
+    "name": "Sandgårdslandet",
+    "city": "",
+    "lat": 56.6259,
+    "lng": 14.95476,
+    "dogAllowed": true
+  },
+  {
+    "id": 621,
+    "name": "Badplats Midingsbråte",
+    "city": "",
+    "lat": 56.39578,
+    "lng": 14.83094,
+    "dogAllowed": true
+  },
+  {
+    "id": 622,
+    "name": "Badplats Gränsö",
+    "city": "",
+    "lat": 57.76569,
+    "lng": 16.68911,
+    "dogAllowed": true
+  },
+  {
+    "id": 623,
+    "name": "Stureforsbadet",
+    "city": "Sturefors IF",
+    "lat": 58.32396,
+    "lng": 15.7258,
+    "dogAllowed": true,
+    "notes": "Ett stort bad med fina gräsytor."
+  },
+  {
+    "id": 624,
+    "name": "Bestorps badplats",
+    "city": "Bestorps byalag",
+    "lat": 58.2343,
+    "lng": 15.72684,
+    "dogAllowed": true,
+    "notes": "Badet i Bestorp är ett anrikt bad i vacker miljö. Badet ligger i direkt anslutning till Bestorp. Här finns gräsyta att sitta på och sandbotten. Vartannat år körs tvättad vätternsand till badet."
+  },
+  {
+    "id": 625,
+    "name": "Brokinds badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.21494,
+    "lng": 15.67544,
+    "dogAllowed": true,
+    "notes": "Ett fint, familjevänligt bad med sandstrand och badflotte."
+  },
+  {
+    "id": 626,
+    "name": "Stafsäters badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.30058,
+    "lng": 15.68071,
+    "dogAllowed": true,
+    "notes": "Ett trevligt, undanskymt bad som nås efter en kort promenad, ca 5-10 minuter, genom en kohage från parkeringsplatsen till badet."
+  },
+  {
+    "id": 627,
+    "name": "Lillsjöns badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.27573,
+    "lng": 15.40461,
+    "dogAllowed": true,
+    "notes": "I Lillsjön finns det gott om lekanordningar, bland annat finns en volleybollplan med gräsunderlag och omklädningsrum."
+  },
+  {
+    "id": 628,
+    "name": "Svinstadsjöns badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.37085,
+    "lng": 15.83784,
+    "dogAllowed": true,
+    "notes": "Ett bad med sluttande gräsyta i österläge för den som inte vill ha den starkaste sommarsolen. Badet är tyvärr ofta drabbat av algblomning."
+  },
+  {
+    "id": 629,
+    "name": "Roxenbaden",
+    "city": "Linköpings kommun",
+    "lat": 58.53834,
+    "lng": 15.62249,
+    "dogAllowed": true,
+    "notes": "I Sandvik finns stora gräsytor och en 300 meter lång sandstrand. Badet ligger alldeles intill campingen. I anslutning till badet finns det även fotbollsplaner. Badet har rullstolsramp."
+  },
+  {
+    "id": 630,
+    "name": "Hultsjöns badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.57381,
+    "lng": 15.51013,
+    "dogAllowed": true,
+    "notes": "Hultsjöbadet är ett mindre bad med gräsytor. Badet är inte långgrunt och lämpar sig därför för de lite äldre barnen."
+  },
+  {
+    "id": 631,
+    "name": "Sibborpesjöns badplats",
+    "city": "Linköpings kommun",
+    "lat": 58.57562,
+    "lng": 15.4382,
+    "dogAllowed": true,
+    "notes": "En liten, undanskymd badplats med liten gräsyta och brygga."
+  },
+  {
+    "id": 632,
+    "name": "Vittjärnsbadet",
+    "city": "",
+    "lat": 59.34126,
+    "lng": 18.25411,
+    "dogAllowed": true
+  },
+  {
+    "id": 633,
+    "name": "Vuontisjärvi badplats",
+    "city": "",
+    "lat": 68.36139,
+    "lng": 22.76052,
+    "dogAllowed": true
+  },
+  {
+    "id": 634,
+    "name": "Gimobadet",
+    "city": "",
+    "lat": 60.1846,
+    "lng": 18.17086,
+    "dogAllowed": true
+  },
+  {
+    "id": 635,
+    "name": "Munkenbadet",
+    "city": "",
+    "lat": 60.28421,
+    "lng": 15.97049,
+    "dogAllowed": true
+  },
+  {
+    "id": 636,
+    "name": "Nydalabadet",
+    "city": "",
+    "lat": 63.83616,
+    "lng": 20.34025,
+    "dogAllowed": true
+  },
+  {
+    "id": 637,
+    "name": "Bjursen",
+    "city": "",
+    "lat": 60.76523,
+    "lng": 15.46347,
+    "dogAllowed": true
+  },
+  {
+    "id": 638,
+    "name": "Axsjöbadet",
+    "city": "",
+    "lat": 59.92759,
+    "lng": 16.95304,
+    "dogAllowed": true
+  },
+  {
+    "id": 639,
+    "name": "Hundbad",
+    "city": "",
+    "lat": 60.51124,
+    "lng": 15.37321,
+    "dogAllowed": true
+  },
+  {
+    "id": 640,
+    "name": "Häljanäs badplats",
+    "city": "",
+    "lat": 56.54545,
+    "lng": 15.39432,
+    "dogAllowed": true
+  },
+  {
+    "id": 641,
+    "name": "Horsäcka",
+    "city": "",
+    "lat": 58.21213,
+    "lng": 11.41006,
+    "dogAllowed": true
+  },
+  {
+    "id": 642,
+    "name": "Medepall",
+    "city": "",
+    "lat": 58.21737,
+    "lng": 11.41638,
+    "dogAllowed": true
+  },
+  {
+    "id": 643,
+    "name": "Bökevik badplats",
+    "city": "",
+    "lat": 58.24834,
+    "lng": 11.45139,
+    "dogAllowed": true
+  },
+  {
+    "id": 644,
+    "name": "Ubblixbo",
+    "city": "",
+    "lat": 60.21119,
+    "lng": 17.43917,
+    "dogAllowed": true
+  },
+  {
+    "id": 645,
+    "name": "Ängelsbergsbadet",
+    "city": "",
+    "lat": 59.96253,
+    "lng": 15.99713,
+    "dogAllowed": true
+  },
+  {
+    "id": 646,
+    "name": "Utsundsbadet",
+    "city": "",
+    "lat": 60.12996,
+    "lng": 16.33038,
+    "dogAllowed": true
+  },
+  {
+    "id": 647,
+    "name": "Rammsjöns Badplats",
+    "city": "",
+    "lat": 57.69163,
+    "lng": 13.22042,
+    "dogAllowed": true
+  },
+  {
+    "id": 648,
+    "name": "Österå badplats",
+    "city": "",
+    "lat": 60.66179,
+    "lng": 15.62277,
+    "dogAllowed": true
+  },
+  {
+    "id": 649,
+    "name": "Badviken Hällsvik",
+    "city": "",
+    "lat": 57.70154,
+    "lng": 11.73583,
+    "dogAllowed": true
+  },
+  {
+    "id": 650,
+    "name": "Långegöl badplats",
+    "city": "",
+    "lat": 56.90432,
+    "lng": 15.54786,
+    "dogAllowed": true
+  },
+  {
+    "id": 651,
+    "name": "Lillsjöns badplats",
+    "city": "",
+    "lat": 58.65862,
+    "lng": 16.14623,
+    "dogAllowed": true
+  },
+  {
+    "id": 652,
+    "name": "Ågelsjöns badplats",
+    "city": "",
+    "lat": 58.67594,
+    "lng": 16.11913,
+    "dogAllowed": true
+  },
+  {
+    "id": 653,
+    "name": "Badhålan",
+    "city": "",
+    "lat": 57.88537,
+    "lng": 11.59873,
+    "dogAllowed": true
+  },
+  {
+    "id": 654,
+    "name": "Barnbadet",
+    "city": "",
+    "lat": 58.10775,
+    "lng": 11.36345,
+    "dogAllowed": true
+  },
+  {
+    "id": 655,
+    "name": "Ytterträsket",
+    "city": "",
+    "lat": 66.04416,
+    "lng": 22.70306,
+    "dogAllowed": true
+  },
+  {
+    "id": 656,
+    "name": "Hällabadet",
+    "city": "",
+    "lat": 60.71132,
+    "lng": 15.06759,
+    "dogAllowed": true
+  },
+  {
+    "id": 657,
+    "name": "Långudde natustrand",
+    "city": "",
+    "lat": 56.79887,
+    "lng": 14.02643,
+    "dogAllowed": true
+  },
+  {
+    "id": 658,
+    "name": "Torne badplats",
+    "city": "",
+    "lat": 56.69485,
+    "lng": 14.6046,
+    "dogAllowed": true
+  },
+  {
+    "id": 659,
+    "name": "Ålbybadet",
+    "city": "",
+    "lat": 60.68799,
+    "lng": 15.11454,
+    "dogAllowed": true
+  },
+  {
+    "id": 660,
+    "name": "Huvudsta strandbad",
+    "city": "",
+    "lat": 59.34527,
+    "lng": 17.99042,
+    "dogAllowed": true
+  },
+  {
+    "id": 661,
+    "name": "Johanneslundsbadet",
+    "city": "",
+    "lat": 59.34095,
+    "lng": 17.98667,
+    "dogAllowed": true
+  },
+  {
+    "id": 662,
+    "name": "Bågenbadet",
+    "city": "",
+    "lat": 60.04212,
+    "lng": 16.0703,
+    "dogAllowed": true
+  },
+  {
+    "id": 663,
+    "name": "Sannabadet",
+    "city": "",
+    "lat": 57.79306,
+    "lng": 14.24348,
+    "dogAllowed": true
+  },
+  {
+    "id": 664,
+    "name": "Enerevet",
+    "city": "",
+    "lat": 56.7849,
+    "lng": 16.4316,
+    "dogAllowed": true
+  },
+  {
+    "id": 665,
+    "name": "Arnäs badplats",
+    "city": "",
+    "lat": 59.62682,
+    "lng": 13.42196,
+    "dogAllowed": true
+  },
+  {
+    "id": 666,
+    "name": "Hemstjärn",
+    "city": "",
+    "lat": 60.54489,
+    "lng": 15.24711,
+    "dogAllowed": true
+  },
+  {
+    "id": 667,
+    "name": "Ymsens badplats",
+    "city": "",
+    "lat": 58.70741,
+    "lng": 14.00341,
+    "dogAllowed": true
+  },
+  {
+    "id": 668,
+    "name": "Kallbadhuset Hönsan",
+    "city": "",
+    "lat": 60.28486,
+    "lng": 15.98104,
+    "dogAllowed": true
+  },
+  {
+    "id": 669,
+    "name": "Stenbadet",
+    "city": "",
+    "lat": 58.26226,
+    "lng": 11.63328,
+    "dogAllowed": true
+  },
+  {
+    "id": 670,
+    "name": "Ruds badplats",
+    "city": "",
+    "lat": 59.31204,
+    "lng": 13.59463,
+    "dogAllowed": true
+  },
+  {
+    "id": 671,
+    "name": "Västra Örtens badplats",
+    "city": "Forshaga kommun",
+    "lat": 59.63999,
+    "lng": 13.56023,
+    "dogAllowed": true
+  },
+  {
+    "id": 672,
+    "name": "Finnskogens Hawaii",
+    "city": "",
+    "lat": 61.13644,
+    "lng": 15.694,
+    "dogAllowed": true
+  },
+  {
+    "id": 673,
+    "name": "Norrhamnsbadet",
+    "city": "",
+    "lat": 59.40557,
+    "lng": 18.35259,
+    "dogAllowed": true
+  },
+  {
+    "id": 674,
+    "name": "Johannesbergsbadet",
+    "city": "",
+    "lat": 59.40006,
+    "lng": 18.33546,
+    "dogAllowed": true
+  },
+  {
+    "id": 675,
+    "name": "Eriksöbadet",
+    "city": "",
+    "lat": 59.40432,
+    "lng": 18.30346,
+    "dogAllowed": true
+  },
+  {
+    "id": 676,
+    "name": "Stekpannan badplats",
+    "city": "",
+    "lat": 62.18103,
+    "lng": 17.21277,
+    "dogAllowed": true
+  },
+  {
+    "id": 677,
+    "name": "Aborrasjön Badplats",
+    "city": "",
+    "lat": 56.32643,
+    "lng": 14.69107,
+    "dogAllowed": true
+  },
+  {
+    "id": 678,
+    "name": "Tegsnäset badplats",
+    "city": "",
+    "lat": 64.2293,
+    "lng": 19.35391,
+    "dogAllowed": true
+  },
+  {
+    "id": 679,
+    "name": "Opplimen badplats",
+    "city": "",
+    "lat": 60.79447,
+    "lng": 15.05283,
+    "dogAllowed": true
+  },
+  {
+    "id": 680,
+    "name": "Gargnäs Lagun",
+    "city": "",
+    "lat": 65.31315,
+    "lng": 17.9699,
+    "dogAllowed": true
+  },
+  {
+    "id": 681,
+    "name": "Nikkala hamn",
+    "city": "",
+    "lat": 65.77369,
+    "lng": 23.9014,
+    "dogAllowed": true
+  },
+  {
+    "id": 682,
+    "name": "Linanäsbadet",
+    "city": "Österåker kommun",
+    "lat": 59.47401,
+    "lng": 18.51579,
+    "dogAllowed": true
+  },
+  {
+    "id": 683,
+    "name": "Myckelgensjö badplats",
+    "city": "",
+    "lat": 63.55964,
+    "lng": 17.63709,
+    "dogAllowed": true
+  },
+  {
+    "id": 684,
+    "name": "Badplats Våmån",
+    "city": "",
+    "lat": 61.13377,
+    "lng": 14.44687,
+    "dogAllowed": true
+  },
+  {
+    "id": 685,
+    "name": "Mesjöns badplats",
+    "city": "",
+    "lat": 63.60142,
+    "lng": 18.19756,
+    "dogAllowed": true
+  },
+  {
+    "id": 686,
+    "name": "Bjässjöns strandbad",
+    "city": "",
+    "lat": 62.63139,
+    "lng": 17.09662,
+    "dogAllowed": true
+  },
+  {
+    "id": 687,
+    "name": "Larsbo badplats",
+    "city": "",
+    "lat": 60.12975,
+    "lng": 15.59961,
+    "dogAllowed": true
+  },
+  {
+    "id": 688,
+    "name": "Froarpaland Badplats",
+    "city": "",
+    "lat": 56.22236,
+    "lng": 14.8516,
+    "dogAllowed": true
+  },
+  {
+    "id": 689,
+    "name": "Halen Badplats",
+    "city": "",
+    "lat": 56.26991,
+    "lng": 14.50673,
+    "dogAllowed": true
+  },
+  {
+    "id": 690,
+    "name": "Ällhölens Badplats",
+    "city": "",
+    "lat": 56.31677,
+    "lng": 14.80851,
+    "dogAllowed": true
+  },
+  {
+    "id": 691,
+    "name": "Lilla Öjasjön Badplats",
+    "city": "",
+    "lat": 56.30998,
+    "lng": 15.00399,
+    "dogAllowed": true
+  },
+  {
+    "id": 692,
+    "name": "Stora Orsjön Badplats",
+    "city": "",
+    "lat": 56.26093,
+    "lng": 14.54359,
+    "dogAllowed": true
+  },
+  {
+    "id": 693,
+    "name": "Abborrtjärns badplats",
+    "city": "",
+    "lat": 64.2317,
+    "lng": 19.72504,
+    "dogAllowed": true
+  },
+  {
+    "id": 694,
+    "name": "Stenshuvuds nationalpark strand",
+    "city": "",
+    "lat": 55.65547,
+    "lng": 14.27635,
+    "dogAllowed": true
+  },
+  {
+    "id": 695,
+    "name": "Angsjöns badplats",
+    "city": "",
+    "lat": 63.9402,
+    "lng": 18.93868,
+    "dogAllowed": true
+  },
+  {
+    "id": 696,
+    "name": "Krusbaden",
+    "city": "",
+    "lat": 62.04571,
+    "lng": 17.05854,
+    "dogAllowed": true
+  },
+  {
+    "id": 697,
+    "name": "Liabadet Vattlångssjön",
+    "city": "",
+    "lat": 61.90834,
+    "lng": 17.11225,
+    "dogAllowed": true
+  },
+  {
+    "id": 698,
+    "name": "Måldepån",
+    "city": "",
+    "lat": 59.40121,
+    "lng": 18.42998,
+    "dogAllowed": true
+  },
+  {
+    "id": 699,
+    "name": "Nylada bad",
+    "city": "",
+    "lat": 59.64269,
+    "lng": 17.39126,
+    "dogAllowed": true
+  },
+  {
+    "id": 700,
+    "name": "Långsjön badplats",
+    "city": "",
+    "lat": 59.59031,
+    "lng": 18.34165,
+    "dogAllowed": true
+  },
+  {
+    "id": 701,
+    "name": "Björknäbbabadet",
+    "city": "",
+    "lat": 60.43217,
+    "lng": 16.22931,
+    "dogAllowed": true
+  },
+  {
+    "id": 702,
+    "name": "Sandlandet",
+    "city": "",
+    "lat": 60.58625,
+    "lng": 15.74919,
+    "dogAllowed": true
+  },
+  {
+    "id": 703,
+    "name": "Liljans Herrgård",
+    "city": "",
+    "lat": 60.54577,
+    "lng": 15.58239,
+    "dogAllowed": true
+  },
+  {
+    "id": 704,
+    "name": "Övre Klingen",
+    "city": "",
+    "lat": 60.47265,
+    "lng": 15.84267,
+    "dogAllowed": true
+  },
+  {
+    "id": 705,
+    "name": "Tansenbadet",
+    "city": "",
+    "lat": 60.68926,
+    "lng": 15.46649,
+    "dogAllowed": true
+  },
+  {
+    "id": 706,
+    "name": "Kuppdammens badplats",
+    "city": "",
+    "lat": 60.31554,
+    "lng": 16.18609,
+    "dogAllowed": true
+  },
+  {
+    "id": 707,
+    "name": "Hällsjöbadet",
+    "city": "",
+    "lat": 60.04339,
+    "lng": 16.55554,
+    "dogAllowed": true
+  },
+  {
+    "id": 708,
+    "name": "Örby ängar",
+    "city": "",
+    "lat": 55.98507,
+    "lng": 12.74965,
+    "dogAllowed": true
+  },
+  {
+    "id": 709,
+    "name": "Uddenbadet Rentjärn",
+    "city": "",
+    "lat": 65.08428,
+    "lng": 18.97269,
+    "dogAllowed": true
+  },
+  {
+    "id": 710,
+    "name": "Klockarnäs bad",
+    "city": "",
+    "lat": 60.8085,
+    "lng": 15.77724,
+    "dogAllowed": true
+  },
+  {
+    "id": 711,
+    "name": "Granuddens badplats",
+    "city": "",
+    "lat": 56.64592,
+    "lng": 16.46131,
+    "dogAllowed": true
+  },
+  {
+    "id": 712,
+    "name": "Balungsstrand",
+    "city": "",
+    "lat": 60.8984,
+    "lng": 15.74436,
+    "dogAllowed": true
+  },
+  {
+    "id": 713,
+    "name": "Vikarbybadet",
+    "city": "",
+    "lat": 60.90172,
+    "lng": 15.01461,
+    "dogAllowed": true
+  },
+  {
+    "id": 714,
+    "name": "Idre badplats",
+    "city": "",
+    "lat": 61.85053,
+    "lng": 12.75578,
+    "dogAllowed": true
+  },
+  {
+    "id": 715,
+    "name": "Ånstabadet",
+    "city": "",
+    "lat": 58.90125,
+    "lng": 16.97696,
+    "dogAllowed": true
+  },
+  {
+    "id": 716,
+    "name": "Edstorpsbadet",
+    "city": "",
+    "lat": 58.87928,
+    "lng": 16.87918,
+    "dogAllowed": true
+  },
+  {
+    "id": 717,
+    "name": "Skorpeds badplats",
+    "city": "",
+    "lat": 63.38751,
+    "lng": 17.84359,
+    "dogAllowed": true
+  },
+  {
+    "id": 718,
+    "name": "Ledings badplats",
+    "city": "",
+    "lat": 63.51353,
+    "lng": 18.59443,
+    "dogAllowed": true
+  },
+  {
+    "id": 719,
+    "name": "Gafselebadet",
+    "city": "",
+    "lat": 63.79239,
+    "lng": 17.57513,
+    "dogAllowed": true
+  },
+  {
+    "id": 720,
+    "name": "Nordanede badplats",
+    "city": "",
+    "lat": 62.54697,
+    "lng": 16.41609,
+    "dogAllowed": true
+  },
+  {
+    "id": 721,
+    "name": "Munkbysjön badplats",
+    "city": "",
+    "lat": 62.41799,
+    "lng": 16.37924,
+    "dogAllowed": true
+  },
+  {
+    "id": 722,
+    "name": "Torpshammar badplats",
+    "city": "",
+    "lat": 62.47943,
+    "lng": 16.29731,
+    "dogAllowed": true
+  },
+  {
+    "id": 723,
+    "name": "Matsbobadet",
+    "city": "",
+    "lat": 60.29844,
+    "lng": 15.96251,
+    "dogAllowed": true
+  },
+  {
+    "id": 724,
+    "name": "Mållsjön Badplats",
+    "city": "",
+    "lat": 56.32493,
+    "lng": 15.31055,
+    "dogAllowed": true
+  },
+  {
+    "id": 725,
+    "name": "Storsand",
+    "city": "",
+    "lat": 59.71809,
+    "lng": 14.48524,
+    "dogAllowed": true
+  },
+  {
+    "id": 726,
+    "name": "Lillsjön",
+    "city": "",
+    "lat": 60.13131,
+    "lng": 16.06863,
+    "dogAllowed": true
+  },
+  {
+    "id": 727,
+    "name": "Lillsjön",
+    "city": "",
+    "lat": 60.13237,
+    "lng": 16.06485,
+    "dogAllowed": true
+  },
+  {
+    "id": 728,
+    "name": "Rastenbadet",
+    "city": "",
+    "lat": 60.10771,
+    "lng": 17.89958,
+    "dogAllowed": true
+  },
+  {
+    "id": 729,
+    "name": "Siggeforasjön",
+    "city": "",
+    "lat": 59.97943,
+    "lng": 17.15448,
+    "dogAllowed": true
+  },
+  {
+    "id": 730,
+    "name": "Sörfors badplats",
+    "city": "",
+    "lat": 63.87158,
+    "lng": 20.02303,
+    "dogAllowed": true
+  },
+  {
+    "id": 731,
+    "name": "Överboda badplats",
+    "city": "",
+    "lat": 63.82753,
+    "lng": 19.92835,
+    "dogAllowed": true
+  },
+  {
+    "id": 732,
+    "name": "Täfteå närbad",
+    "city": "",
+    "lat": 63.83095,
+    "lng": 20.50091,
+    "dogAllowed": true
+  },
+  {
+    "id": 733,
+    "name": "Mickelträsk badplats",
+    "city": "",
+    "lat": 64.12209,
+    "lng": 20.20856,
+    "dogAllowed": true
+  },
+  {
+    "id": 734,
+    "name": "Pengsjöns badplats",
+    "city": "",
+    "lat": 63.84764,
+    "lng": 19.63836,
+    "dogAllowed": true
+  },
+  {
+    "id": 735,
+    "name": "Stendalsbadet",
+    "city": "",
+    "lat": 59.22316,
+    "lng": 17.8776,
+    "dogAllowed": true
+  },
+  {
+    "id": 736,
+    "name": "Flottsbrobadet",
+    "city": "",
+    "lat": 59.23202,
+    "lng": 17.88002,
+    "dogAllowed": true
+  },
+  {
+    "id": 737,
+    "name": "Slagstabadet",
+    "city": "",
+    "lat": 59.25857,
+    "lng": 17.8475,
+    "dogAllowed": true
+  },
+  {
+    "id": 738,
+    "name": "Kanaanbadet",
+    "city": "",
+    "lat": 59.34868,
+    "lng": 17.85566,
+    "dogAllowed": true
+  },
+  {
+    "id": 739,
+    "name": "Långholmsbadet",
+    "city": "",
+    "lat": 59.32199,
+    "lng": 18.0239,
+    "dogAllowed": true
+  },
+  {
+    "id": 740,
+    "name": "Tegelhagens badplats",
+    "city": "",
+    "lat": 59.41121,
+    "lng": 17.99104,
+    "dogAllowed": true
+  },
+  {
+    "id": 741,
+    "name": "Gårdsjöns badplats",
+    "city": "",
+    "lat": 62.12874,
+    "lng": 17.23902,
+    "dogAllowed": true
+  },
+  {
+    "id": 742,
+    "name": "SGU-badet",
+    "city": "",
+    "lat": 61.95299,
+    "lng": 17.07688,
+    "dogAllowed": true
+  },
+  {
+    "id": 743,
+    "name": "Sandviken",
+    "city": "",
+    "lat": 57.39722,
+    "lng": 18.87397,
+    "dogAllowed": true
+  },
+  {
+    "id": 744,
+    "name": "Herte",
+    "city": "",
+    "lat": 57.2191,
+    "lng": 18.59822,
+    "dogAllowed": true
+  },
+  {
+    "id": 745,
+    "name": "Närsviken",
+    "city": "",
+    "lat": 57.23143,
+    "lng": 18.67048,
+    "dogAllowed": true
+  },
+  {
+    "id": 746,
+    "name": "Badberget",
+    "city": "",
+    "lat": 59.4691,
+    "lng": 18.51124,
+    "dogAllowed": true
+  },
+  {
+    "id": 747,
+    "name": "Bjennsjöns norra badplats",
+    "city": "",
+    "lat": 63.80852,
+    "lng": 19.98867,
+    "dogAllowed": true
+  },
+  {
+    "id": 748,
+    "name": "Stöcksjö badplats",
+    "city": "",
+    "lat": 63.77473,
+    "lng": 20.19346,
+    "dogAllowed": true
+  },
+  {
+    "id": 749,
+    "name": "Norsebäck Järleån",
+    "city": "",
+    "lat": 59.42615,
+    "lng": 15.17696,
+    "dogAllowed": true
+  },
+  {
+    "id": 750,
+    "name": "Fårskärets havsbad",
+    "city": "",
+    "lat": 63.45211,
+    "lng": 19.6332,
+    "dogAllowed": true
+  },
+  {
+    "id": 751,
+    "name": "Hallarum Badplats",
+    "city": "",
+    "lat": 56.16467,
+    "lng": 15.82644,
+    "dogAllowed": true
+  },
+  {
+    "id": 752,
+    "name": "Kuggeboda Badplats",
+    "city": "",
+    "lat": 56.14407,
+    "lng": 15.37868,
+    "dogAllowed": true
+  },
+  {
+    "id": 753,
+    "name": "Gökalv Badplats",
+    "city": "",
+    "lat": 56.14384,
+    "lng": 15.2884,
+    "dogAllowed": true
+  },
+  {
+    "id": 754,
+    "name": "Kristianopel Badplats",
+    "city": "",
+    "lat": 56.25466,
+    "lng": 16.04127,
+    "dogAllowed": true
+  },
+  {
+    "id": 755,
+    "name": "Lösensjön Badplats",
+    "city": "",
+    "lat": 56.2243,
+    "lng": 15.7572,
+    "dogAllowed": true
+  },
+  {
+    "id": 756,
+    "name": "Hägnan Badplats",
+    "city": "",
+    "lat": 56.11632,
+    "lng": 15.60374,
+    "dogAllowed": true
+  },
+  {
+    "id": 757,
+    "name": "Fabbesjön Badplats",
+    "city": "",
+    "lat": 56.28259,
+    "lng": 15.80218,
+    "dogAllowed": true
+  },
+  {
+    "id": 758,
+    "name": "Yasjön Badplats",
+    "city": "",
+    "lat": 56.37681,
+    "lng": 15.6378,
+    "dogAllowed": true
+  },
+  {
+    "id": 759,
+    "name": "Västersjön Badplats",
+    "city": "",
+    "lat": 56.46934,
+    "lng": 15.59074,
+    "dogAllowed": true
+  },
+  {
+    "id": 760,
+    "name": "Skärsjön Badplats",
+    "city": "",
+    "lat": 56.31732,
+    "lng": 15.47287,
+    "dogAllowed": true
+  },
+  {
+    "id": 761,
+    "name": "Skälagölen Badplats",
+    "city": "",
+    "lat": 56.24173,
+    "lng": 15.55369,
+    "dogAllowed": true
+  },
+  {
+    "id": 762,
+    "name": "Gisslevik Badplats",
+    "city": "",
+    "lat": 56.10238,
+    "lng": 15.81856,
+    "dogAllowed": true
+  },
+  {
+    "id": 763,
+    "name": "Sandvik, Hasslö Badplats",
+    "city": "",
+    "lat": 56.09868,
+    "lng": 15.46069,
+    "dogAllowed": true
+  },
+  {
+    "id": 764,
+    "name": "Saxemara Inre Badplats",
+    "city": "",
+    "lat": 56.16072,
+    "lng": 15.23394,
+    "dogAllowed": true
+  },
+  {
+    "id": 765,
+    "name": "Saxemara Yttre Badplats",
+    "city": "",
+    "lat": 56.15833,
+    "lng": 15.23013,
+    "dogAllowed": true
+  },
+  {
+    "id": 766,
+    "name": "Norje Badplats",
+    "city": "",
+    "lat": 56.12645,
+    "lng": 14.67629,
+    "dogAllowed": true
+  },
+  {
+    "id": 767,
+    "name": "Badplats",
+    "city": "",
+    "lat": 57.07238,
+    "lng": 12.94279,
+    "dogAllowed": true
+  },
+  {
+    "id": 768,
+    "name": "Stigstorpsbadet",
+    "city": "",
+    "lat": 59.49762,
+    "lng": 17.77829,
+    "dogAllowed": true
+  },
+  {
+    "id": 769,
+    "name": "Nytäppet Badplats",
+    "city": "",
+    "lat": 56.16714,
+    "lng": 14.97808,
+    "dogAllowed": true
+  },
+  {
+    "id": 770,
+    "name": "Stärno Badplats",
+    "city": "",
+    "lat": 56.14546,
+    "lng": 14.83855,
+    "dogAllowed": true
+  },
+  {
+    "id": 771,
+    "name": "Södra Årsjön Badplats",
+    "city": "",
+    "lat": 56.45448,
+    "lng": 15.37873,
+    "dogAllowed": true
+  },
+  {
+    "id": 772,
+    "name": "Bränneelandet",
+    "city": "",
+    "lat": 59.3197,
+    "lng": 11.89945,
+    "dogAllowed": true
+  },
+  {
+    "id": 773,
+    "name": "Klevens badplats",
+    "city": "",
+    "lat": 57.06283,
+    "lng": 15.9595,
+    "dogAllowed": true
+  },
+  {
+    "id": 774,
+    "name": "Ljusternbadet",
+    "city": "",
+    "lat": 60.33533,
+    "lng": 15.73947,
+    "dogAllowed": true
+  },
+  {
+    "id": 775,
+    "name": "Smörnäs",
+    "city": "",
+    "lat": 60.76925,
+    "lng": 16.92819,
+    "dogAllowed": true,
+    "notes": "Smörnäs insjöbad är beläget vid Friluftsfrämjandets läger- och friluftsgård vid Lundbosjön väster om Oslättfors. Vid badplatsen finns brygga, sommarcafé, båtuthyrning och dass. Det är även tillåtet för hundar att bada här."
+  },
+  {
+    "id": 776,
+    "name": "Badviken",
+    "city": "",
+    "lat": 59.50837,
+    "lng": 18.84538,
+    "dogAllowed": true
+  },
+  {
+    "id": 777,
+    "name": "Dämstasjön badplats",
+    "city": "",
+    "lat": 63.05282,
+    "lng": 17.81396,
+    "dogAllowed": true
+  },
+  {
+    "id": 778,
+    "name": "Östra Badplatsen",
+    "city": "",
+    "lat": 55.98792,
+    "lng": 13.49974,
+    "dogAllowed": true
+  },
+  {
+    "id": 779,
+    "name": "Masenbadet",
+    "city": "",
+    "lat": 60.5269,
+    "lng": 15.35675,
+    "dogAllowed": true
+  },
+  {
+    "id": 780,
+    "name": "Hyenbadet",
+    "city": "",
+    "lat": 60.41337,
+    "lng": 15.85709,
+    "dogAllowed": true
+  },
+  {
+    "id": 781,
+    "name": "Viren badplats",
+    "city": "",
+    "lat": 59.57745,
+    "lng": 18.53486,
+    "dogAllowed": true
+  },
+  {
+    "id": 782,
+    "name": "Äråbadet",
+    "city": "Lima Besparingsskog",
+    "lat": 60.90526,
+    "lng": 13.36746,
+    "dogAllowed": true
+  },
+  {
+    "id": 783,
+    "name": "Åstön havsbad",
+    "city": "",
+    "lat": 62.40642,
+    "lng": 17.70974,
+    "dogAllowed": true
+  },
+  {
+    "id": 784,
+    "name": "Södra Åstön badplats",
+    "city": "",
+    "lat": 62.41268,
+    "lng": 17.67153,
+    "dogAllowed": true
+  },
+  {
+    "id": 785,
+    "name": "Oxviken badplats",
+    "city": "",
+    "lat": 62.46742,
+    "lng": 17.65767,
+    "dogAllowed": true
+  },
+  {
+    "id": 786,
+    "name": "Lögdösjön badplats",
+    "city": "",
+    "lat": 62.5429,
+    "lng": 17.38326,
+    "dogAllowed": true
+  },
+  {
+    "id": 787,
+    "name": "Röjesjön badplats",
+    "city": "",
+    "lat": 62.6305,
+    "lng": 17.23914,
+    "dogAllowed": true
+  },
+  {
+    "id": 788,
+    "name": "Ticknäsviken badplats",
+    "city": "",
+    "lat": 60.508,
+    "lng": 13.99043,
+    "dogAllowed": true
+  },
+  {
+    "id": 789,
+    "name": "Närsjön",
+    "city": "",
+    "lat": 60.4057,
+    "lng": 14.50013,
+    "dogAllowed": true
+  },
+  {
+    "id": 790,
+    "name": "Hjåggsjöns badplats",
+    "city": "",
+    "lat": 63.83239,
+    "lng": 19.7499,
+    "dogAllowed": true
+  },
+  {
+    "id": 791,
+    "name": "Östtjärna",
+    "city": "",
+    "lat": 60.56837,
+    "lng": 15.09029,
+    "dogAllowed": true
+  },
+  {
+    "id": 792,
+    "name": "Vitsandsbadet",
+    "city": "",
+    "lat": 60.65475,
+    "lng": 15.80085,
+    "dogAllowed": true
+  },
+  {
+    "id": 793,
+    "name": "Vägga Badplats",
+    "city": "",
+    "lat": 56.16077,
+    "lng": 14.87814,
+    "dogAllowed": true
+  },
+  {
+    "id": 794,
+    "name": "Knipehall Badplats",
+    "city": "",
+    "lat": 56.17662,
+    "lng": 15.68021,
+    "dogAllowed": true
+  },
+  {
+    "id": 795,
+    "name": "Lycksjöbadet",
+    "city": "",
+    "lat": 59.18836,
+    "lng": 18.21052,
+    "dogAllowed": true
+  },
+  {
+    "id": 796,
+    "name": "Badplats Sidtjärn Boliden",
+    "city": "",
+    "lat": 64.86449,
+    "lng": 20.39081,
+    "dogAllowed": true
+  },
+  {
+    "id": 797,
+    "name": "Borgarudden",
+    "city": "",
+    "lat": 65.35579,
+    "lng": 21.57874,
+    "dogAllowed": true
+  },
+  {
+    "id": 798,
+    "name": "Pottan",
+    "city": "",
+    "lat": 65.3194,
+    "lng": 21.37744,
+    "dogAllowed": true
+  },
+  {
+    "id": 799,
+    "name": "Sandön",
+    "city": "",
+    "lat": 65.33794,
+    "lng": 21.24286,
+    "dogAllowed": true
+  },
+  {
+    "id": 800,
+    "name": "Steniga udden",
+    "city": "",
+    "lat": 59.77206,
+    "lng": 17.63538,
+    "dogAllowed": true
+  },
+  {
+    "id": 801,
+    "name": "Vikhyttebadet",
+    "city": "",
+    "lat": 60.33351,
+    "lng": 16.13523,
+    "dogAllowed": true
+  },
+  {
+    "id": 802,
+    "name": "Bocksjön",
+    "city": "",
+    "lat": 61.32621,
+    "lng": 16.86802,
+    "dogAllowed": true
+  },
+  {
+    "id": 803,
+    "name": "Storsand",
+    "city": "",
+    "lat": 61.30852,
+    "lng": 17.21404,
+    "dogAllowed": true
+  },
+  {
+    "id": 804,
+    "name": "Rörbäck havsbad",
+    "city": "",
+    "lat": 65.79792,
+    "lng": 22.59315,
+    "dogAllowed": true
+  },
+  {
+    "id": 805,
+    "name": "Lillsjöbadet",
+    "city": "",
+    "lat": 59.49118,
+    "lng": 17.71706,
+    "dogAllowed": true
+  },
+  {
+    "id": 806,
+    "name": "Kvarnviks badplats",
+    "city": "",
+    "lat": 58.19473,
+    "lng": 16.36915,
+    "dogAllowed": true
+  },
+  {
+    "id": 807,
+    "name": "Bredasjön Badplats",
+    "city": "",
+    "lat": 56.43122,
+    "lng": 15.52876,
+    "dogAllowed": true
+  },
+  {
+    "id": 808,
+    "name": "Allsjön Badplats",
+    "city": "",
+    "lat": 56.32357,
+    "lng": 15.73386,
+    "dogAllowed": true
+  },
+  {
+    "id": 809,
+    "name": "Havstenssund badplats",
+    "city": "",
+    "lat": 58.75179,
+    "lng": 11.17692,
+    "dogAllowed": true
+  },
+  {
+    "id": 810,
+    "name": "Ärlången",
+    "city": "",
+    "lat": 58.30052,
+    "lng": 15.85493,
+    "dogAllowed": true
+  },
+  {
+    "id": 811,
+    "name": "Kåsjöbadet",
+    "city": "",
+    "lat": 57.71128,
+    "lng": 12.14318,
+    "dogAllowed": true
+  },
+  {
+    "id": 812,
+    "name": "Barnbadet",
+    "city": "",
+    "lat": 57.88273,
+    "lng": 11.58419,
+    "dogAllowed": true
+  },
+  {
+    "id": 813,
+    "name": "Hultasjöns badplats",
+    "city": "",
+    "lat": 56.33124,
+    "lng": 13.38235,
+    "dogAllowed": true
+  },
+  {
+    "id": 814,
+    "name": "Åsljungasjöns badplats",
+    "city": "",
+    "lat": 56.30302,
+    "lng": 13.37162,
+    "dogAllowed": true
+  },
+  {
+    "id": 815,
+    "name": "Mammas vik",
+    "city": "",
+    "lat": 56.27963,
+    "lng": 13.30088,
+    "dogAllowed": true
+  },
+  {
+    "id": 816,
+    "name": "Kalvsviks badplats",
+    "city": "",
+    "lat": 56.70675,
+    "lng": 14.7224,
+    "dogAllowed": true
+  },
+  {
+    "id": 817,
+    "name": "Första strand",
+    "city": "",
+    "lat": 59.33486,
+    "lng": 13.4319,
+    "dogAllowed": true
+  },
+  {
+    "id": 818,
+    "name": "Andra strand",
+    "city": "",
+    "lat": 59.33665,
+    "lng": 13.4309,
+    "dogAllowed": true
+  },
+  {
+    "id": 819,
+    "name": "Tredje strand",
+    "city": "",
+    "lat": 59.33748,
+    "lng": 13.42821,
+    "dogAllowed": true
+  },
+  {
+    "id": 820,
+    "name": "Fjärde strand",
+    "city": "",
+    "lat": 59.34042,
+    "lng": 13.42847,
+    "dogAllowed": true
+  },
+  {
+    "id": 821,
+    "name": "Huleviks badplats",
+    "city": "",
+    "lat": 56.62445,
+    "lng": 14.61788,
+    "dogAllowed": true
+  },
+  {
+    "id": 822,
+    "name": "Sandabadet",
+    "city": "",
+    "lat": 59.46917,
+    "lng": 16.29266,
+    "dogAllowed": true
+  },
+  {
+    "id": 823,
+    "name": "Nässidammen Badplats",
+    "city": "",
+    "lat": 60.52322,
+    "lng": 14.98326,
+    "dogAllowed": true
+  },
+  {
+    "id": 824,
+    "name": "Näset",
+    "city": "",
+    "lat": 61.22125,
+    "lng": 16.58897,
+    "dogAllowed": true
+  },
+  {
+    "id": 825,
+    "name": "Susegårda badplats",
+    "city": "",
+    "lat": 59.28885,
+    "lng": 18.70519,
+    "dogAllowed": true
+  },
+  {
+    "id": 826,
+    "name": "Lassehall",
+    "city": "",
+    "lat": 59.3449,
+    "lng": 13.07075,
+    "dogAllowed": true
+  },
+  {
+    "id": 827,
+    "name": "Hedlunda strand",
+    "city": "",
+    "lat": 64.54069,
+    "lng": 18.72471,
+    "dogAllowed": true
+  },
+  {
+    "id": 828,
+    "name": "Färssjön",
+    "city": "",
+    "lat": 61.30174,
+    "lng": 17.08569,
+    "dogAllowed": true
+  },
+  {
+    "id": 829,
+    "name": "Stenö havsbad",
+    "city": "",
+    "lat": 61.24708,
+    "lng": 17.19469,
+    "dogAllowed": true
+  },
+  {
+    "id": 830,
+    "name": "Ingetorpssjöns badplats",
+    "city": "",
+    "lat": 57.93163,
+    "lng": 11.89029,
+    "dogAllowed": true
+  },
+  {
+    "id": 831,
+    "name": "Aröds badplats",
+    "city": "",
+    "lat": 57.96004,
+    "lng": 11.7551,
+    "dogAllowed": true
+  },
+  {
+    "id": 832,
+    "name": "Vadholmens badplats",
+    "city": "",
+    "lat": 57.95218,
+    "lng": 11.75017,
+    "dogAllowed": true
+  },
+  {
+    "id": 833,
+    "name": "Rörtångens badplats",
+    "city": "",
+    "lat": 57.92078,
+    "lng": 11.75237,
+    "dogAllowed": true
+  },
+  {
+    "id": 834,
+    "name": "Sundhammars badplats",
+    "city": "",
+    "lat": 57.83567,
+    "lng": 11.69492,
+    "dogAllowed": true
+  },
+  {
+    "id": 835,
+    "name": "Nordöns badplats",
+    "city": "",
+    "lat": 57.89435,
+    "lng": 11.68926,
+    "dogAllowed": true
+  },
+  {
+    "id": 836,
+    "name": "Rökans badplats",
+    "city": "",
+    "lat": 57.89045,
+    "lng": 11.66693,
+    "dogAllowed": true
+  },
+  {
+    "id": 837,
+    "name": "Marstrands badplats",
+    "city": "",
+    "lat": 57.8826,
+    "lng": 11.58421,
+    "dogAllowed": true
+  },
+  {
+    "id": 838,
+    "name": "Bondsjön",
+    "city": "",
+    "lat": 62.63314,
+    "lng": 17.90465,
+    "dogAllowed": true
+  },
+  {
+    "id": 839,
+    "name": "Myranbadet",
+    "city": "",
+    "lat": 60.03149,
+    "lng": 16.9892,
+    "dogAllowed": true
+  },
+  {
+    "id": 840,
+    "name": "Burgsvikens Havspool",
+    "city": "",
+    "lat": 57.09361,
+    "lng": 18.29815,
+    "dogAllowed": true
+  },
+  {
+    "id": 841,
+    "name": "Vintervikens badplats",
+    "city": "",
+    "lat": 59.31128,
+    "lng": 17.98763,
+    "dogAllowed": true
+  },
+  {
+    "id": 842,
+    "name": "MIF simskola",
+    "city": "Mörbyfjärdens idrottsförening",
+    "lat": 59.0719,
+    "lng": 18.38472,
+    "dogAllowed": true
+  },
+  {
+    "id": 843,
+    "name": "Skyttorpsbadet",
+    "city": "",
+    "lat": 60.077,
+    "lng": 17.75014,
+    "dogAllowed": true
+  },
+  {
+    "id": 844,
+    "name": "Ugglehults Badplats",
+    "city": "",
+    "lat": 56.32944,
+    "lng": 13.00015,
+    "dogAllowed": true
+  },
+  {
+    "id": 845,
+    "name": "Hunnerydsbadet",
+    "city": "",
+    "lat": 57.8597,
+    "lng": 14.30848,
+    "dogAllowed": true
+  },
+  {
+    "id": 846,
+    "name": "Geråbadet",
+    "city": "",
+    "lat": 63.01718,
+    "lng": 16.68135,
+    "dogAllowed": true
+  },
+  {
+    "id": 847,
+    "name": "Vånevik badplats",
+    "city": "",
+    "lat": 57.1792,
+    "lng": 16.46026,
+    "dogAllowed": true
+  },
+  {
+    "id": 848,
+    "name": "Dammyran",
+    "city": "",
+    "lat": 60.46984,
+    "lng": 15.35776,
+    "dogAllowed": true
+  },
+  {
+    "id": 849,
+    "name": "Pålsbenningsbadet",
+    "city": "",
+    "lat": 60.25972,
+    "lng": 16.14163,
+    "dogAllowed": true
+  },
+  {
+    "id": 850,
+    "name": "Kärringtjärnsbadet",
+    "city": "",
+    "lat": 60.31491,
+    "lng": 15.92436,
+    "dogAllowed": true
+  },
+  {
+    "id": 851,
+    "name": "Rällingebadet",
+    "city": "",
+    "lat": 60.46359,
+    "lng": 16.02983,
+    "dogAllowed": true
+  },
+  {
+    "id": 852,
+    "name": "Turbobadet",
+    "city": "",
+    "lat": 60.24424,
+    "lng": 15.85702,
+    "dogAllowed": true
+  },
+  {
+    "id": 853,
+    "name": "Vikmanshyttebadet",
+    "city": "",
+    "lat": 60.29513,
+    "lng": 15.81645,
+    "dogAllowed": true
+  },
+  {
+    "id": 854,
+    "name": "Borängesbadet",
+    "city": "",
+    "lat": 60.73398,
+    "lng": 15.88933,
+    "dogAllowed": true
+  },
+  {
+    "id": 855,
+    "name": "Bärsjärdan",
+    "city": "",
+    "lat": 65.91749,
+    "lng": 22.64255,
+    "dogAllowed": true
+  },
+  {
+    "id": 856,
+    "name": "Hundbad",
+    "city": "",
+    "lat": 60.63136,
+    "lng": 15.54635,
+    "dogAllowed": true
+  },
+  {
+    "id": 857,
+    "name": "Präst-Olles",
+    "city": "",
+    "lat": 60.54773,
+    "lng": 15.14104,
+    "dogAllowed": true
+  },
+  {
+    "id": 858,
+    "name": "Älvsjön",
+    "city": "",
+    "lat": 60.54518,
+    "lng": 15.18963,
+    "dogAllowed": true
+  },
+  {
+    "id": 859,
+    "name": "Sandviken",
+    "city": "",
+    "lat": 60.54227,
+    "lng": 14.82015,
+    "dogAllowed": true
+  },
+  {
+    "id": 860,
+    "name": "Sjöviken",
+    "city": "",
+    "lat": 60.51611,
+    "lng": 14.80883,
+    "dogAllowed": true
+  },
+  {
+    "id": 861,
+    "name": "Åssjön",
+    "city": "",
+    "lat": 60.57034,
+    "lng": 15.10525,
+    "dogAllowed": true
+  },
+  {
+    "id": 862,
+    "name": "Näringssand",
+    "city": "",
+    "lat": 60.51315,
+    "lng": 14.69885,
+    "dogAllowed": true
+  },
+  {
+    "id": 863,
+    "name": "Södra badplatsen",
+    "city": "",
+    "lat": 60.60045,
+    "lng": 15.08871,
+    "dogAllowed": true
+  },
+  {
+    "id": 864,
+    "name": "Norra badplatsen",
+    "city": "",
+    "lat": 60.60675,
+    "lng": 15.08551,
+    "dogAllowed": true
+  },
+  {
+    "id": 865,
+    "name": "Norra Tansbodarna",
+    "city": "",
+    "lat": 60.4164,
+    "lng": 14.995,
+    "dogAllowed": true
+  },
+  {
+    "id": 866,
+    "name": "Isojärvi badplats",
+    "city": "",
+    "lat": 67.41288,
+    "lng": 22.51631,
+    "dogAllowed": true
+  },
+  {
+    "id": 867,
+    "name": "Kyrkbybadet",
+    "city": "",
+    "lat": 61.75901,
+    "lng": 16.16443,
+    "dogAllowed": true
+  },
+  {
+    "id": 868,
+    "name": "Sjömyren",
+    "city": "",
+    "lat": 60.42217,
+    "lng": 15.34085,
+    "dogAllowed": true
+  },
+  {
+    "id": 869,
+    "name": "Bojsen Beach",
+    "city": "",
+    "lat": 60.62911,
+    "lng": 15.61382,
+    "dogAllowed": true
+  },
+  {
+    "id": 870,
+    "name": "Tolvens badplats",
+    "city": "",
+    "lat": 60.573,
+    "lng": 16.26117,
+    "dogAllowed": true
+  },
+  {
+    "id": 871,
+    "name": "Helgbobadet",
+    "city": "",
+    "lat": 60.65843,
+    "lng": 15.20785,
+    "dogAllowed": true
+  },
+  {
+    "id": 872,
+    "name": "Källvikens badplats",
+    "city": "",
+    "lat": 60.57056,
+    "lng": 15.64641,
+    "dogAllowed": true
+  },
+  {
+    "id": 873,
+    "name": "Roxnäs",
+    "city": "",
+    "lat": 60.57951,
+    "lng": 15.69925,
+    "dogAllowed": true
+  },
+  {
+    "id": 874,
+    "name": "Siljansbadet",
+    "city": "",
+    "lat": 60.88727,
+    "lng": 15.10873,
+    "dogAllowed": true
+  },
+  {
+    "id": 875,
+    "name": "Främby udde",
+    "city": "",
+    "lat": 60.58069,
+    "lng": 15.67654,
+    "dogAllowed": true
+  },
+  {
+    "id": 876,
+    "name": "Uvbergsviken",
+    "city": "",
+    "lat": 60.47787,
+    "lng": 15.56245,
+    "dogAllowed": true
+  },
+  {
+    "id": 877,
+    "name": "Bergkvarnsdammen",
+    "city": "",
+    "lat": 60.56708,
+    "lng": 15.2593,
+    "dogAllowed": true
+  },
+  {
+    "id": 878,
+    "name": "Stora Aspan",
+    "city": "",
+    "lat": 60.58058,
+    "lng": 15.46422,
+    "dogAllowed": true
+  },
+  {
+    "id": 879,
+    "name": "Övre Valsan",
+    "city": "",
+    "lat": 60.62878,
+    "lng": 15.32545,
+    "dogAllowed": true
+  },
+  {
+    "id": 880,
+    "name": "Brudsjön Indals-Liden",
+    "city": "",
+    "lat": 62.75922,
+    "lng": 16.75574,
+    "dogAllowed": true
+  },
+  {
+    "id": 881,
+    "name": "Skarpuddsbadet",
+    "city": "",
+    "lat": 62.53165,
+    "lng": 16.68938,
+    "dogAllowed": true
+  },
+  {
+    "id": 882,
+    "name": "Salusands havsbad",
+    "city": "",
+    "lat": 63.4577,
+    "lng": 19.26526,
+    "dogAllowed": true
+  },
+  {
+    "id": 883,
+    "name": "Ödskölts Badplats",
+    "city": "",
+    "lat": 58.87183,
+    "lng": 12.19883,
+    "dogAllowed": true
+  },
+  {
+    "id": 884,
+    "name": "Koffsand",
+    "city": "",
+    "lat": 61.93888,
+    "lng": 17.34314,
+    "dogAllowed": true
+  },
+  {
+    "id": 885,
+    "name": "Grunna",
+    "city": "",
+    "lat": 62.50115,
+    "lng": 17.41311,
+    "dogAllowed": true
+  },
+  {
+    "id": 886,
+    "name": "Simphamns badplats",
+    "city": "",
+    "lat": 63.66175,
+    "lng": 20.232,
+    "dogAllowed": true
+  },
+  {
+    "id": 887,
+    "name": "Drömme badplats",
+    "city": "",
+    "lat": 63.25092,
+    "lng": 18.27169,
+    "dogAllowed": true
+  },
+  {
+    "id": 888,
+    "name": "Dalesands badplats",
+    "city": "",
+    "lat": 63.94736,
+    "lng": 20.37742,
+    "dogAllowed": true
+  },
+  {
+    "id": 889,
+    "name": "Långnäs badplats",
+    "city": "",
+    "lat": 65.34965,
+    "lng": 21.30889,
+    "dogAllowed": true
+  },
+  {
+    "id": 890,
+    "name": "Djäkneboda badplats",
+    "city": "",
+    "lat": 63.99852,
+    "lng": 20.80515,
+    "dogAllowed": true
+  },
+  {
+    "id": 891,
+    "name": "Tolvösands badplats",
+    "city": "",
+    "lat": 62.44942,
+    "lng": 17.53481,
+    "dogAllowed": true
+  },
+  {
+    "id": 892,
+    "name": "Söråkers badplats",
+    "city": "",
+    "lat": 62.49838,
+    "lng": 17.50214,
+    "dogAllowed": true
+  },
+  {
+    "id": 893,
+    "name": "Dragonuddens naturistbadplats",
+    "city": "",
+    "lat": 63.76018,
+    "lng": 20.20025,
+    "dogAllowed": true
+  },
+  {
+    "id": 894,
+    "name": "Viksjö badplats",
+    "city": "",
+    "lat": 62.79031,
+    "lng": 17.42134,
+    "dogAllowed": true
+  },
+  {
+    "id": 895,
+    "name": "Smitingens Havsbad",
+    "city": "",
+    "lat": 62.59893,
+    "lng": 18.03185,
+    "dogAllowed": true
+  },
+  {
+    "id": 896,
+    "name": "Guldkusten",
+    "city": "",
+    "lat": 59.70192,
+    "lng": 14.51858,
+    "dogAllowed": true
+  },
+  {
+    "id": 897,
+    "name": "Yxningens insjöbad",
+    "city": "Valdemarsviks kommun",
+    "lat": 58.28139,
+    "lng": 16.45885,
+    "dogAllowed": true
+  },
+  {
+    "id": 898,
+    "name": "Ursand",
+    "city": "",
+    "lat": 58.41722,
+    "lng": 12.32448,
+    "dogAllowed": true
+  },
+  {
+    "id": 899,
+    "name": "Vitträskets badplats",
+    "city": "",
+    "lat": 65.8339,
+    "lng": 22.64484,
+    "dogAllowed": true
+  },
+  {
+    "id": 900,
+    "name": "Lessebo Badplats",
+    "city": "",
+    "lat": 56.74632,
+    "lng": 15.28808,
+    "dogAllowed": true
+  },
+  {
+    "id": 901,
+    "name": "Sodom",
+    "city": "",
+    "lat": 62.35285,
+    "lng": 17.37358,
+    "dogAllowed": true
+  },
+  {
+    "id": 902,
+    "name": "Bredsand",
+    "city": "",
+    "lat": 62.34604,
+    "lng": 17.36667,
+    "dogAllowed": true
+  },
+  {
+    "id": 903,
+    "name": "Bergafjärden",
+    "city": "",
+    "lat": 62.26669,
+    "lng": 17.45485,
+    "dogAllowed": true
+  },
+  {
+    "id": 904,
+    "name": "Dyket",
+    "city": "",
+    "lat": 62.29726,
+    "lng": 17.395,
+    "dogAllowed": true
+  },
+  {
+    "id": 905,
+    "name": "Fläsian",
+    "city": "",
+    "lat": 62.36058,
+    "lng": 17.37216,
+    "dogAllowed": true
+  },
+  {
+    "id": 906,
+    "name": "Krusbaden",
+    "city": "",
+    "lat": 62.04559,
+    "lng": 17.05853,
+    "dogAllowed": true
+  },
+  {
+    "id": 907,
+    "name": "Stampadammens badplats",
+    "city": "",
+    "lat": 56.69457,
+    "lng": 15.54232,
+    "dogAllowed": true
+  },
+  {
+    "id": 908,
+    "name": "Barrtjärn",
+    "city": "",
+    "lat": 62.01665,
+    "lng": 16.93611,
+    "dogAllowed": true
+  },
+  {
+    "id": 909,
+    "name": "Moningssand",
+    "city": "",
+    "lat": 62.08252,
+    "lng": 17.45864,
+    "dogAllowed": true
+  },
+  {
+    "id": 910,
+    "name": "Norrfjärden",
+    "city": "",
+    "lat": 62.06475,
+    "lng": 17.43104,
+    "dogAllowed": true
+  },
+  {
+    "id": 911,
+    "name": "Dyråsand",
+    "city": "",
+    "lat": 62.07761,
+    "lng": 17.45808,
+    "dogAllowed": true
+  },
+  {
+    "id": 912,
+    "name": "Gnarpsbaden",
+    "city": "",
+    "lat": 62.02566,
+    "lng": 17.42242,
+    "dogAllowed": true
+  },
+  {
+    "id": 913,
+    "name": "Oxsand",
+    "city": "",
+    "lat": 62.1249,
+    "lng": 17.47348,
+    "dogAllowed": true
+  },
+  {
+    "id": 914,
+    "name": "Sunnerstabadet",
+    "city": "",
+    "lat": 59.7874,
+    "lng": 17.65234,
+    "dogAllowed": true
+  },
+  {
+    "id": 915,
+    "name": "Lerhags Hundbad",
+    "city": "",
+    "lat": 59.78367,
+    "lng": 17.63887,
+    "dogAllowed": true
+  },
+  {
+    "id": 916,
+    "name": "Lyssnabadet",
+    "city": "",
+    "lat": 59.78308,
+    "lng": 17.63457,
+    "dogAllowed": true
+  },
+  {
+    "id": 917,
+    "name": "Vårdsätrabadet",
+    "city": "",
+    "lat": 59.79206,
+    "lng": 17.61327,
+    "dogAllowed": true
+  },
+  {
+    "id": 918,
+    "name": "Strandbaden",
+    "city": "",
+    "lat": 60.52392,
+    "lng": 16.73271,
+    "dogAllowed": true
+  },
+  {
+    "id": 919,
+    "name": "Korsikabadet",
+    "city": "",
+    "lat": 60.59802,
+    "lng": 16.62976,
+    "dogAllowed": true
+  },
+  {
+    "id": 920,
+    "name": "Köpegårda Badplats",
+    "city": "",
+    "lat": 56.18982,
+    "lng": 15.04431,
+    "dogAllowed": true
+  },
+  {
+    "id": 921,
+    "name": "Stortorpsbadet",
+    "city": "",
+    "lat": 59.23919,
+    "lng": 18.13927,
+    "dogAllowed": true
+  },
+  {
+    "id": 922,
+    "name": "Lintjärn",
+    "city": "",
+    "lat": 61.78613,
+    "lng": 16.99238,
+    "dogAllowed": true
+  },
+  {
+    "id": 923,
+    "name": "Trollsjön",
+    "city": "",
+    "lat": 58.04036,
+    "lng": 14.95504,
+    "dogAllowed": true
+  },
+  {
+    "id": 924,
+    "name": "Stekpannan",
+    "city": "",
+    "lat": 62.1751,
+    "lng": 17.2112,
+    "dogAllowed": true
+  },
+  {
+    "id": 925,
+    "name": "Norrvikssand",
+    "city": "",
+    "lat": 62.25089,
+    "lng": 17.56024,
+    "dogAllowed": true
+  },
+  {
+    "id": 926,
+    "name": "Junibosand",
+    "city": "",
+    "lat": 62.23935,
+    "lng": 17.60977,
+    "dogAllowed": true
+  },
+  {
+    "id": 927,
+    "name": "Norrhassels badplats",
+    "city": "",
+    "lat": 62.25542,
+    "lng": 16.74558,
+    "dogAllowed": true
+  },
+  {
+    "id": 928,
+    "name": "Vången",
+    "city": "",
+    "lat": 62.41572,
+    "lng": 16.57589,
+    "dogAllowed": true
+  },
+  {
+    "id": 929,
+    "name": "Sandnäset",
+    "city": "",
+    "lat": 62.69674,
+    "lng": 16.39314,
+    "dogAllowed": true
+  },
+  {
+    "id": 930,
+    "name": "Dammen",
+    "city": "",
+    "lat": 62.03629,
+    "lng": 14.28493,
+    "dogAllowed": true
+  },
+  {
+    "id": 931,
+    "name": "Hättebaden",
+    "city": "",
+    "lat": 58.03628,
+    "lng": 15.03229,
+    "dogAllowed": true
+  },
+  {
+    "id": 932,
+    "name": "Gamla Boo",
+    "city": "",
+    "lat": 55.87293,
+    "lng": 13.49149,
+    "dogAllowed": true
+  },
+  {
+    "id": 933,
+    "name": "Långnäset",
+    "city": "",
+    "lat": 62.91781,
+    "lng": 16.86619,
+    "dogAllowed": true
+  },
+  {
+    "id": 934,
+    "name": "Väster-Lövsjön",
+    "city": "",
+    "lat": 62.4704,
+    "lng": 16.96746,
+    "dogAllowed": true
+  },
+  {
+    "id": 935,
+    "name": "Segersjöns badplats",
+    "city": "Sundsvalls Kommun",
+    "lat": 62.4424,
+    "lng": 17.04578,
+    "dogAllowed": true
+  },
+  {
+    "id": 936,
+    "name": "Tranvikens badplats",
+    "city": "",
+    "lat": 62.36289,
+    "lng": 17.50951,
+    "dogAllowed": true
+  },
+  {
+    "id": 937,
+    "name": "Bänkåsvikens badplats",
+    "city": "",
+    "lat": 62.36591,
+    "lng": 17.45363,
+    "dogAllowed": true
+  },
+  {
+    "id": 938,
+    "name": "Hartungvikens badplats",
+    "city": "Sundsvalls Kommun",
+    "lat": 62.39116,
+    "lng": 17.51937,
+    "dogAllowed": true
+  },
+  {
+    "id": 939,
+    "name": "Slädavikens badplats",
+    "city": "",
+    "lat": 62.43511,
+    "lng": 17.47452,
+    "dogAllowed": true
+  },
+  {
+    "id": 940,
+    "name": "Ösbybadet",
+    "city": "",
+    "lat": 59.4016,
+    "lng": 18.06334,
+    "dogAllowed": true
+  },
+  {
+    "id": 941,
+    "name": "Rösjöns badplats",
+    "city": "",
+    "lat": 59.43923,
+    "lng": 18.00101,
+    "dogAllowed": true
+  },
+  {
+    "id": 942,
+    "name": "Rösjöbadet",
+    "city": "",
+    "lat": 59.43843,
+    "lng": 17.99478,
+    "dogAllowed": true
+  },
+  {
+    "id": 943,
+    "name": "Skälsjön",
+    "city": "",
+    "lat": 62.75911,
+    "lng": 16.97553,
+    "dogAllowed": true
+  },
+  {
+    "id": 944,
+    "name": "Skedlobodstrand",
+    "city": "",
+    "lat": 62.1643,
+    "lng": 17.3611,
+    "dogAllowed": true
+  },
+  {
+    "id": 945,
+    "name": "Hällarna",
+    "city": "",
+    "lat": 59.2753,
+    "lng": 15.85429,
+    "dogAllowed": true
+  },
+  {
+    "id": 946,
+    "name": "Hamstasjön",
+    "city": "",
+    "lat": 62.46673,
+    "lng": 17.2666,
+    "dogAllowed": true
+  },
+  {
+    "id": 947,
+    "name": "Lilla Bandsjön",
+    "city": "",
+    "lat": 62.48451,
+    "lng": 17.25858,
+    "dogAllowed": true
+  },
+  {
+    "id": 948,
+    "name": "Vivstavarvstjärn",
+    "city": "",
+    "lat": 62.49895,
+    "lng": 17.34506,
+    "dogAllowed": true
+  },
+  {
+    "id": 949,
+    "name": "Varpsand",
+    "city": "",
+    "lat": 62.01844,
+    "lng": 17.41521,
+    "dogAllowed": true
+  },
+  {
+    "id": 950,
+    "name": "Ullforsbadet",
+    "city": "",
+    "lat": 60.27515,
+    "lng": 17.43266,
+    "dogAllowed": true
+  },
+  {
+    "id": 951,
+    "name": "Trollsjön",
+    "city": "",
+    "lat": 60.37479,
+    "lng": 17.4733,
+    "dogAllowed": true
+  },
+  {
+    "id": 952,
+    "name": "Mehedebybadet",
+    "city": "",
+    "lat": 60.45699,
+    "lng": 17.39128,
+    "dogAllowed": true
+  },
+  {
+    "id": 953,
+    "name": "Lövstabrukbadet",
+    "city": "",
+    "lat": 60.40402,
+    "lng": 17.88353,
+    "dogAllowed": true
+  },
+  {
+    "id": 954,
+    "name": "Viggsjöbadet",
+    "city": "",
+    "lat": 59.99805,
+    "lng": 16.34599,
+    "dogAllowed": true
+  },
+  {
+    "id": 955,
+    "name": "Frölandssanden",
+    "city": "",
+    "lat": 62.57597,
+    "lng": 17.91265,
+    "dogAllowed": true
+  },
+  {
+    "id": 956,
+    "name": "Malmsjöbadet",
+    "city": "",
+    "lat": 59.23539,
+    "lng": 17.53686,
+    "dogAllowed": true
+  },
+  {
+    "id": 957,
+    "name": "Åmåsängsbadet",
+    "city": "",
+    "lat": 60.98007,
+    "lng": 14.56967,
+    "dogAllowed": true
+  },
+  {
+    "id": 958,
+    "name": "Våmåbadet",
+    "city": "",
+    "lat": 61.11545,
+    "lng": 14.493,
+    "dogAllowed": true
+  },
+  {
+    "id": 959,
+    "name": "Lungers hamn",
+    "city": "",
+    "lat": 59.29711,
+    "lng": 15.68236,
+    "dogAllowed": true
+  },
+  {
+    "id": 960,
+    "name": "Kvarnsjöbadet",
+    "city": "",
+    "lat": 59.37453,
+    "lng": 15.94229,
+    "dogAllowed": true
+  },
+  {
+    "id": 961,
+    "name": "Torsviken",
+    "city": "",
+    "lat": 62.50124,
+    "lng": 15.4903,
+    "dogAllowed": true
+  },
+  {
+    "id": 962,
+    "name": "Hästhagens Bryggbad",
+    "city": "",
+    "lat": 59.26567,
+    "lng": 15.15207,
+    "dogAllowed": true
+  },
+  {
+    "id": 963,
+    "name": "Slättbergsbadet",
+    "city": "",
+    "lat": 61.10958,
+    "lng": 14.66083,
+    "dogAllowed": true
+  },
+  {
+    "id": 964,
+    "name": "Prästabadet",
+    "city": "",
+    "lat": 60.13936,
+    "lng": 15.43131,
+    "dogAllowed": true
+  },
+  {
+    "id": 965,
+    "name": "Glistjärns badplats",
+    "city": "",
+    "lat": 60.93348,
+    "lng": 15.09853,
+    "dogAllowed": true
+  },
+  {
+    "id": 966,
+    "name": "Nävdebadet",
+    "city": "Nävdens bygdegårdsförening",
+    "lat": 60.19923,
+    "lng": 16.13901,
+    "dogAllowed": true
+  },
+  {
+    "id": 967,
+    "name": "Lindöbadet",
+    "city": "",
+    "lat": 58.60869,
+    "lng": 16.2654,
+    "dogAllowed": true
+  },
+  {
+    "id": 968,
+    "name": "Torpön badplats",
+    "city": "",
+    "lat": 58.02622,
+    "lng": 15.08571,
+    "dogAllowed": true
+  },
+  {
+    "id": 969,
+    "name": "Högbobadet",
+    "city": "Sandviken",
+    "lat": 60.671,
+    "lng": 16.81916,
+    "dogAllowed": true
+  },
+  {
+    "id": 970,
+    "name": "Storvad",
+    "city": "",
+    "lat": 59.90498,
+    "lng": 17.62491,
+    "dogAllowed": true
+  },
+  {
+    "id": 971,
+    "name": "Hällkanabadet",
+    "city": "",
+    "lat": 59.52568,
+    "lng": 17.68519,
+    "dogAllowed": true
+  },
+  {
+    "id": 972,
+    "name": "Slottsskogens badplats",
+    "city": "",
+    "lat": 59.68826,
+    "lng": 17.62277,
+    "dogAllowed": true
+  },
+  {
+    "id": 973,
+    "name": "Alstabadet",
+    "city": "",
+    "lat": 59.74423,
+    "lng": 17.27291,
+    "dogAllowed": true
+  },
+  {
+    "id": 974,
+    "name": "Mörtsjöns badplats",
+    "city": "",
+    "lat": 59.86444,
+    "lng": 17.09397,
+    "dogAllowed": true
+  },
+  {
+    "id": 975,
+    "name": "Tenasjöns badplats",
+    "city": "",
+    "lat": 59.88683,
+    "lng": 17.09073,
+    "dogAllowed": true
+  },
+  {
+    "id": 976,
+    "name": "Sandvikabadet",
+    "city": "",
+    "lat": 60.31502,
+    "lng": 16.41994,
+    "dogAllowed": true
+  },
+  {
+    "id": 977,
+    "name": "Klappis",
+    "city": "",
+    "lat": 59.87617,
+    "lng": 18.02853,
+    "dogAllowed": true
+  },
+  {
+    "id": 978,
+    "name": "Edabadet",
+    "city": "",
+    "lat": 59.81129,
+    "lng": 17.90593,
+    "dogAllowed": true
+  },
+  {
+    "id": 979,
+    "name": "Brunnbybadet",
+    "city": "",
+    "lat": 59.74207,
+    "lng": 17.82968,
+    "dogAllowed": true
+  },
+  {
+    "id": 980,
+    "name": "Badplats Österviken",
+    "city": "",
+    "lat": 59.66122,
+    "lng": 18.94264,
+    "dogAllowed": true
+  },
+  {
+    "id": 981,
+    "name": "Morabadet",
+    "city": "",
+    "lat": 59.63245,
+    "lng": 18.66787,
+    "dogAllowed": true
+  },
+  {
+    "id": 982,
+    "name": "Åkeröbadet",
+    "city": "",
+    "lat": 59.73362,
+    "lng": 18.93501,
+    "dogAllowed": true
+  },
+  {
+    "id": 983,
+    "name": "Nysättra badplats",
+    "city": "",
+    "lat": 59.81296,
+    "lng": 18.90264,
+    "dogAllowed": true
+  },
+  {
+    "id": 984,
+    "name": "Badplats Gillfjärden",
+    "city": "",
+    "lat": 59.78993,
+    "lng": 18.73024,
+    "dogAllowed": true
+  },
+  {
+    "id": 985,
+    "name": "Lommarbadet",
+    "city": "",
+    "lat": 59.75819,
+    "lng": 18.67535,
+    "dogAllowed": true
+  },
+  {
+    "id": 986,
+    "name": "Gammel-Anna-badet",
+    "city": "",
+    "lat": 60.75815,
+    "lng": 17.33414,
+    "dogAllowed": true
+  },
+  {
+    "id": 987,
+    "name": "Prästnäsets Badplats",
+    "city": "",
+    "lat": 61.31955,
+    "lng": 16.3714,
+    "dogAllowed": true
+  },
+  {
+    "id": 988,
+    "name": "Björkhaga Bad",
+    "city": "",
+    "lat": 57.40418,
+    "lng": 18.16979,
+    "dogAllowed": true
+  },
+  {
+    "id": 989,
+    "name": "Sätofta badplats",
+    "city": "",
+    "lat": 55.90462,
+    "lng": 13.55545,
+    "dogAllowed": true
+  },
+  {
+    "id": 990,
+    "name": "Talludden",
+    "city": "",
+    "lat": 56.64819,
+    "lng": 16.46167,
+    "dogAllowed": true
+  },
+  {
+    "id": 991,
+    "name": "Tjusås Badplats",
+    "city": "",
+    "lat": 56.70359,
+    "lng": 15.10463,
+    "dogAllowed": true
+  },
+  {
+    "id": 992,
+    "name": "Bräkentorpasjön Badplats",
+    "city": "",
+    "lat": 56.80006,
+    "lng": 14.03189,
+    "dogAllowed": true
+  },
+  {
+    "id": 993,
+    "name": "Ljugarns strand",
+    "city": "",
+    "lat": 57.33352,
+    "lng": 18.71346,
+    "dogAllowed": true
+  },
+  {
+    "id": 994,
+    "name": "Höversby badplats",
+    "city": "",
+    "lat": 58.38251,
+    "lng": 16.03356,
+    "dogAllowed": true
+  },
+  {
+    "id": 995,
+    "name": "Jakobsdalsbadet",
+    "city": "",
+    "lat": 58.38943,
+    "lng": 15.68434,
+    "dogAllowed": true
+  },
+  {
+    "id": 996,
+    "name": "Vårgårdabadet",
+    "city": "",
+    "lat": 58.38758,
+    "lng": 15.69102,
+    "dogAllowed": true
+  },
+  {
+    "id": 997,
+    "name": "Håkanbadet",
+    "city": "",
+    "lat": 58.38224,
+    "lng": 15.70427,
+    "dogAllowed": true
+  },
+  {
+    "id": 998,
+    "name": "Stora Bryggan",
+    "city": "",
+    "lat": 57.9575,
+    "lng": 16.6001,
+    "dogAllowed": true
+  },
+  {
+    "id": 999,
+    "name": "Dammhagens badplats",
+    "city": "",
+    "lat": 59.09217,
+    "lng": 16.99558,
+    "dogAllowed": true
+  },
+  {
+    "id": 1000,
+    "name": "Lotorpsån",
+    "city": "",
+    "lat": 58.73959,
+    "lng": 15.82609,
+    "dogAllowed": true
+  },
+  {
+    "id": 1001,
+    "name": "Läckö badplats",
+    "city": "",
+    "lat": 58.67273,
+    "lng": 13.21841,
+    "dogAllowed": true
+  },
+  {
+    "id": 1002,
+    "name": "Granviks badplats",
+    "city": "",
+    "lat": 58.63067,
+    "lng": 14.54743,
+    "dogAllowed": true
+  },
+  {
+    "id": 1003,
+    "name": "Lerkils Badplats",
+    "city": "",
+    "lat": 57.45675,
+    "lng": 11.91933,
+    "dogAllowed": true
+  },
+  {
+    "id": 1004,
+    "name": "Badplats Apelviken",
+    "city": "",
+    "lat": 57.079,
+    "lng": 12.25939,
+    "dogAllowed": true
+  },
+  {
+    "id": 1005,
+    "name": "Kungsnäs badplats",
+    "city": "",
+    "lat": 59.41605,
+    "lng": 13.69352,
+    "dogAllowed": true
+  },
+  {
+    "id": 1006,
+    "name": "Ankarmon",
+    "city": "",
+    "lat": 61.65874,
+    "lng": 17.0765,
+    "dogAllowed": true
+  },
+  {
+    "id": 1007,
+    "name": "Malnbaden",
+    "city": "",
+    "lat": 61.71795,
+    "lng": 17.17475,
+    "dogAllowed": true
+  },
+  {
+    "id": 1008,
+    "name": "Lillsand",
+    "city": "",
+    "lat": 61.71688,
+    "lng": 17.38456,
+    "dogAllowed": true
+  },
+  {
+    "id": 1009,
+    "name": "Storsand",
+    "city": "",
+    "lat": 61.62973,
+    "lng": 17.43283,
+    "dogAllowed": true
+  },
+  {
+    "id": 1010,
+    "name": "Frisbosjön",
+    "city": "",
+    "lat": 61.98245,
+    "lng": 16.69532,
+    "dogAllowed": true
+  },
+  {
+    "id": 1011,
+    "name": "Skäråssjön",
+    "city": "",
+    "lat": 61.99168,
+    "lng": 16.62169,
+    "dogAllowed": true
+  },
+  {
+    "id": 1012,
+    "name": "Bjams",
+    "city": "",
+    "lat": 61.89731,
+    "lng": 16.56196,
+    "dogAllowed": true
+  },
+  {
+    "id": 1013,
+    "name": "Blodmyra",
+    "city": "",
+    "lat": 61.85658,
+    "lng": 16.60555,
+    "dogAllowed": true
+  },
+  {
+    "id": 1014,
+    "name": "Målars",
+    "city": "",
+    "lat": 61.85428,
+    "lng": 16.60973,
+    "dogAllowed": true
+  },
+  {
+    "id": 1015,
+    "name": "Högsved",
+    "city": "",
+    "lat": 61.83183,
+    "lng": 16.71947,
+    "dogAllowed": true
+  },
+  {
+    "id": 1016,
+    "name": "Hallboviken",
+    "city": "",
+    "lat": 61.81521,
+    "lng": 16.87568,
+    "dogAllowed": true
+  },
+  {
+    "id": 1017,
+    "name": "Kittesjön",
+    "city": "",
+    "lat": 61.90979,
+    "lng": 17.02575,
+    "dogAllowed": true
+  },
+  {
+    "id": 1018,
+    "name": "Janken Sand",
+    "city": "",
+    "lat": 61.8859,
+    "lng": 17.0215,
+    "dogAllowed": true
+  },
+  {
+    "id": 1019,
+    "name": "Bjärtsjön",
+    "city": "",
+    "lat": 61.87096,
+    "lng": 16.99691,
+    "dogAllowed": true
+  },
+  {
+    "id": 1020,
+    "name": "Bromsvallssjön",
+    "city": "",
+    "lat": 61.80158,
+    "lng": 16.98916,
+    "dogAllowed": true
+  },
+  {
+    "id": 1021,
+    "name": "Inälvsviken",
+    "city": "",
+    "lat": 61.78248,
+    "lng": 16.79009,
+    "dogAllowed": true
+  },
+  {
+    "id": 1022,
+    "name": "Ingan badplats",
+    "city": "",
+    "lat": 61.76144,
+    "lng": 16.87143,
+    "dogAllowed": true
+  },
+  {
+    "id": 1023,
+    "name": "Sjösjö",
+    "city": "",
+    "lat": 61.71686,
+    "lng": 16.88479,
+    "dogAllowed": true
+  },
+  {
+    "id": 1024,
+    "name": "Loppesjön",
+    "city": "",
+    "lat": 61.74033,
+    "lng": 16.66951,
+    "dogAllowed": true
+  },
+  {
+    "id": 1025,
+    "name": "Glombosjön",
+    "city": "",
+    "lat": 61.73554,
+    "lng": 16.61786,
+    "dogAllowed": true
+  },
+  {
+    "id": 1026,
+    "name": "Lillvallssjön",
+    "city": "",
+    "lat": 61.65341,
+    "lng": 16.59985,
+    "dogAllowed": true
+  },
+  {
+    "id": 1027,
+    "name": "Stallarnas badplats",
+    "city": "",
+    "lat": 62.63979,
+    "lng": 17.66804,
+    "dogAllowed": true
+  },
+  {
+    "id": 1028,
+    "name": "Stornaggen",
+    "city": "",
+    "lat": 62.27168,
+    "lng": 15.97424,
+    "dogAllowed": true
+  },
+  {
+    "id": 1029,
+    "name": "Skånsjön",
+    "city": "",
+    "lat": 62.14469,
+    "lng": 16.07998,
+    "dogAllowed": true
+  },
+  {
+    "id": 1030,
+    "name": "Hallonbadet",
+    "city": "",
+    "lat": 63.32412,
+    "lng": 18.66143,
+    "dogAllowed": true
+  },
+  {
+    "id": 1031,
+    "name": "Skulebergsbadet",
+    "city": "",
+    "lat": 63.06438,
+    "lng": 18.33455,
+    "dogAllowed": true
+  },
+  {
+    "id": 1032,
+    "name": "Munkvillan badplats",
+    "city": "",
+    "lat": 58.92147,
+    "lng": 12.21329,
+    "dogAllowed": true
+  },
+  {
+    "id": 1033,
+    "name": "Prässebo badplats",
+    "city": "",
+    "lat": 58.09902,
+    "lng": 12.26959,
+    "dogAllowed": true
+  },
+  {
+    "id": 1034,
+    "name": "Örtjärnsbadet",
+    "city": "",
+    "lat": 57.64762,
+    "lng": 12.14368,
+    "dogAllowed": true
+  },
+  {
+    "id": 1035,
+    "name": "Frökens udde",
+    "city": "",
+    "lat": 57.6652,
+    "lng": 12.14332,
+    "dogAllowed": true
+  },
+  {
+    "id": 1036,
+    "name": "Hästviken",
+    "city": "",
+    "lat": 57.65929,
+    "lng": 12.08642,
+    "dogAllowed": true
+  },
+  {
+    "id": 1037,
+    "name": "Bergsjöbadet",
+    "city": "",
+    "lat": 57.74948,
+    "lng": 12.06452,
+    "dogAllowed": true
+  },
+  {
+    "id": 1038,
+    "name": "Ramsdalsbadet",
+    "city": "",
+    "lat": 57.63448,
+    "lng": 11.76972,
+    "dogAllowed": true
+  },
+  {
+    "id": 1039,
+    "name": "Sillvik badplats",
+    "city": "",
+    "lat": 57.74146,
+    "lng": 11.73374,
+    "dogAllowed": true
+  },
+  {
+    "id": 1040,
+    "name": "Östra pirens badplats",
+    "city": "",
+    "lat": 57.7596,
+    "lng": 11.80015,
+    "dogAllowed": true
+  },
+  {
+    "id": 1041,
+    "name": "Hästen",
+    "city": "",
+    "lat": 57.68417,
+    "lng": 11.63526,
+    "dogAllowed": true
+  },
+  {
+    "id": 1042,
+    "name": "Timmerviken",
+    "city": "",
+    "lat": 57.73434,
+    "lng": 11.6936,
+    "dogAllowed": true
+  },
+  {
+    "id": 1043,
+    "name": "Hjälvik",
+    "city": "",
+    "lat": 57.71884,
+    "lng": 11.63491,
+    "dogAllowed": true
+  },
+  {
+    "id": 1044,
+    "name": "Strömskär badstege",
+    "city": "",
+    "lat": 57.73586,
+    "lng": 11.66772,
+    "dogAllowed": true
+  },
+  {
+    "id": 1045,
+    "name": "Gröna äng",
+    "city": "",
+    "lat": 57.73714,
+    "lng": 11.66728,
+    "dogAllowed": true
+  },
+  {
+    "id": 1046,
+    "name": "Kolvik",
+    "city": "",
+    "lat": 57.74084,
+    "lng": 11.66786,
+    "dogAllowed": true
+  },
+  {
+    "id": 1047,
+    "name": "Klarvik",
+    "city": "",
+    "lat": 57.74312,
+    "lng": 11.67033,
+    "dogAllowed": true
+  },
+  {
+    "id": 1048,
+    "name": "Gula Skären",
+    "city": "",
+    "lat": 57.77584,
+    "lng": 11.62318,
+    "dogAllowed": true
+  },
+  {
+    "id": 1049,
+    "name": "Sturkö Badplats",
+    "city": "",
+    "lat": 56.08631,
+    "lng": 15.70152,
+    "dogAllowed": true
+  },
+  {
+    "id": 1050,
+    "name": "Tjens insjöbad",
+    "city": "Valdemarsviks kommun",
+    "lat": 58.33674,
+    "lng": 16.39467,
+    "dogAllowed": true
+  },
+  {
+    "id": 1051,
+    "name": "Grännäs havsbad",
+    "city": "Valdemarsviks kommun",
+    "lat": 58.19257,
+    "lng": 16.62078,
+    "dogAllowed": true
+  },
+  {
+    "id": 1052,
+    "name": "Österviksbadet",
+    "city": "",
+    "lat": 61.03868,
+    "lng": 16.73933,
+    "dogAllowed": true
+  },
+  {
+    "id": 1053,
+    "name": "Kyrkbadet",
+    "city": "",
+    "lat": 61.03961,
+    "lng": 16.70149,
+    "dogAllowed": true
+  },
+  {
+    "id": 1054,
+    "name": "Badplats",
+    "city": "",
+    "lat": 59.24213,
+    "lng": 18.16899,
+    "dogAllowed": true
+  },
+  {
+    "id": 1055,
+    "name": "Mellanbadet",
+    "city": "",
+    "lat": 59.47712,
+    "lng": 16.06482,
+    "dogAllowed": true
+  },
+  {
+    "id": 1056,
+    "name": "Sikhamn",
+    "city": "",
+    "lat": 57.25433,
+    "lng": 16.78859,
+    "dogAllowed": true
+  },
+  {
+    "id": 1057,
+    "name": "Gottbol badplats",
+    "city": "",
+    "lat": 59.06249,
+    "lng": 14.29267,
+    "dogAllowed": true
+  },
+  {
+    "id": 1058,
+    "name": "Trötvik",
+    "city": "",
+    "lat": 59.92644,
+    "lng": 12.90703,
+    "dogAllowed": true
+  },
+  {
+    "id": 1059,
+    "name": "Kolsjöns badplats",
+    "city": "",
+    "lat": 57.5231,
+    "lng": 15.52102,
+    "dogAllowed": true
+  },
+  {
+    "id": 1060,
+    "name": "Unbyns badplats",
+    "city": "",
+    "lat": 65.71101,
+    "lng": 21.77846,
+    "dogAllowed": true
+  },
+  {
+    "id": 1061,
+    "name": "Skrea strand",
+    "city": "",
+    "lat": 56.88727,
+    "lng": 12.49465,
+    "dogAllowed": true
+  },
+  {
+    "id": 1062,
+    "name": "Tallparksbadet",
+    "city": "",
+    "lat": 60.33546,
+    "lng": 18.42464,
+    "dogAllowed": true
+  },
+  {
+    "id": 1063,
+    "name": "Sågsjöbadet",
+    "city": "",
+    "lat": 59.34565,
+    "lng": 18.28012,
+    "dogAllowed": true
+  },
+  {
+    "id": 1064,
+    "name": "Almenäs",
+    "city": "",
+    "lat": 57.76217,
+    "lng": 12.93947,
+    "dogAllowed": true
+  },
+  {
+    "id": 1065,
+    "name": "Hindsjöbadet",
+    "city": "",
+    "lat": 56.93986,
+    "lng": 15.90597,
+    "dogAllowed": true
+  },
+  {
+    "id": 1066,
+    "name": "Fårnabben",
+    "city": "",
+    "lat": 59.31895,
+    "lng": 18.30813,
+    "dogAllowed": true
+  },
+  {
+    "id": 1067,
+    "name": "Sanabadet",
+    "city": "",
+    "lat": 64.23035,
+    "lng": 20.26614,
+    "dogAllowed": true
+  },
+  {
+    "id": 1068,
+    "name": "Tingsnäsbadet",
+    "city": "",
+    "lat": 61.00634,
+    "lng": 14.55969,
+    "dogAllowed": true
+  },
+  {
+    "id": 1069,
+    "name": "Norsviken",
+    "city": "",
+    "lat": 59.61594,
+    "lng": 15.22176,
+    "dogAllowed": true
+  },
+  {
+    "id": 1070,
+    "name": "Solviksbadet",
+    "city": "",
+    "lat": 59.31505,
+    "lng": 17.96665,
+    "dogAllowed": true
+  },
+  {
+    "id": 1071,
+    "name": "Fagernäs bad",
+    "city": "",
+    "lat": 61.49221,
+    "lng": 16.38756,
+    "dogAllowed": true
+  },
+  {
+    "id": 1072,
+    "name": "Högbacka",
+    "city": "",
+    "lat": 61.01202,
+    "lng": 16.97708,
+    "dogAllowed": true,
+    "notes": "Högbacka är ett insjöbad med gräs- och sandstrand. Här finns badbrygga, dass, parkering och Högbacka camping."
+  },
+  {
+    "id": 1073,
+    "name": "Storsand Badplats",
+    "city": "",
+    "lat": 64.37702,
+    "lng": 20.48773,
+    "dogAllowed": true
+  },
+  {
+    "id": 1074,
+    "name": "Finnforsbadet",
+    "city": "",
+    "lat": 64.7526,
+    "lng": 20.32083,
+    "dogAllowed": true
+  },
+  {
+    "id": 1075,
+    "name": "Kyrksjöbadet",
+    "city": "",
+    "lat": 57.34354,
+    "lng": 13.51958,
+    "dogAllowed": true
+  },
+  {
+    "id": 1076,
+    "name": "Helgarö kläpp badplats",
+    "city": "",
+    "lat": 59.43014,
+    "lng": 16.79137,
+    "dogAllowed": true
+  },
+  {
+    "id": 1077,
+    "name": "Räveln",
+    "city": "",
+    "lat": 62.37173,
+    "lng": 16.8265,
+    "dogAllowed": true
+  },
+  {
+    "id": 1078,
+    "name": "Brunnsvikens strandbad",
+    "city": "",
+    "lat": 59.36191,
+    "lng": 18.04852,
+    "dogAllowed": true
+  },
+  {
+    "id": 1079,
+    "name": "Ekhagens strandbad",
+    "city": "",
+    "lat": 59.37253,
+    "lng": 18.06928,
+    "dogAllowed": true
+  },
+  {
+    "id": 1080,
+    "name": "Gransjönäsbadet",
+    "city": "",
+    "lat": 58.67892,
+    "lng": 16.20036,
+    "dogAllowed": true
+  },
+  {
+    "id": 1081,
+    "name": "Badplatsen Långsta",
+    "city": "",
+    "lat": 59.49218,
+    "lng": 12.99384,
+    "dogAllowed": true
+  },
+  {
+    "id": 1082,
+    "name": "Lövstabadet",
+    "city": "",
+    "lat": 59.38768,
+    "lng": 17.78052,
+    "dogAllowed": true
+  },
+  {
+    "id": 1083,
+    "name": "Hällarna",
+    "city": "",
+    "lat": 59.27899,
+    "lng": 15.90357,
+    "dogAllowed": true
+  },
+  {
+    "id": 1084,
+    "name": "Herrfallet",
+    "city": "",
+    "lat": 59.27088,
+    "lng": 15.90657,
+    "dogAllowed": true
+  },
+  {
+    "id": 1085,
+    "name": "Görvälnsbadet",
+    "city": "",
+    "lat": 59.4277,
+    "lng": 17.76964,
+    "dogAllowed": true
+  },
+  {
+    "id": 1086,
+    "name": "Maltesholmsbadet",
+    "city": "",
+    "lat": 59.3563,
+    "lng": 17.84028,
+    "dogAllowed": true
+  },
+  {
+    "id": 1087,
+    "name": "Hässelby strandbad",
+    "city": "",
+    "lat": 59.36378,
+    "lng": 17.82089,
+    "dogAllowed": true
+  },
+  {
+    "id": 1088,
+    "name": "Ängbybadet",
+    "city": "",
+    "lat": 59.33642,
+    "lng": 17.89839,
+    "dogAllowed": true
+  },
+  {
+    "id": 1089,
+    "name": "Läppe",
+    "city": "",
+    "lat": 59.13263,
+    "lng": 15.80742,
+    "dogAllowed": true
+  },
+  {
+    "id": 1090,
+    "name": "Fiskeboda",
+    "city": "",
+    "lat": 59.18576,
+    "lng": 15.89177,
+    "dogAllowed": true
+  },
+  {
+    "id": 1091,
+    "name": "Saltharsfjärdens Badplats",
+    "city": "",
+    "lat": 60.92672,
+    "lng": 17.15788,
+    "dogAllowed": true,
+    "notes": "Här finns ett havsbad med klippor, sand- och grässtrand samt badbrygga, omklädningsrum, dass och grillplats."
+  },
+  {
+    "id": 1092,
+    "name": "Sandsnäsbadet",
+    "city": "",
+    "lat": 60.35005,
+    "lng": 17.02058,
+    "dogAllowed": true
+  },
+  {
+    "id": 1093,
+    "name": "Nederlösabadet",
+    "city": "",
+    "lat": 58.43525,
+    "lng": 15.24909,
+    "dogAllowed": true
+  },
+  {
+    "id": 1094,
+    "name": "Pälsärmsbadet",
+    "city": "",
+    "lat": 59.583,
+    "lng": 15.23082,
+    "dogAllowed": true
+  },
+  {
+    "id": 1095,
+    "name": "Farstanäsbadet",
+    "city": "",
+    "lat": 59.09692,
+    "lng": 17.655,
+    "dogAllowed": true
+  },
+  {
+    "id": 1096,
+    "name": "Klagshamnstranden",
+    "city": "",
+    "lat": 55.52497,
+    "lng": 12.8959,
+    "dogAllowed": true
+  },
+  {
+    "id": 1097,
+    "name": "Skäludden",
+    "city": "",
+    "lat": 59.29446,
+    "lng": 17.78544,
+    "dogAllowed": true
+  },
+  {
+    "id": 1098,
+    "name": "Johannesdalsbadet",
+    "city": "Skärholmens stadsdelsförvaltning",
+    "lat": 59.27568,
+    "lng": 17.86823,
+    "dogAllowed": true
+  },
+  {
+    "id": 1099,
+    "name": "Gömmarens badplats",
+    "city": "",
+    "lat": 59.25187,
+    "lng": 17.92498,
+    "dogAllowed": true
+  },
+  {
+    "id": 1100,
+    "name": "Södran",
+    "city": "",
+    "lat": 59.26815,
+    "lng": 17.78235,
+    "dogAllowed": true
+  },
+  {
+    "id": 1101,
+    "name": "Lundhagsbadet",
+    "city": "",
+    "lat": 59.26808,
+    "lng": 17.80511,
+    "dogAllowed": true
+  },
+  {
+    "id": 1102,
+    "name": "Vårbybadet",
+    "city": "",
+    "lat": 59.25797,
+    "lng": 17.87901,
+    "dogAllowed": true
+  },
+  {
+    "id": 1103,
+    "name": "Stockbybadet",
+    "city": "",
+    "lat": 59.3317,
+    "lng": 17.67616,
+    "dogAllowed": true
+  },
+  {
+    "id": 1104,
+    "name": "Karlskär",
+    "city": "",
+    "lat": 59.41804,
+    "lng": 17.66573,
+    "dogAllowed": true
+  },
+  {
+    "id": 1105,
+    "name": "Mörby badplats",
+    "city": "",
+    "lat": 59.33034,
+    "lng": 17.77729,
+    "dogAllowed": true
+  },
+  {
+    "id": 1106,
+    "name": "Tenöbadet",
+    "city": "",
+    "lat": 59.39288,
+    "lng": 18.33042,
+    "dogAllowed": true
+  },
+  {
+    "id": 1107,
+    "name": "Campingbadet",
+    "city": "",
+    "lat": 59.72983,
+    "lng": 16.21237,
+    "dogAllowed": true
+  },
+  {
+    "id": 1108,
+    "name": "Sjöängsbadet",
+    "city": "",
+    "lat": 59.23471,
+    "lng": 18.15843,
+    "dogAllowed": true
+  },
+  {
+    "id": 1109,
+    "name": "Forsviks badplats",
+    "city": "",
+    "lat": 58.57386,
+    "lng": 14.42022,
+    "dogAllowed": true
+  },
+  {
+    "id": 1110,
+    "name": "Hamnviksbadet",
+    "city": "",
+    "lat": 58.8906,
+    "lng": 17.92786,
+    "dogAllowed": true
+  },
+  {
+    "id": 1111,
+    "name": "Badplats Gryten",
+    "city": "",
+    "lat": 58.8654,
+    "lng": 16.06964,
+    "dogAllowed": true
+  },
+  {
+    "id": 1112,
+    "name": "Krutuddens badplats",
+    "city": "",
+    "lat": 60.2618,
+    "lng": 18.38502,
+    "dogAllowed": true
+  },
+  {
+    "id": 1113,
+    "name": "Kollevik Badplats",
+    "city": "",
+    "lat": 56.16056,
+    "lng": 14.89823,
+    "dogAllowed": true
+  },
+  {
+    "id": 1114,
+    "name": "Edsviken Strandvägen",
+    "city": "",
+    "lat": 59.43092,
+    "lng": 17.96028,
+    "dogAllowed": true
+  },
+  {
+    "id": 1115,
+    "name": "Torparängsbadet",
+    "city": "",
+    "lat": 59.46419,
+    "lng": 17.92706,
+    "dogAllowed": true
+  },
+  {
+    "id": 1116,
+    "name": "Edsviken Sjöberg",
+    "city": "",
+    "lat": 59.42692,
+    "lng": 17.98788,
+    "dogAllowed": true
+  },
+  {
+    "id": 1117,
+    "name": "Trollholmen",
+    "city": "",
+    "lat": 59.47981,
+    "lng": 17.92835,
+    "dogAllowed": true
+  },
+  {
+    "id": 1118,
+    "name": "Gålö havsbad",
+    "city": "",
+    "lat": 59.09968,
+    "lng": 18.32208,
+    "dogAllowed": true
+  },
+  {
+    "id": 1119,
+    "name": "Högsjöbadet",
+    "city": "",
+    "lat": 59.02209,
+    "lng": 15.66738,
+    "dogAllowed": true
+  },
+  {
+    "id": 1120,
+    "name": "Solbergabadet",
+    "city": "",
+    "lat": 59.05299,
+    "lng": 15.55206,
+    "dogAllowed": true
+  },
+  {
+    "id": 1121,
+    "name": "Hamnviken",
+    "city": "",
+    "lat": 65.35482,
+    "lng": 21.3561,
+    "dogAllowed": true
+  },
+  {
+    "id": 1122,
+    "name": "Västra Nedsjön, badplats",
+    "city": "",
+    "lat": 57.70767,
+    "lng": 12.45536,
+    "dogAllowed": true
+  },
+  {
+    "id": 1123,
+    "name": "Stavsjöbadet",
+    "city": "",
+    "lat": 58.72875,
+    "lng": 16.4311,
+    "dogAllowed": true
+  },
+  {
+    "id": 1124,
+    "name": "Kisängsbadet",
+    "city": "",
+    "lat": 58.82559,
+    "lng": 16.7866,
+    "dogAllowed": true
+  },
+  {
+    "id": 1125,
+    "name": "Sången",
+    "city": "",
+    "lat": 59.80413,
+    "lng": 14.48289,
+    "dogAllowed": true
+  },
+  {
+    "id": 1126,
+    "name": "Västra Gäddsjön",
+    "city": "",
+    "lat": 59.80164,
+    "lng": 14.53218,
+    "dogAllowed": true
+  },
+  {
+    "id": 1127,
+    "name": "Vättersvallen",
+    "city": "",
+    "lat": 58.42885,
+    "lng": 14.40589,
+    "dogAllowed": true
+  },
+  {
+    "id": 1128,
+    "name": "Hörsångs havsbad",
+    "city": "",
+    "lat": 62.82757,
+    "lng": 18.17916,
+    "dogAllowed": true
+  },
+  {
+    "id": 1129,
+    "name": "Storsjöbadet",
+    "city": "",
+    "lat": 62.9201,
+    "lng": 18.07147,
+    "dogAllowed": true
+  },
+  {
+    "id": 1130,
+    "name": "Storsanden",
+    "city": "",
+    "lat": 62.98988,
+    "lng": 18.52752,
+    "dogAllowed": true
+  },
+  {
+    "id": 1131,
+    "name": "Köpmanholmens Havsbad",
+    "city": "",
+    "lat": 63.17991,
+    "lng": 18.59417,
+    "dogAllowed": true
+  },
+  {
+    "id": 1132,
+    "name": "Framnäsbadet",
+    "city": "",
+    "lat": 59.59436,
+    "lng": 16.59054,
+    "dogAllowed": true
+  },
+  {
+    "id": 1133,
+    "name": "Rullsands havsbad",
+    "city": "",
+    "lat": 60.64094,
+    "lng": 17.47248,
+    "dogAllowed": true
+  },
+  {
+    "id": 1134,
+    "name": "Ekudden",
+    "city": "",
+    "lat": 58.71586,
+    "lng": 13.79347,
+    "dogAllowed": true
+  },
+  {
+    "id": 1135,
+    "name": "2ans bad",
+    "city": "",
+    "lat": 60.12626,
+    "lng": 18.68569,
+    "dogAllowed": true
+  },
+  {
+    "id": 1136,
+    "name": "Vattlasjö badplats",
+    "city": "",
+    "lat": 57.56032,
+    "lng": 13.69889,
+    "dogAllowed": true
+  },
+  {
+    "id": 1137,
+    "name": "Labbsand",
+    "city": "",
+    "lat": 59.29333,
+    "lng": 14.5489,
+    "dogAllowed": true
+  },
+  {
+    "id": 1138,
+    "name": "Klondyke",
+    "city": "",
+    "lat": 60.29118,
+    "lng": 16.19931,
+    "dogAllowed": true
+  },
+  {
+    "id": 1139,
+    "name": "Gronbadet",
+    "city": "",
+    "lat": 58.71157,
+    "lng": 15.81872,
+    "dogAllowed": true
+  },
+  {
+    "id": 1140,
+    "name": "Mäselnbadet",
+    "city": "",
+    "lat": 58.69695,
+    "lng": 15.72044,
+    "dogAllowed": true
+  },
+  {
+    "id": 1141,
+    "name": "20:e Slussens badplatsen",
+    "city": "",
+    "lat": 59.00311,
+    "lng": 12.24206,
+    "dogAllowed": true
+  },
+  {
+    "id": 1142,
+    "name": "Vallevik",
+    "city": "",
+    "lat": 58.35656,
+    "lng": 11.21427,
+    "dogAllowed": true
+  },
+  {
+    "id": 1143,
+    "name": "Röhalla Badplats",
+    "city": "",
+    "lat": 56.71345,
+    "lng": 16.5015,
+    "dogAllowed": true
+  },
+  {
+    "id": 1144,
+    "name": "Kolbränningen",
+    "city": "",
+    "lat": 57.72279,
+    "lng": 12.90392,
+    "dogAllowed": true
+  },
+  {
+    "id": 1145,
+    "name": "Transås badplats",
+    "city": "",
+    "lat": 57.68644,
+    "lng": 12.94606,
+    "dogAllowed": true
+  },
+  {
+    "id": 1146,
+    "name": "Norra Björnön",
+    "city": "",
+    "lat": 59.58094,
+    "lng": 16.60502,
+    "dogAllowed": true
+  },
+  {
+    "id": 1147,
+    "name": "Södra Björnön",
+    "city": "",
+    "lat": 59.54991,
+    "lng": 16.64531,
+    "dogAllowed": true
+  },
+  {
+    "id": 1148,
+    "name": "Björnöbadet",
+    "city": "",
+    "lat": 59.56647,
+    "lng": 16.62005,
+    "dogAllowed": true
+  },
+  {
+    "id": 1149,
+    "name": "Övre badplatsen",
+    "city": "",
+    "lat": 57.46938,
+    "lng": 13.94213,
+    "dogAllowed": true
+  },
+  {
+    "id": 1150,
+    "name": "Nedre badplatsen",
+    "city": "",
+    "lat": 57.46913,
+    "lng": 13.94248,
+    "dogAllowed": true
+  },
+  {
+    "id": 1151,
+    "name": "Storsand",
+    "city": "",
+    "lat": 61.75854,
+    "lng": 17.37358,
+    "dogAllowed": true
+  },
+  {
+    "id": 1152,
+    "name": "Ekenäs Badplats",
+    "city": "",
+    "lat": 56.1716,
+    "lng": 15.28,
+    "dogAllowed": true
+  },
+  {
+    "id": 1153,
+    "name": "Sandviksbadet",
+    "city": "Lidingö Stadt",
+    "lat": 59.38985,
+    "lng": 18.11196,
+    "dogAllowed": true
+  },
+  {
+    "id": 1154,
+    "name": "Annekärr Badplats",
+    "city": "",
+    "lat": 57.86387,
+    "lng": 12.32473,
+    "dogAllowed": true
+  },
+  {
+    "id": 1155,
+    "name": "Prästens brygga",
+    "city": "",
+    "lat": 57.92047,
+    "lng": 12.38668,
+    "dogAllowed": true
+  },
+  {
+    "id": 1156,
+    "name": "Jägarnäs Hundbadplats",
+    "city": "",
+    "lat": 60.11827,
+    "lng": 15.19827,
+    "dogAllowed": true
+  },
+  {
+    "id": 1157,
+    "name": "Långasjönäs Badplats",
+    "city": "",
+    "lat": 56.22967,
+    "lng": 14.85212,
+    "dogAllowed": true
+  },
+  {
+    "id": 1158,
+    "name": "Droppemåla",
+    "city": "",
+    "lat": 56.17622,
+    "lng": 15.27636,
+    "dogAllowed": true
+  },
+  {
+    "id": 1159,
+    "name": "Petersvik Badplats",
+    "city": "",
+    "lat": 56.09167,
+    "lng": 15.82579,
+    "dogAllowed": true
+  },
+  {
+    "id": 1160,
+    "name": "Sjuhalla Badplats",
+    "city": "",
+    "lat": 56.1915,
+    "lng": 15.55204,
+    "dogAllowed": true
+  },
+  {
+    "id": 1161,
+    "name": "Tredenborg Badplats",
+    "city": "",
+    "lat": 56.0269,
+    "lng": 14.56394,
+    "dogAllowed": true
+  },
+  {
+    "id": 1162,
+    "name": "Surfbuktens badplats",
+    "city": "",
+    "lat": 63.18118,
+    "lng": 14.62206,
+    "dogAllowed": true
+  },
+  {
+    "id": 1163,
+    "name": "Slättanäs Badplats",
+    "city": "",
+    "lat": 56.17351,
+    "lng": 15.39557,
+    "dogAllowed": true
+  },
+  {
+    "id": 1164,
+    "name": "Röabysjön Badplats",
+    "city": "",
+    "lat": 56.25848,
+    "lng": 15.13404,
+    "dogAllowed": true
+  },
+  {
+    "id": 1165,
+    "name": "Järnavik Badplats",
+    "city": "",
+    "lat": 56.17448,
+    "lng": 15.07746,
+    "dogAllowed": true
+  },
+  {
+    "id": 1166,
+    "name": "Slätthammar Badplats",
+    "city": "",
+    "lat": 56.14749,
+    "lng": 15.44104,
+    "dogAllowed": true
+  },
+  {
+    "id": 1167,
+    "name": "Ronneby Marina",
+    "city": "",
+    "lat": 56.17388,
+    "lng": 15.30346,
+    "dogAllowed": true
+  },
+  {
+    "id": 1168,
+    "name": "Härstorpssjön Badplats",
+    "city": "",
+    "lat": 56.21033,
+    "lng": 15.25528,
+    "dogAllowed": true
+  },
+  {
+    "id": 1169,
+    "name": "Duvesjöns Samfällighetsförenigs badplats",
+    "city": "",
+    "lat": 57.95383,
+    "lng": 12.01871,
+    "dogAllowed": true
+  },
+  {
+    "id": 1170,
+    "name": "Östernäs badplats",
+    "city": "",
+    "lat": 58.47877,
+    "lng": 15.62868,
+    "dogAllowed": true
+  },
+  {
+    "id": 1171,
+    "name": "Svartmåla Badplats",
+    "city": "",
+    "lat": 58.25575,
+    "lng": 15.70759,
+    "dogAllowed": true
+  },
+  {
+    "id": 1172,
+    "name": "Mörtviksbadet",
+    "city": "",
+    "lat": 59.21892,
+    "lng": 18.16837,
+    "dogAllowed": true
+  },
+  {
+    "id": 1173,
+    "name": "Badudden",
+    "city": "",
+    "lat": 59.21259,
+    "lng": 18.17508,
+    "dogAllowed": true
+  },
+  {
+    "id": 1174,
+    "name": "Sjöängsbadet",
+    "city": "",
+    "lat": 59.23477,
+    "lng": 18.15848,
+    "dogAllowed": true
+  },
+  {
+    "id": 1175,
+    "name": "marieviksbadet",
+    "city": "",
+    "lat": 59.30973,
+    "lng": 18.03193,
+    "dogAllowed": true
+  },
+  {
+    "id": 1176,
+    "name": "Kjörselviken, Västra Sund",
+    "city": "",
+    "lat": 59.62354,
+    "lng": 12.5559,
+    "dogAllowed": true
+  },
+  {
+    "id": 1177,
+    "name": "Bjumisbadet",
+    "city": "",
+    "lat": 65.86708,
+    "lng": 23.25314,
+    "dogAllowed": true
+  },
+  {
+    "id": 1178,
+    "name": "Forserums badplats",
+    "city": "",
+    "lat": 57.71273,
+    "lng": 14.49068,
+    "dogAllowed": true
+  },
+  {
+    "id": 1179,
+    "name": "Sandnäset",
+    "city": "",
+    "lat": 60.41173,
+    "lng": 14.51284,
+    "dogAllowed": true
+  },
+  {
+    "id": 1180,
+    "name": "badplats",
+    "city": "",
+    "lat": 56.32558,
+    "lng": 14.56855,
+    "dogAllowed": true
+  },
+  {
+    "id": 1181,
+    "name": "Listersjön badplats",
+    "city": "",
+    "lat": 56.2923,
+    "lng": 15.37045,
+    "dogAllowed": true
+  },
+  {
+    "id": 1182,
+    "name": "Blanksjön badplats",
+    "city": "",
+    "lat": 56.21561,
+    "lng": 15.18618,
+    "dogAllowed": true
+  },
+  {
+    "id": 1183,
+    "name": "Margretebergs Havsbad",
+    "city": "",
+    "lat": 56.21492,
+    "lng": 12.5419,
+    "dogAllowed": true
+  },
+  {
+    "id": 1184,
+    "name": "Årsta havsbad",
+    "city": "",
+    "lat": 59.08113,
+    "lng": 18.16579,
+    "dogAllowed": true
+  },
+  {
+    "id": 1185,
+    "name": "Kyls strandbad",
+    "city": "",
+    "lat": 55.43674,
+    "lng": 14.24107,
+    "dogAllowed": true
+  },
+  {
+    "id": 1186,
+    "name": "Borrby strandbad",
+    "city": "",
+    "lat": 55.43258,
+    "lng": 14.23751,
+    "dogAllowed": true
+  },
+  {
+    "id": 1187,
+    "name": "Bredsand",
+    "city": "",
+    "lat": 59.76987,
+    "lng": 17.63288,
+    "dogAllowed": true
+  },
+  {
+    "id": 1188,
+    "name": "Harads Badplats",
+    "city": "",
+    "lat": 66.09151,
+    "lng": 20.92989,
+    "dogAllowed": true
+  },
+  {
+    "id": 1189,
+    "name": "Kommunal badplats Östra Näs",
+    "city": "",
+    "lat": 59.35353,
+    "lng": 12.14674,
+    "dogAllowed": true
+  },
+  {
+    "id": 1190,
+    "name": "Gamla Finnsjöstrand badplats",
+    "city": "",
+    "lat": 59.65277,
+    "lng": 14.89513,
+    "dogAllowed": true
+  },
+  {
+    "id": 1191,
+    "name": "Finnsjöstrand badplats",
+    "city": "",
+    "lat": 59.64732,
+    "lng": 14.89858,
+    "dogAllowed": true
+  },
+  {
+    "id": 1192,
+    "name": "Metsjön",
+    "city": "",
+    "lat": 58.42622,
+    "lng": 11.84494,
+    "dogAllowed": true
+  },
+  {
+    "id": 1193,
+    "name": "Hägnavikens Badplats",
+    "city": "",
+    "lat": 56.75219,
+    "lng": 15.29051,
+    "dogAllowed": true
+  },
+  {
+    "id": 1194,
+    "name": "Stensjöbadet",
+    "city": "",
+    "lat": 57.65763,
+    "lng": 12.04315,
+    "dogAllowed": true
+  },
+  {
+    "id": 1195,
+    "name": "Gräsbadet",
+    "city": "",
+    "lat": 57.9203,
+    "lng": 12.54828,
+    "dogAllowed": true
+  },
+  {
+    "id": 1196,
+    "name": "Isättravik Badplats",
+    "city": "",
+    "lat": 59.48121,
+    "lng": 18.40454,
+    "dogAllowed": true
+  },
+  {
+    "id": 1197,
+    "name": "Trivseludden",
+    "city": "",
+    "lat": 64.35946,
+    "lng": 17.93076,
+    "dogAllowed": true
+  },
+  {
+    "id": 1198,
+    "name": "Femminuters-badet",
+    "city": "",
+    "lat": 62.69114,
+    "lng": 17.73652,
+    "dogAllowed": true
+  },
+  {
+    "id": 1199,
+    "name": "Gökaskratts Badplats",
+    "city": "",
+    "lat": 56.78331,
+    "lng": 15.13197,
+    "dogAllowed": true
+  },
+  {
+    "id": 1200,
+    "name": "Tuna udde",
+    "city": "",
+    "lat": 59.58767,
+    "lng": 15.68994,
+    "dogAllowed": true
+  },
+  {
+    "id": 1201,
+    "name": "Ribersborgs hundbadplats",
+    "city": "",
+    "lat": 55.60535,
+    "lng": 12.97086,
+    "dogAllowed": true
+  },
+  {
+    "id": 1202,
+    "name": "Hästbäck",
+    "city": "",
+    "lat": 59.99118,
+    "lng": 16.05465,
+    "dogAllowed": true
+  },
+  {
+    "id": 1203,
+    "name": "Badplatsen Månstad",
+    "city": "",
+    "lat": 57.62171,
+    "lng": 13.35982,
+    "dogAllowed": true
+  },
+  {
+    "id": 1204,
+    "name": "Näsvikens badplats",
+    "city": "",
+    "lat": 59.78336,
+    "lng": 17.60442,
+    "dogAllowed": true
+  },
+  {
+    "id": 1205,
+    "name": "Barnens bad",
+    "city": "",
+    "lat": 58.97466,
+    "lng": 18.33939,
+    "dogAllowed": true
+  }
 ]

@@ -38,6 +38,28 @@
   let reportReason = "";
   let reportSent = false;
 
+  let avgRating = null;
+  let ratingCount = 0;
+  let hoveredStar = 0;
+
+  async function loadRatings(beachId) {
+    avgRating = null;
+    ratingCount = 0;
+    const { data } = await supabase
+      .from("ratings")
+      .select("rating")
+      .eq("beach_id", beachId);
+    if (data && data.length > 0) {
+      ratingCount = data.length;
+      avgRating = data.reduce((sum, r) => sum + r.rating, 0) / ratingCount;
+    }
+  }
+
+  async function submitRating(star) {
+    await supabase.from("ratings").insert({ beach_id: selectedBeach.id, rating: star });
+    await loadRatings(selectedBeach.id);
+  }
+
   async function loadComments(beachId) {
     comments = [];
     const { data } = await supabase
@@ -152,6 +174,7 @@
         selectedBeach = { ...beach, distance: dist };
         map.setView([beach.lat, beach.lng], 16, { animate: true });
         loadComments(beach.id);
+        loadRatings(beach.id);
       });
 
       beachMarkers.push(marker);
@@ -217,6 +240,7 @@
         selectedBeach = { ...beach, distance: dist };
         map.setView([beach.lat, beach.lng], 16, { animate: true });
         loadComments(beach.id);
+        loadRatings(beach.id);
       });
       beachMarkers.push(marker);
       bounds.push([beach.lat, beach.lng]);
@@ -386,6 +410,24 @@
 
       <p>{selectedBeach.city}</p>
 
+      <div class="rating-row">
+        <div class="stars">
+          {#each [1,2,3,4,5] as star}
+            <button
+              class="star {(hoveredStar || (avgRating !== null ? Math.round(avgRating) : 0)) >= star ? 'filled' : ''}"
+              onmouseenter={() => hoveredStar = star}
+              onmouseleave={() => hoveredStar = 0}
+              onclick={() => submitRating(star)}
+            >★</button>
+          {/each}
+        </div>
+        {#if avgRating !== null}
+          <span class="rating-label">{avgRating.toFixed(1)} ({ratingCount} {ratingCount === 1 ? 'betyg' : 'betyg'})</span>
+        {:else}
+          <span class="rating-label">Inget betyg än</span>
+        {/if}
+      </div>
+
       <p class="info-row">
         {selectedBeach.dogAllowed ? "🐶 Hundar tillåtna" : "🚫 Hundar ej tillåtna"}
       </p>
@@ -398,9 +440,6 @@
         <p class="info-row">🚗 Parkering: {selectedBeach.parking ? "Ja" : "Nej"}</p>
       {/if}
 
-      {#if selectedBeach.kiosk !== undefined}
-        <p class="info-row">☕ Kiosk: {selectedBeach.kiosk ? "Ja" : "Nej"}</p>
-      {/if}
 
       <!-- KOMMENTARER -->
       <div class="comments-section">
@@ -835,6 +874,44 @@
 
   .back-btn:hover {
     background: rgba(76, 175, 80, 0.25) !important;
+  }
+
+  /* Betyg */
+  .rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0 10px;
+  }
+
+  .stars {
+    display: flex;
+    gap: 2px;
+  }
+
+  .star {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ddd;
+    padding: 0;
+    line-height: 1;
+    transition: color 0.1s, transform 0.1s;
+  }
+
+  .star.filled {
+    color: #f5a623;
+  }
+
+  .star:hover {
+    transform: scale(1.2);
+  }
+
+  .rating-label {
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
   }
 
   /* Kommentarer */
