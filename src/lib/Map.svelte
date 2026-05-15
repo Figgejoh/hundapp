@@ -2,6 +2,7 @@
   import { onMount, onDestroy } from "svelte";
   import { browser } from "$app/environment";
   import SearchBar from "$lib/components/SearchBar.svelte";
+  import AuthModal from "$lib/components/AuthModal.svelte";
   import dogBeaches from "$lib/data/dogBeaches.json";
   import { distanceInKm } from "$lib/utils/distance";
   import { supabase } from "$lib/supabase";
@@ -26,6 +27,19 @@
   let showFilters = false;
 
   let favorites = new Set();
+  let locationError = null;
+  let locating = false;
+  let clusterGroup = null;
+  let onlyParking = false;
+  let shareToast = false;
+
+  // Auth
+  let currentUser = null;
+  let showAuthModal = false;
+
+  // Foton
+  let beachPhotos = [];
+  let uploadingPhoto = false;
 
   // --------------------
   // Kommentarer & rapporter
@@ -85,6 +99,37 @@
     reportReason = "";
     reportSent = true;
     setTimeout(() => { showReportModal = false; reportSent = false; }, 2000);
+  }
+
+  async function logout() {
+    await supabase.auth.signOut();
+    currentUser = null;
+  }
+
+  async function loadPhotos(beachId) {
+    beachPhotos = [];
+    const { data } = await supabase
+      .from("photos")
+      .select("url, created_at")
+      .eq("beach_id", beachId)
+      .order("created_at", { ascending: false })
+      .limit(5);
+    beachPhotos = data ?? [];
+  }
+
+  async function uploadPhoto(e) {
+    const file = e.target.files?.[0];
+    if (!file || !currentUser) return;
+    uploadingPhoto = true;
+    const ext = file.name.split('.').pop();
+    const path = `${selectedBeach.id}/${Date.now()}.${ext}`;
+    const { error: upErr } = await supabase.storage.from("beach-photos").upload(path, file, { upsert: false });
+    if (upErr) { uploadingPhoto = false; return; }
+    const { data: { publicUrl } } = supabase.storage.from("beach-photos").getPublicUrl(path);
+    await supabase.from("photos").insert({ beach_id: selectedBeach.id, url: publicUrl, user_id: currentUser.id });
+    await loadPhotos(selectedBeach.id);
+    uploadingPhoto = false;
+    e.target.value = '';
   }
 
   function saveFavorites() {
@@ -153,31 +198,55 @@
     map.setView([nearest.lat, nearest.lng], 14, { animate: true });
   }
 
+  function clearMarkers() {
+    if (clusterGroup) {
+      clusterGroup.clearLayers();
+    } else {
+      beachMarkers.forEach(m => map.removeLayer(m));
+    }
+    beachMarkers = [];
+  }
+
+  function addBeachMarker(beach, dist = null) {
+    const marker = L.marker([beach.lat, beach.lng], { icon: beachIcon(beach.dogAllowed) });
+    marker.on("click", () => {
+      selectedBeach = { ...beach, distance: dist };
+      map.setView([beach.lat, beach.lng], 16, { animate: true });
+      loadComments(beach.id);
+      loadRatings(beach.id);
+      loadPhotos(beach.id);
+    });
+    if (clusterGroup) {
+      clusterGroup.addLayer(marker);
+    } else {
+      marker.addTo(map);
+    }
+    beachMarkers.push(marker);
+    return marker;
+  }
+
+  function showAllBeaches() {
+    if (!map || !L) return;
+    clearMarkers();
+    dogBeaches.forEach(beach => addBeachMarker(beach));
+  }
+
   function showNearbyBeaches(radiusKm = radius) {
     if (!userLatLng || !map || !L) return;
 
-    beachMarkers.forEach(m => map.removeLayer(m));
-    beachMarkers = [];
+    clearMarkers();
 
     const bounds = [[userLatLng.lat, userLatLng.lng]];
 
     let filtered = dogBeaches;
     if (onlyDogFriendly) filtered = filtered.filter(b => b.dogAllowed);
     if (onlyFavorites)   filtered = filtered.filter(b => favorites.has(b.id));
+    if (onlyParking)     filtered = filtered.filter(b => b.parking);
 
     filtered.forEach(beach => {
       const dist = distanceInKm(userLatLng.lat, userLatLng.lng, beach.lat, beach.lng);
       if (dist > radiusKm) return;
-
-      const marker = L.marker([beach.lat, beach.lng], { icon: beachIcon(beach.dogAllowed) }).addTo(map);
-      marker.on("click", () => {
-        selectedBeach = { ...beach, distance: dist };
-        map.setView([beach.lat, beach.lng], 16, { animate: true });
-        loadComments(beach.id);
-        loadRatings(beach.id);
-      });
-
-      beachMarkers.push(marker);
+      addBeachMarker(beach, dist);
       bounds.push([beach.lat, beach.lng]);
     });
 
@@ -210,8 +279,7 @@
   function handleSearch() {
     if (!map || !L || !searchQuery) return;
 
-    beachMarkers.forEach(m => map.removeLayer(m));
-    beachMarkers = [];
+    clearMarkers();
 
     let results = dogBeaches.filter(
       b =>
@@ -221,6 +289,7 @@
 
     if (onlyDogFriendly) results = results.filter(b => b.dogAllowed);
     if (onlyFavorites)   results = results.filter(b => favorites.has(b.id));
+    if (onlyParking)     results = results.filter(b => b.parking);
     if (!results.length) return;
 
     if (userLatLng) {
@@ -230,19 +299,9 @@
     }
 
     const bounds = [];
-
     results.forEach(beach => {
-      const marker = L.marker([beach.lat, beach.lng], { icon: beachIcon(beach.dogAllowed) }).addTo(map);
-      marker.on("click", () => {
-        const dist = userLatLng
-          ? distanceInKm(userLatLng.lat, userLatLng.lng, beach.lat, beach.lng)
-          : null;
-        selectedBeach = { ...beach, distance: dist };
-        map.setView([beach.lat, beach.lng], 16, { animate: true });
-        loadComments(beach.id);
-        loadRatings(beach.id);
-      });
-      beachMarkers.push(marker);
+      const dist = beach.distance ?? null;
+      addBeachMarker(beach, dist);
       bounds.push([beach.lat, beach.lng]);
     });
 
@@ -252,6 +311,18 @@
   // --------------------
   // Escape key
   // --------------------
+
+  async function shareBeach() {
+    const url = `https://www.google.com/maps?q=${selectedBeach.lat},${selectedBeach.lng}`;
+    const text = `Kolla in ${selectedBeach.name}${selectedBeach.city ? ' i ' + selectedBeach.city : ''}!`;
+    if (navigator.share) {
+      await navigator.share({ title: selectedBeach.name, text, url });
+    } else {
+      await navigator.clipboard.writeText(`${text}\n${url}`);
+      shareToast = true;
+      setTimeout(() => shareToast = false, 2500);
+    }
+  }
 
   function handleKeydown(e) {
     if (e.key === "Escape") selectedBeach = null;
@@ -271,16 +342,33 @@
 
     favorites = new Set(JSON.parse(localStorage.getItem("favorites") ?? "[]"));
 
+    const { data: { user } } = await supabase.auth.getUser();
+    currentUser = user;
+    supabase.auth.onAuthStateChange((_, session) => {
+      currentUser = session?.user ?? null;
+    });
+
     L = await import("leaflet");
     await import("leaflet/dist/leaflet.css");
 
-    map = L.map("map").setView([59.3293, 18.0686], 6);
-
+    map = L.map("map", { zoomControl: false }).setView([59.3293, 18.0686], 6);
+    L.control.zoom({ position: "bottomright" }).addTo(map);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19
     }).addTo(map);
 
     loading = false;
+
+    try {
+      window.L = L.default ?? L;
+      await import("leaflet.markercluster");
+      await import("leaflet.markercluster/dist/MarkerCluster.css");
+      await import("leaflet.markercluster/dist/MarkerCluster.Default.css");
+      clusterGroup = window.L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });
+      map.addLayer(clusterGroup);
+    } catch (e) {
+      console.warn("Marker clustering ej tillgänglig:", e);
+    }
 
     const dogIcon = L.icon({
       iconUrl: "/icons/dog.png",
@@ -288,36 +376,51 @@
       iconAnchor: [20, 20]
     });
 
-    if ("geolocation" in navigator) {
-      navigator.geolocation.watchPosition(
-        (pos) => {
-          const lat = pos.coords.latitude;
-          const lng = pos.coords.longitude;
-          const newLatLng = L.latLng(lat, lng);
-          userLatLng = { lat, lng };
+    function onPosition(pos) {
+      locationError = null;
+      locating = false;
+      const lat = pos.coords.latitude;
+      const lng = pos.coords.longitude;
+      const newLatLng = L.latLng(lat, lng);
+      userLatLng = { lat, lng };
 
-          if (!userMarker) {
-            userMarker = L.marker(newLatLng, { icon: dogIcon }).addTo(map);
-            pulseCircle = L.circleMarker(newLatLng, {
-              radius: 20,
-              color: "#4CAF50",
-              fillColor: "#4CAF50",
-              fillOpacity: 0.3,
-              weight: 0
-            }).addTo(map);
-            currentLatLng = newLatLng;
-            startPulse();
-            map.setView(newLatLng, 12);
-            showNearbyBeaches(radius);
-          } else {
-            smoothMove(userMarker, currentLatLng, newLatLng);
-            smoothMove(pulseCircle, currentLatLng, newLatLng);
-            currentLatLng = newLatLng;
-          }
-        },
-        console.error,
-        { enableHighAccuracy: true }
-      );
+      if (!userMarker) {
+        userMarker = L.marker(newLatLng, { icon: dogIcon }).addTo(map);
+        pulseCircle = L.circleMarker(newLatLng, {
+          radius: 20,
+          color: "#4CAF50",
+          fillColor: "#4CAF50",
+          fillOpacity: 0.3,
+          weight: 0
+        }).addTo(map);
+        currentLatLng = newLatLng;
+        startPulse();
+        map.setView(newLatLng, 12);
+        showNearbyBeaches(radius);
+      } else {
+        smoothMove(userMarker, currentLatLng, newLatLng);
+        smoothMove(pulseCircle, currentLatLng, newLatLng);
+        currentLatLng = newLatLng;
+      }
+    }
+
+    function onLocationError(err) {
+      locating = false;
+      locationError = err.code === 1
+        ? "Platstillgång nekad. Tillåt plats i webbläsaren och försök igen."
+        : "Kunde inte hämta din plats.";
+      showAllBeaches();
+    }
+
+    if ("geolocation" in navigator) {
+      locating = true;
+      navigator.geolocation.watchPosition(onPosition, onLocationError, {
+        enableHighAccuracy: true,
+        timeout: 10000
+      });
+    } else {
+      locationError = "Din webbläsare stöder inte platsfunktionen.";
+      showAllBeaches();
     }
   });
 </script>
@@ -363,6 +466,14 @@
         }} />
       </label>
 
+      <label class="toggle-row">
+        <span>🚗 Med parkering</span>
+        <input type="checkbox" bind:checked={onlyParking} onchange={() => {
+          if (userLatLng) showNearbyBeaches(radius);
+          else if (searchQuery) handleSearch();
+        }} />
+      </label>
+
       {#if userLatLng}
         <div class="toggle-row">
           <span>Radie: {radius} km</span>
@@ -384,6 +495,43 @@
   {/if}
 </div>
 
+{#if locationError}
+  <div class="location-error">
+    <span>📍 {locationError}</span>
+    <button onclick={() => {
+      locationError = null;
+      locating = true;
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          locationError = null;
+          locating = false;
+          const lat = pos.coords.latitude;
+          const lng = pos.coords.longitude;
+          userLatLng = { lat, lng };
+          map.setView([lat, lng], 12, { animate: true });
+          showNearbyBeaches(radius);
+        },
+        () => {
+          locating = false;
+          locationError = "Platstillgång nekad. Kontrollera webbläsarens inställningar.";
+        }
+      );
+    }}>Försök igen</button>
+  </div>
+{/if}
+
+<!-- AUTH-KNAPP -->
+<div class="auth-btn-wrap">
+  {#if currentUser}
+    <div class="user-chip">
+      <span>👤 {currentUser.email?.split('@')[0]}</span>
+      <button onclick={logout}>Logga ut</button>
+    </div>
+  {:else}
+    <button class="login-btn" onclick={() => showAuthModal = true}>Logga in</button>
+  {/if}
+</div>
+
 <!-- LEGEND -->
 <div class="legend">
   <span class="dot green"></span> Hundar tillåtna
@@ -394,7 +542,15 @@
 {#if selectedBeach}
   <div class="info-panel">
 
-    <img src={selectedBeach.image ?? '/images/placeholder.svg'} alt={selectedBeach.name} />
+    {#if beachPhotos.length > 0}
+      <div class="photo-strip">
+        {#each beachPhotos as photo}
+          <img src={photo.url} alt={selectedBeach.name} class="strip-photo" />
+        {/each}
+      </div>
+    {:else}
+      <img src={selectedBeach.image ?? '/images/placeholder.svg'} alt={selectedBeach.name} />
+    {/if}
 
     <div class="panel-body">
       <div class="panel-header">
@@ -494,6 +650,21 @@
           </button>
         {/if}
 
+        <button class="share-btn" onclick={shareBeach}>
+          🔗 Dela badplats
+        </button>
+
+        {#if currentUser}
+          <label class="upload-btn">
+            {uploadingPhoto ? '⏳ Laddar upp...' : '📷 Ladda upp bild'}
+            <input type="file" accept="image/*" onchange={uploadPhoto} style="display:none" />
+          </label>
+        {:else}
+          <button class="upload-btn" onclick={() => showAuthModal = true}>
+            📷 Ladda upp bild (logga in)
+          </button>
+        {/if}
+
         <button class="report-btn" onclick={() => { showReportModal = true; reportSent = false; }}>
           🚩 Rapportera felaktig info
         </button>
@@ -505,6 +676,17 @@
     </div>
 
   </div>
+{/if}
+
+{#if shareToast}
+  <div class="toast">✅ Länk kopierad!</div>
+{/if}
+
+{#if showAuthModal}
+  <AuthModal
+    onClose={() => showAuthModal = false}
+    onAuth={(user) => currentUser = user}
+  />
 {/if}
 
 <!-- RAPPORTMODAL -->
@@ -692,6 +874,50 @@
     object-fit: contain;
   }
 
+  /* Location error */
+  .location-error {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+    border-radius: 50px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #c62828;
+    font-weight: 500;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+    white-space: nowrap;
+  }
+
+  .location-error button {
+    padding: 4px 12px;
+    border-radius: 50px;
+    border: none;
+    background: #f44336;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    .location-error {
+      white-space: normal;
+      text-align: center;
+      border-radius: 16px;
+      bottom: 80px;
+      width: 85%;
+    }
+  }
+
   /* Legend */
   .legend {
     position: fixed;
@@ -749,6 +975,39 @@
     display: block;
     margin: 16px 16px 0;
     border-radius: 16px;
+  }
+
+  @media (max-width: 600px) {
+    .info-panel {
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      border-left: none;
+      border-top: none;
+      box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.15);
+      border-radius: 0;
+    }
+
+    .controls {
+      width: calc(100% - 70px);
+      max-width: none;
+    }
+
+    .filter-panel {
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+    }
+
+    .search-row {
+      font-size: 13px;
+    }
+
+    .legend {
+      bottom: 12px;
+      left: 10px;
+    }
   }
 
   .panel-body {
@@ -1001,6 +1260,129 @@
 
   .report-btn:hover {
     background: rgba(244, 67, 54, 0.15) !important;
+  }
+
+  .share-btn {
+    background: rgba(76, 175, 80, 0.08) !important;
+    border-color: rgba(76, 175, 80, 0.25) !important;
+    color: #2e7d32 !important;
+  }
+
+  .share-btn:hover {
+    background: rgba(76, 175, 80, 0.18) !important;
+  }
+
+  /* Auth */
+  .auth-btn-wrap {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 1001;
+  }
+
+  .login-btn {
+    padding: 8px 18px;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a1a1a;
+    transition: background 0.15s;
+  }
+
+  .login-btn:hover {
+    background: rgba(255,255,255,0.8);
+  }
+
+  .user-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255,255,255,0.7);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+  }
+
+  .user-chip button {
+    padding: 3px 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(0,0,0,0.12);
+    background: transparent;
+    font-size: 12px;
+    cursor: pointer;
+    color: #555;
+  }
+
+  /* Foton */
+  .photo-strip {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 16px 16px 0;
+    scrollbar-width: none;
+  }
+
+  .photo-strip::-webkit-scrollbar { display: none; }
+
+  .strip-photo {
+    flex-shrink: 0;
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .upload-btn {
+    width: 100%;
+    padding: 11px;
+    border-radius: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.6);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #1a1a1a;
+    text-align: center;
+    display: block;
+    transition: background 0.15s;
+  }
+
+  .upload-btn:hover {
+    background: rgba(0,0,0,0.06);
+  }
+
+  @media (max-width: 600px) {
+    .auth-btn-wrap {
+      top: 12px;
+      right: 12px;
+    }
+  }
+
+  .toast {
+    position: fixed;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(30, 30, 30, 0.88);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 3000;
+    pointer-events: none;
+    backdrop-filter: blur(10px);
   }
 
   /* Modal */

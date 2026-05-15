@@ -57,4 +57,19 @@
   button:hover {
     background: #43a047;
   }
+
+  @media (max-width: 600px) {
+    .search-box {
+      padding: 8px 12px;
+    }
+
+    input {
+      font-size: 13px;
+    }
+
+    button {
+      padding: 5px 12px;
+      font-size: 12px;
+    }
+  }
 </style>
